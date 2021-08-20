@@ -1,1 +1,91 @@
-{}
+{
+  "current": {
+    "colors_accent_1": "#76bc21",
+    "colors_accent_2": "#66c9ba",
+    "colors_background_2": "#f2f9fc",
+    "social_facebook_link": "https:\/\/www.facebook.com\/thehappyhowl",
+    "social_instagram_link": "https:\/\/instagram.com\/thehappyhowl",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/HappyHowlLogo_Final_Pos.png",
+          "logo_width": 150,
+          "logo_position": "middle-left",
+          "menu": "main-menu-v1",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Product",
+              "menu": "product"
+            }
+          },
+          "fb8671d1-c04b-4a87-899f-0bb530fc1f00": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Company",
+              "menu": "company"
+            }
+          },
+          "22f5a98d-330f-4615-89c7-e3008db52e45": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Support",
+              "menu": "support"
+            }
+          },
+          "b2310d5e-d5d9-4d3a-91f7-4899fe752c62": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Policy",
+              "menu": "policy"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "fb8671d1-c04b-4a87-899f-0bb530fc1f00",
+          "22f5a98d-330f-4615-89c7-e3008db52e45",
+          "b2310d5e-d5d9-4d3a-91f7-4899fe752c62"
+        ],
+        "settings": {
+          "color_scheme": "inverse",
+          "newsletter_enable": true,
+          "newsletter_heading": "Join our Pack!",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}

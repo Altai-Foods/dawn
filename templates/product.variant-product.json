@@ -54,13 +54,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -72,8 +65,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -82,7 +74,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "image_ratio": "adapt",

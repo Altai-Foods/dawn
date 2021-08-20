@@ -2,105 +2,133 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "settings": {
-        "desktop_text_box_position": "flex-end"
-      },
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "Healthier Food for Happier Dogs"
+          }
+        },
+        "357728cf-987d-4198-8bba-423f5314ec13": {
+          "type": "text",
+          "settings": {
+            "text": "Free Shipping. Cancel Anytime."
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Get Started",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_label_2": ""
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
+        "357728cf-987d-4198-8bba-423f5314ec13",
         "button"
-      ]
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading"
-        },
-        "text": {
-          "type": "text"
-        },
-        "button": {
-          "type": "button"
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ]
-    },
-    "featured_products": {
-      "type": "featured-collection",
+      ],
       "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "image_ratio": "square"
+        "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "accent-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
       }
     },
-    "collage": {
-      "type": "collage",
+    "16292521517f255f17": {
+      "type": "multicolumn",
       "blocks": {
-        "video": {
-          "type": "video"
+        "16292521517f255f17-0": {
+          "type": "column",
+          "settings": {
+            "title": "Customize",
+            "text": "<p>Choose a recipe and meal plan size that fits your dog and your budget.<\/p>"
+          }
         },
-        "product": {
-            "type": "product"
+        "16292521517f255f17-1": {
+          "type": "column",
+          "settings": {
+            "title": "Free Delivery & Easy Storage",
+            "text": "<p>Our shelf-stable meals ship free and arrive ready to eat. No freezer space required!<\/p>"
+          }
         },
-        "collection": {
-          "type": "collection"
+        "16292521517f255f17-2": {
+          "type": "column",
+          "settings": {
+            "title": "Eat Good, Feel Good",
+            "text": "<p>With every meal, your dog gets healthier and we help rescue dogs in need.<\/p>"
+          }
         }
       },
       "block_order": [
-        "video",
-        "product",
-        "collection"
-      ]
-    },
-    "video": {
-      "type": "video"
+        "16292521517f255f17-0",
+        "16292521517f255f17-1",
+        "16292521517f255f17-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
         "column1": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-2.png",
+            "title": "Victor Nicastro & Beagle, Gus",
+            "text": "<p>“I have never seen Gus enjoy a bowl of food like he did with Happy Howl. It looked and smelled so good that we thought it was made for actual humans!”<\/p>"
+          }
         },
         "column2": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-1.png",
+            "title": "Melanie Glenn & Husky, Romeo",
+            "text": "<p>“Romeo goes crazy for all three happy howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
+          }
         },
         "column3": {
-          "type": "column"
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group.png",
+            "title": "Julia Feschcenko & Golden Retriever, Wilfred",
+            "text": "<p>“My puppy absolutely loves it. He usually gets an upset stomach after his meals, but not with Happy Howl. This is a huge win for us!”<\/p>"
+          }
         }
       },
       "block_order": [
         "column1",
         "column2",
         "column3"
-      ]
+      ],
+      "settings": {
+        "title": "Reviews",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "Add your review",
+        "button_link": "https:\/\/www.trustpilot.com\/review\/thehappyhowl.com?utm_medium=trustbox&utm_source=MicroReviewCount",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
     "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
+    "16292521517f255f17",
     "multi_column"
   ]
 }
