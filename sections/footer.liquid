@@ -156,6 +156,14 @@
                 </a>
               </li>
             {%- endif -%}
+            {%- if settings.social_linkedin_link != blank -%}
+              <li class="list-social__item">
+                <a href="{{ settings.social_linkedin_link }}" class="link link--text list-social__link" aria-describedby="a11y-external-message">
+                  {%- render 'icon-linkedin' -%}
+                  <span class="visually-hidden">{{ 'general.social.links.linkedin' | t }}</span>
+                </a>
+              </li>
+            {%- endif -%}
             {%- if settings.social_tiktok_link != blank -%}
               <li class="list-social__item">
                 <a href="{{ settings.social_tiktok_link }}" class="link link--text list-social__link" aria-describedby="a11y-external-message">
