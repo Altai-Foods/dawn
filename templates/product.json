@@ -27,6 +27,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -38,28 +43,23 @@
           "settings": {
           }
         },
+        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce": {
+          "type": "popup",
+          "settings": {
+            "text": "Portion Calculator",
+            "page": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
           }
         }
       },
@@ -68,12 +68,12 @@
         "title",
         "subtitle",
         "price",
+        "description",
         "variant_picker",
         "quantity_selector",
+        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
         "buy_buttons",
-        "description",
-        "share",
-        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -91,10 +91,17 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "1629497811e2f906af": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "1629497811e2f906af"
   ]
 }
