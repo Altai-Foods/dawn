@@ -1,7 +1,11 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "show_content": true
+      }
     },
     "form": {
       "type": "contact-form",
