@@ -1,0 +1,142 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true
+      }
+    },
+    "1629840873714f362b": {
+      "type": "rich-text",
+      "blocks": {
+        "1629840873714f362b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our meals make us a dog food company. Our hearts make us so much more.",
+            "heading_size": "h1"
+          }
+        },
+        "1629840873714f362b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Happy Howl, We’re dedicated to changing dogs' lives – one bowl at a time, one rescue pup at a time. We’re the first dog food company founded with a mission to change the lives of all dogs alike through good, healthy food that actually gives back.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629840873714f362b-0",
+        "1629840873714f362b-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false
+      }
+    },
+    "1629840876b285caa8": {
+      "type": "image-with-text",
+      "blocks": {
+        "1629840876b285caa8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Introducing: Wild Hearts"
+          }
+        },
+        "1629840876b285caa8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Based in Chicago, IL, Wild Hearts provides continuous, comprehensive care to animals with mobility issues and the people that love them. They believe all pets deserve the good life – and their mission is to prevent the needless surrender and euthanization of pets  of varying abilities, while making veterinary rehabilitation, diagnostics, and specialty care accessible for all!<\/p>"
+          }
+        },
+        "1629840876b285caa8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More & Donate",
+            "button_link": "https:\/\/gowildhearts.org"
+          }
+        }
+      },
+      "block_order": [
+        "1629840876b285caa8-0",
+        "1629840876b285caa8-1",
+        "1629840876b285caa8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2021-04-01_195422.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1629841053c892599c": {
+      "type": "image-with-text",
+      "blocks": {
+        "1629841053c892599c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "By Helping Your Dog Get Healthy, We’re Helping Rescue Dogs In Need. Period."
+          }
+        },
+        "1629841053c892599c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Because we’re able to deliver healthy, human-grade cuisine straight to your dog’s doorstep, we’re able to save on all the other costs involved with selling through pet stores and supermarkets. But instead of keeping that money to make higher profit margins, we use it to fuel our purpose: dogs over profit.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629841053c892599c-0",
+        "1629841053c892599c-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2021-04-01_195510.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "16298424301ebc6b54": {
+      "type": "rich-text",
+      "blocks": {
+        "16298424301ebc6b54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Help Us Fill the World with Happier Doggos",
+            "heading_size": "h1"
+          }
+        },
+        "16298424301ebc6b54-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pass the bone and tell us who’s doing good for dogs in need.<\/p>"
+          }
+        },
+        "16298424301ebc6b54-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Nominate a Rescue",
+            "button_link": "shopify:\/\/pages\/partners",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16298424301ebc6b54-0",
+        "16298424301ebc6b54-1",
+        "16298424301ebc6b54-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1629840873714f362b",
+    "1629840876b285caa8",
+    "1629841053c892599c",
+    "16298424301ebc6b54"
+  ]
+}

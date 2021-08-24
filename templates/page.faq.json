@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "show_content": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

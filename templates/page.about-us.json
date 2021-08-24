@@ -1,108 +1,5 @@
 {
   "sections": {
-    "1629503928713b06ce": {
-      "type": "rich-text",
-      "blocks": {
-        "1629503928713b06ce-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "1629503928713b06ce-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "1629503928713b06ce-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1629503928713b06ce-0",
-        "1629503928713b06ce-1",
-        "1629503928713b06ce-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "1629503966402ef4a8": {
-      "type": "image-with-text",
-      "blocks": {
-        "1629503966402ef4a8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "1629503966402ef4a8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1629503966402ef4a8-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1629503966402ef4a8-0",
-        "1629503966402ef4a8-1",
-        "1629503966402ef4a8-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "1629504091401ce4c9": {
-      "type": "image-with-text",
-      "blocks": {
-        "1629504091401ce4c9-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "1629504091401ce4c9-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1629504091401ce4c9-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1629504091401ce4c9-0",
-        "1629504091401ce4c9-1",
-        "1629504091401ce4c9-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "text_first"
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -110,12 +7,267 @@
         "show_title": true,
         "show_content": true
       }
+    },
+    "1629593008d7f39ca7": {
+      "type": "image-banner",
+      "blocks": {
+        "1629593008d7f39ca7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’re a new breed of dog food with one belief: dogs deserve better."
+          }
+        },
+        "1629593008d7f39ca7-1": {
+          "type": "text",
+          "settings": {
+            "text": "At Happy Howl, dogs are more than just our companions, they’re our co-pilots in life. That’s why it’s our mission to do more than just fuel our furry tribe with wholesome, human-grade food – we’re dedicated to feeding pups in need, too."
+          }
+        }
+      },
+      "block_order": [
+        "1629593008d7f39ca7-0",
+        "1629593008d7f39ca7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sleeping-pup.jpg",
+        "desktop_text_box_position": "flex-start",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1629593399c1720e6b": {
+      "type": "multicolumn",
+      "blocks": {
+        "1629593399c1720e6b-0": {
+          "type": "column",
+          "settings": {
+            "title": "We're Dog Obsessed",
+            "text": "<p>Dogs are more than just our companions, they’re our co-pilots in life. That's why we do more than just fuel your furry tribe with wholesome food – we give back, too.<\/p>"
+          }
+        },
+        "1629593399c1720e6b-1": {
+          "type": "column",
+          "settings": {
+            "title": "We Give Back",
+            "text": "<p>We strive to work directly with like-minded people who love dogs most of all, and help them however we can – because we believe that dogs are paramount to profit.<\/p>"
+          }
+        },
+        "1629593399c1720e6b-2": {
+          "type": "column",
+          "settings": {
+            "title": "We're Transparent",
+            "text": "<p>Our recipes are a balanced blend of 100% locally-sourced, human-grade ingredients and feature no artificial preservatives, additives, meat-fillers or byproducts.<\/p>"
+          }
+        },
+        "59f13456-128c-4b13-a7c5-a92d4eb76bc6": {
+          "type": "column",
+          "settings": {
+            "title": "We're Convenient",
+            "text": "<p>Each meal plan is customized to meet your dog's specific caloric needs, and our simple subscriptions will ensure they have fresh, shelf-stable food delivered right to their door when they need it.<\/p>"
+          }
+        },
+        "15894ceb-012d-4ea1-995b-ad134bb6fa96": {
+          "type": "column",
+          "settings": {
+            "title": "We’re Responsible",
+            "text": "<p>Our lightweight carton-based packaging is responsibly sourced and 100% recyclable in the United States – and, it’s part of our commitment to attain a carbon-neutral footprint on our way to a circular economy.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629593399c1720e6b-0",
+        "1629593399c1720e6b-1",
+        "1629593399c1720e6b-2",
+        "59f13456-128c-4b13-a7c5-a92d4eb76bc6",
+        "15894ceb-012d-4ea1-995b-ad134bb6fa96"
+      ],
+      "settings": {
+        "title": "Our Guiding Priciples",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1629593642cdfb7cfd": {
+      "type": "image-with-text",
+      "blocks": {
+        "1629593642cdfb7cfd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Our Founder"
+          }
+        },
+        "1629593642cdfb7cfd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When Colin adopted his best friend Rocky, he discovered that his pup was plagued with serious stomach, allergy, and digestive problems. After countless vet visits, OTC dog foods, specialty diets, and prescription foods, Colin ditched it all and started cooking. Two years and 36 recipe iterations later, Happy Howl was born.<\/p>"
+          }
+        },
+        "1629593642cdfb7cfd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "More about our Founder",
+            "button_link": "shopify:\/\/blogs\/happy-blog\/a-new-breed-of-dog-food"
+          }
+        }
+      },
+      "block_order": [
+        "1629593642cdfb7cfd-0",
+        "1629593642cdfb7cfd-1",
+        "1629593642cdfb7cfd-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/founder.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16295941936dad7856": {
+      "type": "rich-text",
+      "blocks": {
+        "16295941936dad7856-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet our Happy Howl Family",
+            "heading_size": "h1"
+          }
+        },
+        "16295941936dad7856-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re a small team of dog-loving people who’ve come together from all corners of the country to help impact the lives of pups and the people who love them.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16295941936dad7856-0",
+        "16295941936dad7856-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16295941961bc94792": {
+      "type": "multicolumn",
+      "blocks": {
+        "16295941961bc94792-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Colin_Rocky_1.jpg",
+            "title": "Colin Buckley",
+            "text": "<p><em>with Rocky<\/em><\/p><p><strong>Founder<\/strong><\/p>"
+          }
+        },
+        "16295941961bc94792-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dawn.jpg",
+            "title": "Dawn Lobenstein",
+            "text": "<p><em>with Marlin<\/em><\/p><p><strong>Chief Marketing Officer<\/strong><\/p>"
+          }
+        },
+        "16295941961bc94792-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mika.jpg",
+            "title": "Mikaela Mendizábal",
+            "text": "<p><em>with Stewart<\/em><\/p><p><strong>Creative Director<\/strong><\/p>"
+          }
+        },
+        "68a2624c-50a2-42d3-9033-f8da8ac5f911": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/margaret.jpg",
+            "title": "Margaret Hanken",
+            "text": "<p><em>with Mischa<\/em><\/p><p><strong>Product Designer<\/strong><\/p>"
+          }
+        },
+        "143876b4-a302-4be7-9fbd-a4cd0fd21738": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hans.jpg",
+            "title": "Hans Hanken",
+            "text": "<p><em>with Mischa<\/em><\/p><p><strong>Software Engineer<\/strong><\/p>"
+          }
+        },
+        "097672d4-ce44-43b0-9fc9-f657217ad65b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/scott.jpg",
+            "title": "Scott Roberts",
+            "text": "<p><em>with Internet Dog<\/em><\/p><p><strong>Software Engineer<\/strong><\/p>"
+          }
+        },
+        "4f09e2f2-99c0-498c-891a-9af5ec3602ce": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ben.jpg",
+            "title": "Ben LaForest",
+            "text": "<p><em>with Apollo<\/em><\/p><p><strong>Lead Food Scientist<\/strong><\/p>"
+          }
+        },
+        "45b35316-bef0-4c90-bcff-a5072f3ac823": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Brittany_Griff.jpg",
+            "title": "Brittany Connor",
+            "text": "<p><em>with Griffin<\/em><\/p><p><strong>PR Director<\/strong><\/p>"
+          }
+        },
+        "5ef799c6-2bfb-41a4-9b43-da56628ee706": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lisa.jpg",
+            "title": "Lisa T.",
+            "text": "<p><em>with Riggs<\/em><\/p><p><strong>Marketing Director<\/strong><\/p>"
+          }
+        },
+        "4b1385b3-5507-48d3-bc2e-540e75103049": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mitt.jpg",
+            "title": "Mitt Mehta",
+            "text": "<p><em>with Shine<\/em><\/p><p><strong>Chief Financial Officer<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16295941961bc94792-0",
+        "16295941961bc94792-1",
+        "16295941961bc94792-2",
+        "68a2624c-50a2-42d3-9033-f8da8ac5f911",
+        "143876b4-a302-4be7-9fbd-a4cd0fd21738",
+        "097672d4-ce44-43b0-9fc9-f657217ad65b",
+        "4f09e2f2-99c0-498c-891a-9af5ec3602ce",
+        "45b35316-bef0-4c90-bcff-a5072f3ac823",
+        "5ef799c6-2bfb-41a4-9b43-da56628ee706",
+        "4b1385b3-5507-48d3-bc2e-540e75103049"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
-    "1629503928713b06ce",
-    "1629503966402ef4a8",
-    "1629504091401ce4c9",
-    "main"
+    "main",
+    "1629593008d7f39ca7",
+    "1629593399c1720e6b",
+    "1629593642cdfb7cfd",
+    "16295941936dad7856",
+    "16295941961bc94792"
   ]
 }
