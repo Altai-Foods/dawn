@@ -51,9 +51,6 @@
       "close": "关闭分享"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "电子邮件",
     "success": "感谢您订阅",
@@ -74,7 +71,9 @@
     "previous_slide": "向左滑动",
     "loading": "正在加载…",
     "of": "/",
-    "skip_to_product_info": "跳至产品信息"
+    "skip_to_product_info": "跳至产品信息",
+    "total_reviews": "总评论数",
+    "star_reviews_info": "{{ rating_value }}/{{ rating_max }} 星"
   },
   "blogs": {
     "article": {
@@ -155,7 +154,9 @@
         "other": "找到“{{ terms }}”的 {{ count }} 条结果"
       },
       "title": "搜索结果",
-      "page": "页面"
+      "page": "页面",
+      "products": "产品",
+      "search_for": "搜索“{{ terms }}”"
     },
     "cart": {
       "cart": "购物车"
@@ -236,7 +237,7 @@
       "apply": "应用",
       "clear": "清除",
       "clear_all": "清除所有内容",
-      "from": "发消息者",
+      "from": "从",
       "filter_and_sort": "筛选和排序",
       "filter_by_label": "筛选条件：",
       "filter_button": "筛选",

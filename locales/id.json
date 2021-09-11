@@ -51,9 +51,6 @@
       "close": "Tutup bagikan"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "Email",
     "success": "Terima kasih sudah berlangganan",
@@ -74,7 +71,9 @@
     "previous_slide": "Geser kiri",
     "loading": "Memuat...",
     "of": "dari",
-    "skip_to_product_info": "Langsung ke informasi produk"
+    "skip_to_product_info": "Langsung ke informasi produk",
+    "total_reviews": "ulasan keseluruhan",
+    "star_reviews_info": "{{ rating_value }} dari {{ rating_max }} bintang"
   },
   "blogs": {
     "article": {
@@ -155,7 +154,9 @@
         "other": "{{ count }} hasil ditemukan untuk “{{ terms }}”"
       },
       "title": "Hasil pencarian",
-      "page": "Halaman"
+      "page": "Halaman",
+      "products": "Produk",
+      "search_for": "Cari “{{ terms }}”"
     },
     "cart": {
       "cart": "Keranjang"

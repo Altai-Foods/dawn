@@ -51,9 +51,6 @@
       "close": "Megosztás befejezése"
     }
   },
-  "date_formats": {
-    "month_year": "%Y. %B"
-  },
   "newsletter": {
     "label": "E-mail-cím",
     "success": "Köszönjük a feliratkozást",
@@ -74,7 +71,9 @@
     "previous_slide": "Előző dia",
     "loading": "Betöltés folyamatban…",
     "of": "/",
-    "skip_to_product_info": "Kihagyás, és ugrás a termékadatokra"
+    "skip_to_product_info": "Kihagyás, és ugrás a termékadatokra",
+    "total_reviews": "összes értékelés",
+    "star_reviews_info": "{{ rating_max }}/{{ rating_value }} csillag"
   },
   "blogs": {
     "article": {
@@ -155,7 +154,9 @@
         "other": "{{ count }} találat erre: {{ terms }}"
       },
       "title": "Találatok",
-      "page": "Oldal"
+      "page": "Oldal",
+      "products": "Termékek",
+      "search_for": "Keresés erre: {{ terms }}"
     },
     "cart": {
       "cart": "Kosár"

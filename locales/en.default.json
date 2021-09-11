@@ -51,9 +51,6 @@
       "success_message": "Link copied to clipboard"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "Email",
     "success": "Thanks for subscribing",
@@ -74,7 +71,9 @@
     "of": "of",
     "next_slide": "Slide right",
     "previous_slide": "Slide left",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "total_reviews": "total reviews",
+    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars"
   },
   "blogs": {
     "article": {
@@ -150,11 +149,13 @@
     "search": {
       "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
       "page": "Page",
+      "products": "Products",
       "results_with_count": {
         "one": "{{ count }} result found for “{{ terms }}”",
         "other": "{{ count }} results found for “{{ terms }}”"
       },
-      "title": "Search results"
+      "title": "Search results",
+      "search_for": "Search for “{{ terms }}”"
     },
     "cart": {
       "cart": "Cart"

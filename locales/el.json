@@ -51,9 +51,6 @@
       "close": "Κλείσιμο κοινοποίησης"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "Email",
     "success": "Ευχαριστούμε για την εγγραφή",
@@ -74,7 +71,9 @@
     "previous_slide": "Σύρετε αριστερά",
     "loading": "Φόρτωση...",
     "of": "από",
-    "skip_to_product_info": "Μετάβαση στις πληροφορίες προϊόντος"
+    "skip_to_product_info": "Μετάβαση στις πληροφορίες προϊόντος",
+    "total_reviews": "σύνολο κριτικών",
+    "star_reviews_info": "{{ rating_value }} από {{ rating_max }} αστέρια"
   },
   "blogs": {
     "article": {
@@ -155,7 +154,9 @@
         "other": "Βρέθηκαν {{ count }} αποτελέσματα για «{{ terms }}»"
       },
       "title": "Αποτελέσματα αναζήτησης",
-      "page": "Σελίδα"
+      "page": "Σελίδα",
+      "products": "Προϊόντα",
+      "search_for": "Αναζήτηση για «{{ terms }}»"
     },
     "cart": {
       "cart": "Καλάθι"

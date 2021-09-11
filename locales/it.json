@@ -51,9 +51,6 @@
       "close": "Chiudi condivisione"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "Indirizzo email",
     "success": "Grazie per l'iscrizione",
@@ -74,7 +71,9 @@
     "previous_slide": "Scorri verso sinistra",
     "loading": "Caricamento in corso...",
     "of": "di",
-    "skip_to_product_info": "Passa alle informazioni sul prodotto"
+    "skip_to_product_info": "Passa alle informazioni sul prodotto",
+    "total_reviews": "recensioni totali",
+    "star_reviews_info": "{{ rating_value }} stelle su {{ rating_max }}"
   },
   "blogs": {
     "article": {
@@ -155,7 +154,9 @@
         "one": "{{ count }} risultati trovati per \"{{ terms }}\"",
         "other": "{{ count }} risultati trovati per \"{{ terms }}\""
       },
-      "title": "Risultati della ricerca"
+      "title": "Risultati della ricerca",
+      "products": "Prodotti",
+      "search_for": "Cerca \"{{ terms }}\""
     },
     "cart": {
       "cart": "Carrello"

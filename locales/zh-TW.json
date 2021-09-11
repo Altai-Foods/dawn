@@ -51,9 +51,6 @@
       "close": "關閉分享"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "電子郵件",
     "success": "感謝您訂閱",
@@ -74,7 +71,9 @@
     "previous_slide": "投影片左側",
     "loading": "載入中......",
     "of": "的",
-    "skip_to_product_info": "略過產品資訊"
+    "skip_to_product_info": "略過產品資訊",
+    "total_reviews": "評論總次數",
+    "star_reviews_info": "{{ rating_value }} 顆星 (最高 {{ rating_max }} 顆星)"
   },
   "blogs": {
     "article": {
@@ -155,7 +154,9 @@
         "other": "找到「{{ terms }}」，共 {{ count }} 筆"
       },
       "title": "搜尋結果",
-      "page": "頁面"
+      "page": "頁面",
+      "products": "產品",
+      "search_for": "搜尋「{{ terms }}」"
     },
     "cart": {
       "cart": "購物車"

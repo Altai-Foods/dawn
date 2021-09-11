@@ -51,9 +51,6 @@
       "close": "Zapri skupno rabo"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "E-poštni naslov",
     "success": "Hvala, ker ste se naročili",
@@ -74,7 +71,9 @@
       "external": "Odpre zunanje spletno mesto."
     },
     "of": "od",
-    "skip_to_product_info": "Preskoči na informacije o izdelku"
+    "skip_to_product_info": "Preskoči na informacije o izdelku",
+    "total_reviews": "skupno število pregledov",
+    "star_reviews_info": "{{ rating_value }} od {{ rating_max }} zvezdic"
   },
   "blogs": {
     "article": {
@@ -159,7 +158,9 @@
         "other": "Št. najdenih rezultatov za »{{ terms }}«: {{ count }}»",
         "few": "Št. najdenih rezultatov za »{{ terms }}«: {{ count }}»",
         "two": "Št. najdenih rezultatov za »{{ terms }}«: {{ count }}»"
-      }
+      },
+      "products": "Izdelki",
+      "search_for": "Poiščite »{{ terms }}«"
     },
     "cart": {
       "cart": "Košarica"

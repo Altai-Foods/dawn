@@ -6,7 +6,7 @@
       "login_form_password_label": "Passwort",
       "login_form_password_placeholder": "Dein Passwort",
       "login_form_error": "Falsches Passwort!",
-      "login_form_submit": "Betreten",
+      "login_form_submit": "Eingeben",
       "modal": "Passwort-Modal",
       "admin_link_html": "Bist du der Shop-Inhaber? <a href=\"/admin\" class=\"link underlined-link\">Hier einloggen</a>",
       "powered_by_shopify_html": "Dieser Shop wird unterstützt von {{ shopify }}"
@@ -51,9 +51,6 @@
       "close": "Teilen schließen"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "E-Mail",
     "success": "Danke für deine Anmeldung",
@@ -74,7 +71,9 @@
     "previous_slide": "Nach links schieben",
     "loading": "Wird geladen ...",
     "of": "von",
-    "skip_to_product_info": "Zu Produktinformationen springen"
+    "skip_to_product_info": "Zu Produktinformationen springen",
+    "total_reviews": "Bewertungen insgesamt",
+    "star_reviews_info": "{{ rating_value }} von {{ rating_max }} Sternen"
   },
   "blogs": {
     "article": {
@@ -155,7 +154,9 @@
         "other": "{{ count }} Ergebnisse für “{{ terms }}” gefunden"
       },
       "title": "Suchergebnisse",
-      "page": "Seite"
+      "page": "Seite",
+      "products": "Produkte",
+      "search_for": "Nach \"{{ terms }}\" suchen"
     },
     "cart": {
       "cart": "Warenkorb"
@@ -246,7 +247,7 @@
       "filter_button": "Filter",
       "max_price": "Der höchste Preis ist {{ price }}",
       "reset": "Zurücksetzen",
-      "to": "Nach",
+      "to": "Bis",
       "use_fewer_filters_html": "Verwende weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">lösche alle</a>",
       "filters_selected": {
         "one": "{{ count }} ausgewählt",

@@ -51,9 +51,6 @@
       "close": "Închide partajarea"
     }
   },
-  "date_formats": {
-    "month_year": "%B %Y"
-  },
   "newsletter": {
     "label": "E-mail",
     "success": "Vă mulțumim că v-ați abonat",
@@ -74,7 +71,9 @@
       "external": "Deschide site-ul extern."
     },
     "of": "din",
-    "skip_to_product_info": "Salt la informațiile despre produs"
+    "skip_to_product_info": "Salt la informațiile despre produs",
+    "total_reviews": "total recenzii",
+    "star_reviews_info": "{{ rating_value }} din {{ rating_max }} stele"
   },
   "blogs": {
     "article": {
@@ -157,7 +156,9 @@
         "other": "S-au găsit {{ count }} rezultate pentru „{{ terms }}”",
         "few": "S-au găsit {{ count }} rezultate pentru „{{ terms }}”"
       },
-      "page": "Pagină"
+      "page": "Pagină",
+      "products": "Produse",
+      "search_for": "Caută „{{ terms }}”"
     },
     "cart": {
       "cart": "Coș"
