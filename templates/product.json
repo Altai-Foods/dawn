@@ -32,6 +32,13 @@
           "settings": {
           }
         },
+        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce": {
+          "type": "popup",
+          "settings": {
+            "text": "Portion Calculator",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -43,17 +50,28 @@
           "settings": {
           }
         },
-        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce": {
-          "type": "popup",
-          "settings": {
-            "text": "Portion Calculator",
-            "page": ""
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "98d6d88a-87d5-4065-9481-5f8c6e15ebdd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "c5e0d89d-126f-43e8-9259-5775b110060c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Nutrition",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
           }
         },
         "share": {
@@ -69,14 +87,17 @@
         "subtitle",
         "price",
         "description",
+        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
         "variant_picker",
         "quantity_selector",
-        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
         "buy_buttons",
+        "98d6d88a-87d5-4065-9481-5f8c6e15ebdd",
+        "c5e0d89d-126f-43e8-9259-5775b110060c",
         "share"
       ],
       "settings": {
         "enable_sticky_info": true,
+        "hide_variants": true,
         "enable_video_looping": false
       }
     },
@@ -89,12 +110,95 @@
         "show_secondary_image": false,
         "add_image_padding": true,
         "show_image_outline": true,
-        "show_vendor": false
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1631733066fe40f40f": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "34936b6b-a118-494c-9ca3-531409cd0d07": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "100% Human Grade Ingredients",
+            "content": "",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "a96f301d-1de4-488d-bc42-977fe3e8aef5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cooked In USDA Kitchen",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "51d87ce1-e0f9-4820-be3f-bbb660e30ea3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Complete & Balanced for All Life Stages",
+            "content": "",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Exceeding AFFCO Requirements",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "66d96666-f331-4045-aba0-5b770e9d9113": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Zero Artificial Preservatives",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "79270050-5e9c-40a6-9085-d92bd969b55a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shelf Stable - No Freezing Required",
+            "content": "",
+            "page": "",
+            "icon": "box"
+          }
+        },
+        "c036539b-6b3c-4429-af1f-dc43dfa85bcb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Responsibly-Sourced & Recyclable Packaging",
+            "content": "",
+            "page": "",
+            "icon": "leaf"
+          }
+        }
+      },
+      "block_order": [
+        "34936b6b-a118-494c-9ca3-531409cd0d07",
+        "a96f301d-1de4-488d-bc42-977fe3e8aef5",
+        "51d87ce1-e0f9-4820-be3f-bbb660e30ea3",
+        "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7",
+        "66d96666-f331-4045-aba0-5b770e9d9113",
+        "79270050-5e9c-40a6-9085-d92bd969b55a",
+        "c036539b-6b3c-4429-af1f-dc43dfa85bcb"
+      ],
+      "settings": {
+        "heading": "{{ product.title }} Claims",
+        "heading_size": "medium"
       }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "1631733066fe40f40f"
   ]
 }

@@ -14,7 +14,8 @@
         "1629593008d7f39ca7-0": {
           "type": "heading",
           "settings": {
-            "heading": "We’re a new breed of dog food with one belief: dogs deserve better."
+            "heading": "We’re a new breed of dog food with one belief: dogs deserve better.",
+            "heading_size": "medium"
           }
         },
         "1629593008d7f39ca7-1": {
@@ -30,10 +31,13 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/sleeping-pup.jpg",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "show_text_below": true
       }
     },
     "1629593399c1720e6b": {
@@ -165,12 +169,12 @@
             "text": "<p><em>with Rocky<\/em><\/p><p><strong>Founder<\/strong><\/p>"
           }
         },
-        "16295941961bc94792-1": {
+        "4f09e2f2-99c0-498c-891a-9af5ec3602ce": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dawn.jpg",
-            "title": "Dawn Lobenstein",
-            "text": "<p><em>with Marlin<\/em><\/p><p><strong>Chief Marketing Officer<\/strong><\/p>"
+            "image": "shopify:\/\/shop_images\/ben.jpg",
+            "title": "Ben LaForest",
+            "text": "<p><em>with Apollo<\/em><\/p><p><strong>Lead Food Scientist<\/strong><\/p>"
           }
         },
         "16295941961bc94792-2": {
@@ -179,6 +183,30 @@
             "image": "shopify:\/\/shop_images\/mika.jpg",
             "title": "Mikaela Mendizábal",
             "text": "<p><em>with Stewart<\/em><\/p><p><strong>Creative Director<\/strong><\/p>"
+          }
+        },
+        "5ef799c6-2bfb-41a4-9b43-da56628ee706": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lisa.jpg",
+            "title": "Lisa T.",
+            "text": "<p><em>with Riggs<\/em><\/p><p><strong>Marketing Director<\/strong><\/p>"
+          }
+        },
+        "45b35316-bef0-4c90-bcff-a5072f3ac823": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Brittany_Griff.jpg",
+            "title": "Brittany Connor",
+            "text": "<p><em>with Griffin<\/em><\/p><p><strong>PR Director<\/strong><\/p>"
+          }
+        },
+        "4b1385b3-5507-48d3-bc2e-540e75103049": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mitt.jpg",
+            "title": "Mitt Mehta",
+            "text": "<p><em>with Shine<\/em><\/p><p><strong>Chief Financial Officer<\/strong><\/p>"
           }
         },
         "68a2624c-50a2-42d3-9033-f8da8ac5f911": {
@@ -197,6 +225,14 @@
             "text": "<p><em>with Mischa<\/em><\/p><p><strong>Software Engineer<\/strong><\/p>"
           }
         },
+        "16295941961bc94792-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dawn.jpg",
+            "title": "Dawn Lobenstein",
+            "text": "<p><em>with Marlin<\/em><\/p><p><strong>Chief Marketing Officer<\/strong><\/p>"
+          }
+        },
         "097672d4-ce44-43b0-9fc9-f657217ad65b": {
           "type": "column",
           "settings": {
@@ -204,51 +240,19 @@
             "title": "Scott Roberts",
             "text": "<p><em>with Internet Dog<\/em><\/p><p><strong>Software Engineer<\/strong><\/p>"
           }
-        },
-        "4f09e2f2-99c0-498c-891a-9af5ec3602ce": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ben.jpg",
-            "title": "Ben LaForest",
-            "text": "<p><em>with Apollo<\/em><\/p><p><strong>Lead Food Scientist<\/strong><\/p>"
-          }
-        },
-        "45b35316-bef0-4c90-bcff-a5072f3ac823": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Brittany_Griff.jpg",
-            "title": "Brittany Connor",
-            "text": "<p><em>with Griffin<\/em><\/p><p><strong>PR Director<\/strong><\/p>"
-          }
-        },
-        "5ef799c6-2bfb-41a4-9b43-da56628ee706": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lisa.jpg",
-            "title": "Lisa T.",
-            "text": "<p><em>with Riggs<\/em><\/p><p><strong>Marketing Director<\/strong><\/p>"
-          }
-        },
-        "4b1385b3-5507-48d3-bc2e-540e75103049": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mitt.jpg",
-            "title": "Mitt Mehta",
-            "text": "<p><em>with Shine<\/em><\/p><p><strong>Chief Financial Officer<\/strong><\/p>"
-          }
         }
       },
       "block_order": [
         "16295941961bc94792-0",
-        "16295941961bc94792-1",
+        "4f09e2f2-99c0-498c-891a-9af5ec3602ce",
         "16295941961bc94792-2",
+        "5ef799c6-2bfb-41a4-9b43-da56628ee706",
+        "45b35316-bef0-4c90-bcff-a5072f3ac823",
+        "4b1385b3-5507-48d3-bc2e-540e75103049",
         "68a2624c-50a2-42d3-9033-f8da8ac5f911",
         "143876b4-a302-4be7-9fbd-a4cd0fd21738",
-        "097672d4-ce44-43b0-9fc9-f657217ad65b",
-        "4f09e2f2-99c0-498c-891a-9af5ec3602ce",
-        "45b35316-bef0-4c90-bcff-a5072f3ac823",
-        "5ef799c6-2bfb-41a4-9b43-da56628ee706",
-        "4b1385b3-5507-48d3-bc2e-540e75103049"
+        "16295941961bc94792-1",
+        "097672d4-ce44-43b0-9fc9-f657217ad65b"
       ],
       "settings": {
         "title": "",

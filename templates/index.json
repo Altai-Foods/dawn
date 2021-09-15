@@ -6,7 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Healthier Food for Happier Dogs"
+            "heading": "Healthier Food for Happier Dogs",
+            "heading_size": "medium"
           }
         },
         "357728cf-987d-4198-8bba-423f5314ec13": {
@@ -34,10 +35,13 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
+        "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
         "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "show_text_below": true
       }
     },
     "16292521517f255f17": {
