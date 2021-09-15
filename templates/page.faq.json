@@ -6,9 +6,524 @@
         "show_title": true,
         "show_content": false
       }
+    },
+    "1631724869a5805e1b": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "515664c5-ee75-4124-88e2-851175c3e512": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How much should I feed my dog?",
+            "content": "<p>Every dog is different. Variables like <strong>weight, age, activity level and current health<\/strong> are important factors when calculating how many calories your dog should eat in a day. We make this easy. When you first join Happy Howl we’ll ask you questions about your dog to determine how much they should be fed and we’ll provide a handy feeding schedule so you know exactly how much to give them at each meal, no matter how many times a day you are feeding them. Custom and convenient.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "eb03c602-4770-4448-b5ab-26bf75b0f5e7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you meet AAFCO standards?",
+            "content": "<p><strong>Yes, we do!<\/strong> All Happy Howl meal plans are formulated to exceed the nutritional levels established by AAFCO for a complete and balanced diet for all life stages. This means that our meal plans alone contain the nutritional adequacy that your dog needs.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "942f3691-197b-47d5-b339-d95cf9722e75": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Should I consult with a vet before ordering Happy Howl?",
+            "content": "<p>We always recommend that everyone does their research before putting something into their body, or their dogs. Depending on how often your dog sees their vet and the documentation that your vet completes during each visit, they should have a very high level of understanding of your dog's health and medical history. This would include any known allergies, past infections, and risks for certain diseases. If you are aware of any known allergies of your dog, please check our ingredient list carefully. If you are uncertain, please reach out to our customer support at support@thehappyhowl.com. Happy Howl’s recipes are formulated by certified pet nutritionists under the recommendations of doctors of veterinary medicine.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "8449f41a-7e7e-4944-a99c-96e6af15e654": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What standards does Happy Howl meet?",
+            "content": "<p>Happy Howls products meet lots of strict standards.  All Happy Howl food exceeds AAFCO standards for complete and balanced full meal plans for all life stages; including puppies, adult, elderly dogs, and dogs over 140 lbs. In addition, all of our food is made with 100% human grade ingredients. Our food is cooked in small batches in a USDA-grade kitchen and goes through a strict testing process from a certified third-party for quality assurance before it ever leaves our facility. We go the extra mile so you can feel confident that you are feeding your dog the highest quality dog food on the market.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "ad9872f3-513e-47d8-948d-085a83e5d39b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What are the ingredients in each recipe?",
+            "content": "<p>Transparency is an important part of who we are. Not only do we believe dogs deserve better, but so do you. We’re completely up front about what goes into our food, we’ve even made videos about how to make the food yourself. You can find out more about all our ingredients in each recipe on our recipes page.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "3d632580-3286-40bf-ab3d-3f995ba2e6e3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What does it mean when you say balanced food?",
+            "content": "<p>Our food is “complete and balanced”.  This means our food meets the nutrient profiles for dogs established by the AAFCO for this criteria. Essentially, “Complete and Balanced” means that the food has all the necessary vitamins and minerals needed for a dog to be happy and healthy. This is where homemade food can fall short. <\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "844d81c1-8176-4ae9-9eb3-fc8c54e63148": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Which recipe should I pick?",
+            "content": "<p>It really depends on your dog and you. If your dog is a picky eater or has allergies, we’d recommend <strong>Lamb Delight<\/strong>. You can check through our entire ingredient list if you know what your dog is allergic to or reach out to us at <a href=\"mailto:support@thehappyhowl.com\" title=\"mailto:support@thehappyhowl.com\"><span style=\"text-decoration:underline\">support@thehappyhowl.com<\/span><\/a> if you have any questions. Or consult your vet to confirm. Find our recipes <a href=\"\/collections\/all\" target=\"_blank\" title=\"All products\">here<\/a>.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "32afae9e-cf6b-4176-92d0-f33e708f9089": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How is Happy Howl different from other dog food brands?",
+            "content": "<p>Happy Howl is the most dog-obsessed dog food brand. We have created our company with two things in mind: the best animals on earth and the people who love them most! We also pride ourselves on helping rescues and communities. Our dog-obsessed partnership program helps bring revenue to the people we love most: the dog obsessed. We are also focused on researching and developing the highest quality food, treats and desserts to bring to market in a shelf stable capacity to ensure the food is healthy, convenient, and environmentally friendly.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "5323da67-7e25-44bf-a384-ef4869739e9a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I know the food is safe?",
+            "content": "<p>Happy Howl has a strict policy of quality control for each stage of processing and distribution. Our ingredients are thoughtfully sourced and are 100% human-grade. There are no fillers, byproducts, or unnecessary additives that humans wouldn’t eat. Our small batches are cooked in a USDA-certified kitchen under the strict standards of the FDA. Once the fHappy Howl recipes are cooked, they are placed under a five day hold while random samples are tested for quality, consistency and nutritional adequacy. From there, our food is transported to a temperature controlled distribution facility before ultimately arriving at your door. Simple, easy, and safe. That’s the Happy Howl way.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "4a38b884-5f3b-4a1a-b64e-2ec9bbbc9f38": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How is the dog food made?",
+            "content": "<p>Happy Howl’s wet, human-grade food is made through a very unique process. Taking our original homemade recipes that were first cooked in crockpots, we found a way to scale this process using an extremely healthy heat treatment that utilizes steam and pressure. Our food is heated to the exact temperature to ensure all bacteria is destroyed while protecting the integrity of the key nutrients within the food. This ultimately creates a food that looks, smells and tastes as fresh as if it were coming out of a crockpot, while also making it shelf stable for up to two years without the addition of any preservatives.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "00775333-2a46-43f5-a17b-7d441a751723": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I make this myself?",
+            "content": "<p>Absolutely. We’ve even provided you the recipe. All you’ll need is a crockpot and about 16 hours. Our founder Colin used to take about 4 crockpots every weekend and meal prep for Rocky like he did for himself. But who’s really got time for that?<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "9acd5881-4539-4467-a6ea-5061c717951c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if my dog has allergies?",
+            "content": "<p>We always encourage you to consult with a vet and if you’ve had testing and know what your dog’s allergies are (such as a protein allergy), to consult our ingredient list first. We recommend our Lamb Delight for our allergy conscious pup parents.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "84592de6-a6d1-4c64-af1f-c8c7b6e38fdc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if my dog is really picky?",
+            "content": "<p>Our recipes were actually designed and formulated with picky eaters in mind. Our founder, Colin, still stands by his original statement of “Rocky was the pickiest eater on the planet.” Picky eaters rejoice! What’s even better is that you can update what recipe your subscription is in your account settings in between orders to switch up the recipes month-to-month to keep your doggie excited and interested in every meal!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "1ecbdc50-59f0-49b8-9eb6-00805993af74": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Does Happy Howl work for any breed of dog?",
+            "content": "<p>Yes! Our food exceeds the nutritional adequacy for all dog breeds, no matter their size, shape, color, age or gender!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "da7be60f-7136-4bfc-8bf6-727c50104a01": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is Happy Howl good for my puppy?",
+            "content": "<p>You betcha!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "7ae25415-49b3-440a-be24-313a4a7cb40f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is Happy Howl good for my senior dog?",
+            "content": "<p>Fork yes it is.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "515664c5-ee75-4124-88e2-851175c3e512",
+        "eb03c602-4770-4448-b5ab-26bf75b0f5e7",
+        "942f3691-197b-47d5-b339-d95cf9722e75",
+        "8449f41a-7e7e-4944-a99c-96e6af15e654",
+        "ad9872f3-513e-47d8-948d-085a83e5d39b",
+        "3d632580-3286-40bf-ab3d-3f995ba2e6e3",
+        "844d81c1-8176-4ae9-9eb3-fc8c54e63148",
+        "32afae9e-cf6b-4176-92d0-f33e708f9089",
+        "5323da67-7e25-44bf-a384-ef4869739e9a",
+        "4a38b884-5f3b-4a1a-b64e-2ec9bbbc9f38",
+        "00775333-2a46-43f5-a17b-7d441a751723",
+        "9acd5881-4539-4467-a6ea-5061c717951c",
+        "84592de6-a6d1-4c64-af1f-c8c7b6e38fdc",
+        "1ecbdc50-59f0-49b8-9eb6-00805993af74",
+        "da7be60f-7136-4bfc-8bf6-727c50104a01",
+        "7ae25415-49b3-440a-be24-313a4a7cb40f"
+      ],
+      "settings": {
+        "heading": "Before your Order",
+        "heading_size": "medium"
+      }
+    },
+    "1631730480933e9402": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "cac2b5b6-ec4e-4120-9e62-42352550455e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Does Happy Howl need to be refrigerated?",
+            "content": "<p>When the individual packaging unit is unopened, no. Once you open the shelf-stable package, yes. It’s then good for 5 days after being opened.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "20285bbf-38c8-4e47-901b-c7e1d02018b3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if my dog doesn’t like Happy Howl?",
+            "content": "<p>We pride ourselves on the incredible quality and taste of our food - and dogs agree! Because of this, we will refund 100% of the money for every unopened package returned to us! Simply reach out to us.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "371c8db6-0ee3-488a-88ce-6951edce2b28": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What do I do if my dog gains weight?",
+            "content": "<p>If you find that your dog unintentionally fluctuates weight by more than 5% in either direction after starting their Happy Howl meal plan, please reach out to us at <a href=\"mailto:support@thehappyhowl.com\" title=\"mailto:support@thehappyhowl.com\"><span style=\"text-decoration:underline\">support@thehappyhowl.com<\/span><\/a> and we can help adjust your meal plan until your dog is at their desired weight. We make it easy - every dog is different and every dogs ideal weight can be achieved.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "6746413e-1411-4db4-a5ba-7ec15e1860db": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Does Happy Howl have any vitamins\/probiotics\/CBD\/hemp?",
+            "content": "<p>Our food does not contain any probiotics, CBD or hemp.  All our food contains vitamins and minerals that dogs require. We have found that many of these products are more hype than efficacy. If your dog requires any additional supplemental support, simply add it to each Happy Howl bowl and they will get all that they need and more!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "666f09d1-f75d-4cdc-8a8c-f5099c510add": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is Happy Howl okay if my dog only eats kibble\/dry right now?",
+            "content": "<p>Absolutely! If you are coming from a strict kibble-only diet plan, we will make sure you have the tools and information to ensure a smooth transition. It’s really this easy! Please reference our <a href=\"https:\/\/www.thehappyhowl.com\/blogs\/happy-blog\/dog-food-transition-guide\" target=\"_blank\" title=\"https:\/\/www.thehappyhowl.com\/blogs\/happy-blog\/dog-food-transition-guide\">transition guide<\/a>.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "2cbc891f-a887-45c0-91a1-9b7467f39539": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What do the claims on your packaging mean?",
+            "content": "<p>• Made in the USA - pretty self explanatory, we make our food in America :)<\/p><p>• Human Grade - we never use feed grade, lower quality ingredients.  Everything is fit for human consumption. <\/p><p>• Complete & Balanced - This means our food provides your dog with the right amount of the right nutrients and can be the sole food you give your dog. <\/p><p>• Cooked in certified USDA Kitchen - We make our food in a location that is regulated by the United States Department of Agriculture. <\/p><p>• Zero Preservatives - Because of our packaging method, we don’t need to use any yucky chemicals or nasty ingredients to keep our food safe.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "cac2b5b6-ec4e-4120-9e62-42352550455e",
+        "20285bbf-38c8-4e47-901b-c7e1d02018b3",
+        "371c8db6-0ee3-488a-88ce-6951edce2b28",
+        "6746413e-1411-4db4-a5ba-7ec15e1860db",
+        "666f09d1-f75d-4cdc-8a8c-f5099c510add",
+        "2cbc891f-a887-45c0-91a1-9b7467f39539"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "medium"
+      }
+    },
+    "1631730287104218d2": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "e632e4d4-f931-4e0c-a1bc-9ab0e407c15b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "I’m having trouble placing my order, what do I do now?",
+            "content": "<p>Reach out to us <a href=\"mailto:help@thehappyhowl.com\"><span style=\"text-decoration:underline\">support@thehappyhowl.com<\/span><\/a>, we’d be happy to help!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "3ec014b4-6f4d-4c9b-8c2d-8f4625f0a99f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What’s the difference between the types of food I can order?",
+            "content": "<p>The main difference between our wet food recipes are the proteins. At Happy Howl, we believe that single source protein is essential for long-term health. That’s why our recipes reflect a single source of meat with the accompanied bone broth coming from that same source. Just like humans, a dog's digestive system requires an astounding amount of energy to break down food. Using a single source of protein per meal can help ease this burden. This is a main reason why we notice such a difference in our dogs' energy levels after eating Happy Howl. Have an older dog? Prepare to see the puppy come out again! Don’t believe us? Check out the label on your current dog's food - we bet there’s a laundry list of meats, fishes, fillers or all three on there. That’s just not healthy!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "4e72ec49-66ab-4113-95fc-29be532ae2a9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you collect sales tax?",
+            "content": "<p>We collect sales tax in accordance with all state and federal requirements.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "9c451b06-b398-4350-ae34-147c3a87f62a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Do you store credit card information?",
+            "content": "<p>We do not store credit card information. We use a secure third-party credit card vaulting service which is fully PCI-compliant. To learn more, visit <a href=\"https:\/\/spreedly.com\/pci\"><span style=\"text-decoration:underline\">PCI<\/span><\/a>.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "aa2fa4e0-a905-4a2e-b59c-a354e1464a1e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Will you charge my card automatically if I sign up for a subscription?",
+            "content": "<p>Yes, you will always be billed immediately at the time of checkout. You can cancel anytime or update your subscription.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "230e0af3-49e8-4ebe-a7f2-a62a29c0ccaf": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "What if I want to order for more than one dog?",
+            "content": "<p>No problem! When signing up, you’ll enter each dog’s information.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "3cde70fe-659a-4e5f-ab49-99434742378a": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "My dog’s details have changed. How do I update their weight or other details?",
+            "content": "<p>Reach out to us <a href=\"mailto:help@thehappyhowl.com\"><span style=\"text-decoration:underline\">support@thehappyhowl.com<\/span><\/a>, we’d be happy to help!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "6e508855-c565-4ae5-b659-e82d010b7d3d": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Why can’t I order more than 1 recipe at a time?",
+            "content": "<p>Currently, we only offer one recipe per dog, per month. However, if you have a picky eater or you just want to mix it up - each month you can swap your dog’s recipe in your <a href=\"https:\/\/www.thehappyhowl.com\/account\" target=\"_blank\" title=\"https:\/\/www.thehappyhowl.com\/account\">account settings<\/a>.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "e632e4d4-f931-4e0c-a1bc-9ab0e407c15b",
+        "3ec014b4-6f4d-4c9b-8c2d-8f4625f0a99f",
+        "4e72ec49-66ab-4113-95fc-29be532ae2a9",
+        "9c451b06-b398-4350-ae34-147c3a87f62a",
+        "aa2fa4e0-a905-4a2e-b59c-a354e1464a1e",
+        "230e0af3-49e8-4ebe-a7f2-a62a29c0ccaf",
+        "3cde70fe-659a-4e5f-ab49-99434742378a",
+        "6e508855-c565-4ae5-b659-e82d010b7d3d"
+      ],
+      "settings": {
+        "heading": "Placing Your Order",
+        "heading_size": "medium"
+      }
+    },
+    "1631730373c3b9ccf2": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "fae4c5bb-9528-4d43-9f67-e0c027a4243f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "When can I expect my order to ship?",
+            "content": "<p>Typically in 2-4 days but we’ll always send you an email when your order ships. And a reminder email when we are going to charge your card for your next order.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "9e57c948-bcbc-476c-ae9b-312a2ea0b170": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How much should I feed my dog?",
+            "content": "<p>We’ll provide a handy feeding schedule so you know exactly how much to give them at each meal, no matter how many times a day you are feeding them.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "55e4ba72-648d-4b6c-ac2c-121f12c2f431": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I cancel or change my order?",
+            "content": "<p>Reach out to us <a href=\"mailto:help@thehappyhowl.com\"><span style=\"text-decoration:underline\">support@thehappyhowl.com<\/span><\/a>, we’d be happy to help!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "664a6290-1f3a-4fe8-9f49-3a8373bb0521": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I store my food?",
+            "content": "<p>What’s great about Happy Howl food is that it is shelf stable before it’s opened.<\/p><p>• Unopened - Store in a cool dry place until the best by date. <\/p><p>• Opened - Store in refrigerator for up to 5 days<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "8b18c973-c0e6-439d-8cb9-24219508c53a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long is the food good for before it’s opened?",
+            "content": "<p>Our packaging method keeps food safe for a long period of time under cool and dry conditions.  Similar to canned products, the food will be safe for years, however we recommend using the “best by” date.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "c6e52a30-af33-4a58-a408-5c96e5e368ec": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What if I want to return the food?",
+            "content": "<p>Reach out to us <a href=\"mailto:help@thehappyhowl.com\"><span style=\"text-decoration:underline\">support@thehappyhowl.com<\/span><\/a>, we’d be happy to initiate a return for all unopened food!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "e428fcea-06a1-4fd3-a9fd-e800353f5415": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I cancel my subscription?",
+            "content": "<p>We’d be sorry to see you go! If you have any feedback please send to us at <a href=\"mailto:help@thehappyhowl.com\"><span style=\"text-decoration:underline\">support@thehappyhowl.com<\/span><\/a>. To cancel simply navigate to your account and click the cancel button under manage subscriptions.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "67596bc7-67a6-4fd0-8be6-9bb560269100": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How long is the food good for once it’s open?",
+            "content": "<p>You can keep your opened products in the refrigerator for up to 5 days.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "5961a720-8afa-4924-bada-5a4b9c508e65": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I give Happy Howl feedback?",
+            "content": "<p>We love feedback. Reach us at <a href=\"mailto:help@thehappyhowl.com\"><span style=\"text-decoration:underline\">support@thehappyhowl.com.<\/span><\/a><\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "fae4c5bb-9528-4d43-9f67-e0c027a4243f",
+        "9e57c948-bcbc-476c-ae9b-312a2ea0b170",
+        "55e4ba72-648d-4b6c-ac2c-121f12c2f431",
+        "664a6290-1f3a-4fe8-9f49-3a8373bb0521",
+        "8b18c973-c0e6-439d-8cb9-24219508c53a",
+        "c6e52a30-af33-4a58-a408-5c96e5e368ec",
+        "e428fcea-06a1-4fd3-a9fd-e800353f5415",
+        "67596bc7-67a6-4fd0-8be6-9bb560269100",
+        "5961a720-8afa-4924-bada-5a4b9c508e65"
+      ],
+      "settings": {
+        "heading": "After Your Order",
+        "heading_size": "medium"
+      }
+    },
+    "1631730427dbe88d0b": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "bb6da752-48ae-4b5c-846c-842e9291c998": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can Happy Howl help me?",
+            "content": "<p>Become a Happy Howler and get a generous commission for every bowl. You’ll have your own affiliate code to share on your website, materials, and social channels. You receive commission for every dog that signs up, for every order – not just the first one. You’re helping dogs find their furever homes. We promote partner rescues on our social networks and email program so we can spread the word about dogs in need. That’s more eyes on every dog and one less thing our rescues have to worry about.<\/p><p><\/p><p><a href=\"https:\/\/www.thehappyhowl.com\/pages\/vets\"><span style=\"text-decoration:underline\">Apply<\/span><\/a> to become a partner<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "bb6da752-48ae-4b5c-846c-842e9291c998"
+      ],
+      "settings": {
+        "heading": "Partners",
+        "heading_size": "medium"
+      }
+    },
+    "1631730474e75bce94": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "1e8985f1-e0a3-42d0-b18c-30f3c563e180": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can Happy Howl help me?",
+            "content": "<p>We promote rescues and support their mission to help dogs find a furever home or the care they need. As part of our Happy Dogs promise, we are aiming to ease the financial burden on rescues that are doing good in the world through more than just monetary and food assistance. Not only do we promote rescues in our email, social and on our site but we provide affiliate codes for your supporters. You receive commission for every dog that signs up, for every order -- not just the first one.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "6de6ba7a-5703-45a1-af43-e4beb61204a9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I nominate a rescue?",
+            "content": "<p>Easy! Just fill out our <a href=\"https:\/\/www.thehappyhowl.com\/pages\/partners\" target=\"_blank\" title=\"Partners\"><span style=\"text-decoration:underline\">form<\/span><\/a> and we’ll take care of the rest!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "b875387c-ce58-4f43-8cd7-e9d53c4e6072": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How can I get Happy Howl to spotlight my rescue?",
+            "content": "<p>Fill out our nomination form and we’ll be in touch!<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "19bf993d-c8ad-41a9-96dd-037bea77e724": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What does it mean to nominate a rescue?",
+            "content": "<p>We want to help as many dogs as possible. As part of our Happy Dogs promise, we are aiming to ease the financial burden on rescues that are doing good in the world. Simply fill out our form and we’ll reach out the rescue. Once we make sure we’re a fit we’ll help with food and monetary support. We’ll also give them an affiliate code to share with their network. The great part about that? That code pays them for every order every time. Even years from now.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "1e8985f1-e0a3-42d0-b18c-30f3c563e180",
+        "6de6ba7a-5703-45a1-af43-e4beb61204a9",
+        "b875387c-ce58-4f43-8cd7-e9d53c4e6072",
+        "19bf993d-c8ad-41a9-96dd-037bea77e724"
+      ],
+      "settings": {
+        "heading": "Rescues",
+        "heading_size": "medium"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1631724869a5805e1b",
+    "1631730480933e9402",
+    "1631730287104218d2",
+    "1631730373c3b9ccf2",
+    "1631730427dbe88d0b",
+    "1631730474e75bce94"
   ]
 }

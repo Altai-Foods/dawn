@@ -1,0 +1,7 @@
+.collapsible-tabs__heading > * {
+  word-wrap: break-word;
+}
+
+.collapsible-tabs__heading {
+  margin-bottom: 0;
+}

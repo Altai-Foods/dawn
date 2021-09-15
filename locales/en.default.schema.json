@@ -392,6 +392,13 @@
         "name": "Collage"
       }
     },
+    "collapsible-tabs": {
+      "name": "Collapsible Tabs",
+      "settings": {},
+      "presets": {
+        "name": "Collapsible Tabs"
+      }
+    },
     "collection-list": {
       "name": "Collection list",
       "settings": {
