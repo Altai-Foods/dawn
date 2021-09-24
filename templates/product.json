@@ -121,7 +121,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "100% Human Grade Ingredients",
-            "content": "",
+            "content": "<p>Our food is made from only ingredients that are safe for humans to eat too.<\/p>",
             "page": "",
             "icon": "heart"
           }
@@ -139,7 +139,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Complete & Balanced for All Life Stages",
-            "content": "",
+            "content": "<p>You bet your pup is getting all the nutrients they need from our meals, or else we wouldn’t be able to say so!<\/p>",
             "page": "",
             "icon": "heart"
           }
@@ -148,7 +148,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Exceeding AFFCO Requirements",
-            "content": "",
+            "content": "<p>This means our meal plans have exceeded the nutritional standards for all doggo life stages.<\/p>",
             "page": "",
             "icon": "check_mark"
           }
@@ -157,7 +157,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Zero Artificial Preservatives",
-            "content": "",
+            "content": "<p>Pink Himalayan salt is technically a preservative, (we use it cause it’s tasty!) so that’s why we say “no artificial preservatives.”<\/p>",
             "page": "",
             "icon": "check_mark"
           }
@@ -175,7 +175,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Responsibly-Sourced & Recyclable Packaging",
-            "content": "",
+            "content": "<p>Unlike other brands that list “meat” as an ingredient, our recipes are 100% real beef, lamb, or turkey.<\/p>",
             "page": "",
             "icon": "leaf"
           }

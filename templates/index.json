@@ -19,7 +19,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Get Started",
+            "button_label_1": "Buy Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -34,9 +34,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
+        "image": "shopify:\/\/shop_images\/Untitled_design_25.png",
+        "image_2": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Beef_1.jpg",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "accent-1",
@@ -101,7 +102,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_Group-1.png",
             "title": "Melanie Glenn & Husky, Romeo",
-            "text": "<p>“Romeo goes crazy for all three happy howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
+            "text": "<p>“Romeo goes crazy for all three Happy Howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
           }
         },
         "column3": {

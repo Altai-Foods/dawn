@@ -90,7 +90,7 @@
         "title": "Our Guiding Priciples",
         "image_width": "third",
         "image_ratio": "circle",
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
