@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -45,6 +46,41 @@
         "show_text_below": true
       }
     },
+    "16325108529508dbe8": {
+      "type": "image-with-text",
+      "blocks": {
+        "16325108529508dbe8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Healthier Food for Happier Dogs"
+          }
+        },
+        "16325108529508dbe8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free Shipping. Cancel Anytime.<\/p>"
+          }
+        },
+        "16325108529508dbe8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/variety-pack"
+          }
+        }
+      },
+      "block_order": [
+        "16325108529508dbe8-0",
+        "16325108529508dbe8-1",
+        "16325108529508dbe8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "image_first"
+      }
+    },
     "16292521517f255f17": {
       "type": "multicolumn",
       "blocks": {
@@ -84,6 +120,42 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
+      }
+    },
+    "16325116292cb9b56f": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16325116292cb9b56f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dogs Deserve Better"
+          }
+        },
+        "16325116292cb9b56f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Happy Dogs Promise<\/strong>: our way of helping to ease the financial burden on rescues in need by supporting dogs with healthier meals, happier lives – and hopefully – furever homes.<\/p>"
+          }
+        },
+        "16325116292cb9b56f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn How We Help",
+            "button_link": "shopify:\/\/pages\/impact"
+          }
+        }
+      },
+      "block_order": [
+        "16325116292cb9b56f-0",
+        "16325116292cb9b56f-1",
+        "16325116292cb9b56f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_from_iOS_3__adobespark.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "layout": "image_first"
       }
     },
     "multi_column": {
@@ -133,7 +205,9 @@
   },
   "order": [
     "image_banner",
+    "16325108529508dbe8",
     "16292521517f255f17",
+    "16325116292cb9b56f",
     "multi_column"
   ]
 }
