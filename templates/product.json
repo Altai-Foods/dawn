@@ -62,7 +62,7 @@
             "heading": "Ingredients",
             "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "leaf"
           }
         },
         "c5e0d89d-126f-43e8-9259-5775b110060c": {
@@ -71,7 +71,7 @@
             "heading": "Nutrition",
             "content": "",
             "page": "",
-            "icon": "check_mark"
+            "icon": "heart"
           }
         },
         "share": {
@@ -126,11 +126,29 @@
             "icon": "heart"
           }
         },
+        "79270050-5e9c-40a6-9085-d92bd969b55a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shelf Stable - No Freezing Required",
+            "content": "",
+            "page": "",
+            "icon": "star"
+          }
+        },
+        "66d96666-f331-4045-aba0-5b770e9d9113": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Zero Artificial Preservatives",
+            "content": "<p>Pink Himalayan salt is technically a preservative, (we use it cause it’s tasty!) so that’s why we say “no artificial preservatives.”<\/p>",
+            "page": "",
+            "icon": "leaf"
+          }
+        },
         "a96f301d-1de4-488d-bc42-977fe3e8aef5": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Cooked In USDA Kitchen",
-            "content": "",
+            "content": "<p>We make our food in a location that is regulated by the United States Department of Agriculture.<\/p>",
             "page": "",
             "icon": "check_mark"
           }
@@ -144,6 +162,15 @@
             "icon": "heart"
           }
         },
+        "c036539b-6b3c-4429-af1f-dc43dfa85bcb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Responsibly-Sourced & Recyclable Packaging",
+            "content": "<p>Unlike other brands that list “meat” as an ingredient, our recipes are 100% real beef, lamb, or turkey.<\/p><p><\/p><p>Our lightweight carton-based packaging is responsibly sourced and 100% recyclable in the United States – and, it’s part of our commitment to attain a carbon-neutral footprint on our way to a circular economy.<\/p>",
+            "page": "",
+            "icon": "leaf"
+          }
+        },
         "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7": {
           "type": "collapsible_tab",
           "settings": {
@@ -152,53 +179,113 @@
             "page": "",
             "icon": "check_mark"
           }
-        },
-        "66d96666-f331-4045-aba0-5b770e9d9113": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Zero Artificial Preservatives",
-            "content": "<p>Pink Himalayan salt is technically a preservative, (we use it cause it’s tasty!) so that’s why we say “no artificial preservatives.”<\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "79270050-5e9c-40a6-9085-d92bd969b55a": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shelf Stable - No Freezing Required",
-            "content": "",
-            "page": "",
-            "icon": "box"
-          }
-        },
-        "c036539b-6b3c-4429-af1f-dc43dfa85bcb": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Responsibly-Sourced & Recyclable Packaging",
-            "content": "<p>Unlike other brands that list “meat” as an ingredient, our recipes are 100% real beef, lamb, or turkey.<\/p>",
-            "page": "",
-            "icon": "leaf"
-          }
         }
       },
       "block_order": [
         "34936b6b-a118-494c-9ca3-531409cd0d07",
+        "79270050-5e9c-40a6-9085-d92bd969b55a",
+        "66d96666-f331-4045-aba0-5b770e9d9113",
         "a96f301d-1de4-488d-bc42-977fe3e8aef5",
         "51d87ce1-e0f9-4820-be3f-bbb660e30ea3",
-        "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7",
-        "66d96666-f331-4045-aba0-5b770e9d9113",
-        "79270050-5e9c-40a6-9085-d92bd969b55a",
-        "c036539b-6b3c-4429-af1f-dc43dfa85bcb"
+        "c036539b-6b3c-4429-af1f-dc43dfa85bcb",
+        "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7"
       ],
       "settings": {
-        "heading": "{{ product.title }} Claims",
+        "heading": "OUR TRUTH",
         "heading_size": "medium"
+      }
+    },
+    "1632768446d76bb16c": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "1632768446d76bb16c-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "1632768446d76bb16c-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "1632768446d76bb16c-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "1632768446d76bb16c-0",
+        "1632768446d76bb16c-1",
+        "1632768446d76bb16c-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "16327685259c766dcd": {
+      "type": "multicolumn",
+      "blocks": {
+        "16327685259c766dcd-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog-1_fc1a634d-7c41-4ae3-9c7b-37700eab248d.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16327685259c766dcd-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8529.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16327685259c766dcd-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog-7.jpg",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16327685259c766dcd-0",
+        "16327685259c766dcd-1",
+        "16327685259c766dcd-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": true
       }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "1631733066fe40f40f"
+    "1631733066fe40f40f",
+    "1632768446d76bb16c",
+    "16327685259c766dcd"
   ]
 }

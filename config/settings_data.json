@@ -4,11 +4,13 @@
     "colors_accent_1": "#76bc21",
     "colors_accent_2": "#66c9ba",
     "colors_background_2": "#f2f9fc",
-    "type_header_font": "assistant_n4",
+    "type_header_font": "quicksand_n7",
+    "type_body_font": "quicksand_n5",
     "social_facebook_link": "https:\/\/www.facebook.com\/thehappyhowl",
     "social_instagram_link": "https:\/\/instagram.com\/thehappyhowl",
     "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/thehappyhowl\/about",
     "favicon": "shopify:\/\/shop_images\/HappyHowlLogo_Favicon_368c.jpg",
+    "currency_code_enabled": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/HappyHowlLogo_Final_Pos_75e334e6-1488-4562-98fd-a6ffef323224.png",
     "checkout_accent_color": "#76bc21",
     "checkout_button_color": "#76bc21",
@@ -89,7 +91,7 @@
           "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
-          "payment_enable": true
+          "payment_enable": false
         }
       }
     },

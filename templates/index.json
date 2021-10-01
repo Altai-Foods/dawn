@@ -8,7 +8,7 @@
           "type": "heading",
           "settings": {
             "heading": "Healthier Food for Happier Dogs",
-            "heading_size": "medium"
+            "heading_size": "large"
           }
         },
         "357728cf-987d-4198-8bba-423f5314ec13": {
@@ -20,7 +20,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Buy Now",
+            "button_label_1": "SHOP NOW",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -64,7 +64,7 @@
         "16325108529508dbe8-2": {
           "type": "button",
           "settings": {
-            "button_label": "Buy Now",
+            "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/products\/variety-pack"
           }
         }
@@ -117,6 +117,50 @@
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "163277117268e48227": {
+      "type": "multicolumn",
+      "blocks": {
+        "163277117268e48227-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163277117268e48227-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "163277117268e48227-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_36.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "163277117268e48227-0",
+        "163277117268e48227-1",
+        "163277117268e48227-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
@@ -207,6 +251,7 @@
     "image_banner",
     "16325108529508dbe8",
     "16292521517f255f17",
+    "163277117268e48227",
     "16325116292cb9b56f",
     "multi_column"
   ]
