@@ -273,7 +273,9 @@
                             </div>
                         </button>
                         {%- if block.settings.show_dynamic_checkout -%}
-                          {{ form | payment_button }}
+                          {% unless shop.metafields.subscriptions.subscription_active and product.metafields.subscriptions.shipping_interval_frequency %}
+{{ form | payment_button }}
+{% endunless %}
                         {%- endif -%}
                       </div>
                     {%- endform -%}
@@ -367,6 +369,7 @@
 
       hide() {
         super.hide();
+        window.pauseAllMedia();
       }
 
       show(opener) {

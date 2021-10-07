@@ -96,7 +96,7 @@ function pauseAllMedia() {
   });
   document.querySelectorAll('video').forEach((video) => video.pause());
   document.querySelectorAll('product-model').forEach((model) => {
-    if (model.modelViewerUI) model.modelViewerUI.pause();
+    if (model.modelViewerUI) modelViewerUI.pause();
   });
 }
 
@@ -454,7 +454,6 @@ class ModalDialog extends HTMLElement {
     this.setAttribute('open', '');
     if (popup) popup.loadContent();
     trapFocus(this, this.querySelector('[role="dialog"]'));
-    window.pauseAllMedia();
   }
 
   hide() {
@@ -628,10 +627,11 @@ class VariantSelects extends HTMLElement {
   updateVariantInput() {
     const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment`);
     productForms.forEach((productForm) => {
-      const input = productForm.querySelector('input[name="id"]');
+      const input = productForm.querySelector('input[data-productid]'); // ReCharge Change
       input.value = this.currentVariant.id;
       input.dispatchEvent(new Event('change', { bubbles: true }));
     });
+    location.reload(); // ReCharge Change
   }
 
   updatePickupAvailability() {
