@@ -39,6 +39,13 @@
             "page": ""
           }
         },
+        "ba495c40-c1f5-4da8-99b0-f80559c39437": {
+          "type": "popup",
+          "settings": {
+            "text": "Meal Plan Sizes",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -88,6 +95,7 @@
         "price",
         "description",
         "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
+        "ba495c40-c1f5-4da8-99b0-f80559c39437",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -279,6 +287,15 @@
         "button_link": "",
         "swipe_on_mobile": true
       }
+    },
+    "1633656091473fb21f": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -286,6 +303,7 @@
     "product-recommendations",
     "1631733066fe40f40f",
     "1632768446d76bb16c",
-    "16327685259c766dcd"
+    "16327685259c766dcd",
+    "1633656091473fb21f"
   ]
 }
