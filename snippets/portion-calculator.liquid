@@ -1,0 +1,80 @@
+{{ 'component-portion-calculator.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'portion-calculator.js' | asset_url }}" defer="defer"></script>
+<portion-calculator-form>
+  <h2>
+    Portion Calculator
+  </h2>
+  <form id="portion-calculator">
+    <div class="product-form__input product-form__input--dropdown">
+      <label class="form__label" for="pet-weight">
+        Which weight range does your pet fall under?
+      </label>
+      <div class="select">
+        <select id="pet-weight"
+          class="select__select"
+          name="pet-weight"
+          form="portion-calculator"
+        >
+          {% assign idValues = "1-3|4-6|7-9|10-15|16-21|22-28|29-35|36-41|42-47|48-55|56-65|66-76|77-88|89-101|102-115" | split: '|' %}
+          {% assign displayValues = "1-3 lbs.|4-6 lbs.|7-9 lbs.|10-15 lbs.|16-21 lbs.|22-28 lbs.|29-35 lbs.|36-41 lbs.|42-47 lbs.|48-55 lbs.|56-65 lbs.|66-76 lbs.|77-88 lbs.|89-101 lbs.|102-115 lbs." | split: '|' %}
+          {%- for value in idValues -%}
+            <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
+              {{ displayValues[forloop.index0] }}
+            </option>
+          {%- endfor -%}
+        </select>
+        {% render 'icon-caret' %}
+      </div>
+    </div>
+    <div class="product-form__input product-form__input--dropdown">
+      <label class="form__label" for="pet-size">
+        What is the size of your dog?
+      </label>
+      <div class="select">
+        <select id="pet-size"
+          class="select__select"
+          name="pet-size"
+          form="portion-calculator"
+
+        >
+          {% assign idValues = "under|normal|over" | split: '|' %}
+          {% assign displayValues = "Too Lean - I can see the outline of their ribs|Just Right - I can feel the ribs with my palm|Lots to Love - Their waist is wider than their chest" | split: '|' %}
+          {%- for value in idValues -%}
+            <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
+              {{ displayValues[forloop.index0] }}
+            </option>
+          {%- endfor -%}
+        </select>
+        {% render 'icon-caret' %}
+      </div>
+    </div>
+    <div class="product-form__input product-form__input--dropdown">
+      <label class="form__label" for="portion">
+        How much Happy Howl food would you like to feed your pet?
+      </label>
+      <div class="select">
+        <select id="portion"
+          class="select__select"
+          name="portion"
+          form="portion-calculator"
+        >
+          {% assign idValues = "1|0.5|0.25" | split: '|' %}
+          {% assign displayValues = "Top Dog (100%) - I want to fill their bellies with a complete and balanced Happy Howl meal|Pleased Pup (50%) - I want to mix my current food with Happy Howl to provide extra benefits|Some Extra Love (25%) - I want to add just a little to their meal to give an extra nutrient boost" | split: '|' %}
+          {%- for value in idValues -%}
+            <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
+              {{ displayValues[forloop.index0] }}
+            </option>
+          {%- endfor -%}
+        </select>
+        {% render 'icon-caret' %}
+      </div>
+      <div class="form__label warning">
+        * Note: If you choose an option other than Top Dog (100%), you still need to feed your dog other food to complete their meal.
+      </div>
+    </div>
+    <button type="submit" class='button button--primary'>Calculate</button>
+    <p id="recommendation-banner" class="hidden">
+      We recommend feeding your dog <span id="daily-unit-recommendation"></span> units of Happy Howl food per day (not per meal).
+    </p>
+  </form>
+</portion-calculator-form>

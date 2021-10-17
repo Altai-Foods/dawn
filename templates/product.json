@@ -36,6 +36,7 @@
           "type": "popup",
           "settings": {
             "text": "Portion Calculator",
+            "form_picker": "portion_calculator",
             "page": ""
           }
         },
@@ -43,6 +44,7 @@
           "type": "popup",
           "settings": {
             "text": "Meal Plan Sizes",
+            "form_picker": "none",
             "page": ""
           }
         },

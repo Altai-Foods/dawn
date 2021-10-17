@@ -1,0 +1,11 @@
+.warning {
+  color: lightcoral;
+}
+
+.product-form__input {
+  font-size: 1.6rem;
+}
+
+.hidden {
+  display: none;
+}

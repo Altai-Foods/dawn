@@ -416,6 +416,10 @@
         <div class="product-popup-modal__content-info">
           <h1 class="h2">{{ block.settings.page.title }}</h1>
           {{ block.settings.page.content }}
+          {%- case block.settings.form_picker -%}
+            {%- when 'portion_calculator' -%}
+              {% render 'portion-calculator' %}
+          {%- endcase-%}
         </div>
       </div>
     </modal-dialog>
@@ -795,6 +799,22 @@
           "id": "text",
           "default": "Pop-up link text",
           "label": "t:sections.main-product.blocks.popup.settings.link_label.label"
+        },
+        {
+          "type": "select",
+          "id": "form_picker",
+          "options": [
+            {
+              "value": "none",
+              "label": "None"
+            },
+            {
+              "value": "portion_calculator",
+              "label": "Portion Calculator"
+            }
+          ],
+          "default": "none",
+          "label": "Choose a form to display"
         },
         {
           "id": "page",

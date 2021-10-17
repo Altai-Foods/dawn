@@ -1,3 +1,44 @@
+class PortionCalculatorForm extends HTMLElement {
+  constructor() {
+    super();
+    this.querySelector('form').addEventListener('submit', this.onSubmitHandler.bind(this));
+    console.log('starting');
+  }
+
+  onSubmitHandler(event) {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    const obj = Object.fromEntries(formData.entries());
+
+    const productSelection = 'lamb';
+    const petWeight = parseInt(obj['pet-weight'].split('-')[0]); // Take first number of the range
+    const petSize = obj['pet-size'];
+    const portion = parseFloat(obj['portion']);
+
+    const caloriesPerDay = getDailyCalorieCount(
+      productSelection,
+      petWeight,
+      petSize,
+      portion
+    );
+
+    const unitsPerDay = getUnitsPerDay(caloriesPerDay, productSelection);
+    console.log(unitsPerDay)
+
+    const roundedUnitsPerDayByQuarter = (Math.round(unitsPerDay * 4) / 4).toFixed(2);
+
+    console.log(form.querySelector('#daily-unit-recommendation'));
+    form.querySelector('#daily-unit-recommendation').innerText = roundedUnitsPerDayByQuarter;
+    form.querySelector('#recommendation-banner').classList.remove("hidden");
+
+    console.log(roundedUnitsPerDayByQuarter);
+   
+  }
+}
+
+customElements.define('portion-calculator-form', PortionCalculatorForm);
+
 /**
  * Base calorie count per product
  * TODO: Change this back to true values when we can change product and recalculate # of days to send product
@@ -97,32 +138,32 @@ const caloriesNeeded = Object.freeze({
 /**
  * Package size from the manufacturer
  */
-export const standardPackageSize = 18;
+ const standardPackageSize = 18;
 
 /**
  * Kitting size defined in Flow.space
  */
-export const standardKittingMultiple = 6;
+ const standardKittingMultiple = 6;
 
 /**
  * Smallest size kit we allow to be shipped.
  */
-export const minimumPackageSize = 6;
+ const minimumPackageSize = 6;
 
 /**
  * Largest size kit we allow to be shipped.
  */
-export const maximumPackageSize = 108;
+ const maximumPackageSize = 108;
 
 /**
  * Smallest frequency (in days) that we allow for shipping intervals
  */
-export const minimumShippingFrequency = 14;
+ const minimumShippingFrequency = 14;
 
 /**
  * Largest frequency (in days) that we allow for shipping intervals
  */
-export const maximumShippingFrequency = 42;
+ const maximumShippingFrequency = 42;
 
 /**
  * Maps the weight range into a single variable for ease of lookup.
@@ -174,7 +215,7 @@ const mapWeight = (weight) => {
  * @param {String} dogSize options for the dog's size (available options are: 'under', 'normal', 'over')
  * @param {Number} portion Portion size (1 = 100%, 0.5 = 50%, etc)
  */
-export const getDailyCalorieCount = (
+ const getDailyCalorieCount = (
   product = "lamb",
   weight = 45,
   dogSize = "normal",
@@ -196,7 +237,7 @@ export const getDailyCalorieCount = (
  * @param {String} product The name of the product
  * @param {Number} numOfUnits Number of cans / units you are purchasing
  */
-export const getDaysOfFood = (
+ const getDaysOfFood = (
   calorieRequirement,
   product = "lamb",
   numOfUnits
@@ -207,15 +248,15 @@ export const getDaysOfFood = (
  * @param {*} dailyCalorieCount
  * @param {*} product
  */
-export const getUnitsPerDay = (dailyCalorieCount, product) =>
+ const getUnitsPerDay = (dailyCalorieCount, product) =>
   dailyCalorieCount / caloriesPerUnit[product];
 
-export const getFluidOuncesPerDay = (unitsPerDay, unitFluidOunces) =>
+ const getFluidOuncesPerDay = (unitsPerDay, unitFluidOunces) =>
   unitsPerDay * unitFluidOunces;
 
-export const getUnitsPerMonth = (unitsPerDay) => unitsPerDay * 30;
+ const getUnitsPerMonth = (unitsPerDay) => unitsPerDay * 30;
 
-export const getPackageSize = (units) =>
+ const getPackageSize = (units) =>
   units < standardPackageSize ? units : standardPackageSize;
 
 /**
@@ -223,7 +264,7 @@ export const getPackageSize = (units) =>
  * @param {Number} unitCount # of units
  * @returns Correct package size to ship
  */
-export const roundUnitsToPackageSize = (unitCount) => {
+ const roundUnitsToPackageSize = (unitCount) => {
   return unitCount > standardPackageSize
     ? Math.round(unitCount / standardPackageSize) * standardPackageSize
     : Math.round(unitCount / standardKittingMultiple) * standardKittingMultiple;
@@ -234,7 +275,7 @@ export const roundUnitsToPackageSize = (unitCount) => {
  * @param {Number} unitsPerMonth # of units
  * @returns # of units and frequency of shipment
  */
-export const getRoundedUnitsPerMonthObj = (unitsPerMonth) => {
+ const getRoundedUnitsPerMonthObj = (unitsPerMonth) => {
   let adjustedPackageSize = standardPackageSize;
   let roundedNumberOfUnits =
     Math.round(unitsPerMonth / adjustedPackageSize) * adjustedPackageSize;
@@ -275,7 +316,7 @@ const {
  * @param {Number} shippingIntervalFrequency
  * @returns UI data for choosing shipping frequency
  */
-export const getPossibleShippingFrequencies = (
+ const getPossibleShippingFrequencies = (
   units,
   unitsNeedPerDay,
   shippingIntervalFrequency
@@ -337,7 +378,7 @@ export const getPossibleShippingFrequencies = (
  * @param {Number} units Number of units
  * @returns Quantity
  */
-export const getPackageQuantity = (units) => {
+ const getPackageQuantity = (units) => {
   let quantity = Math.floor(units / standardPackageSize);
   if (quantity < 1) {
     quantity = 1;
@@ -345,7 +386,7 @@ export const getPackageQuantity = (units) => {
   return quantity;
 };
 
-export const getFoodOunces = (
+ const getFoodOunces = (
   productSelection,
   petWeight,
   petSize,
@@ -373,7 +414,7 @@ export const getFoodOunces = (
  * @param {String} productSelection Selected product from store products
  * @returns Store product variant
  */
-export const getSelectedProductVariant = (
+ const getSelectedProductVariant = (
   products,
   shippingFrequency,
   unitsPerDay,
@@ -415,7 +456,7 @@ export const getSelectedProductVariant = (
  * @param {Object[]} products Store product objects
  * @returns List of cart items
  */
-export const getPetsAsCartItems = (pets, products) => {
+ const getPetsAsCartItems = (pets, products) => {
   // Items to be added to cart
   const items = [];
 
