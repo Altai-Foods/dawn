@@ -42,6 +42,7 @@
         },
         "ba495c40-c1f5-4da8-99b0-f80559c39437": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "Meal Plan Sizes",
             "form_picker": "none",
@@ -285,13 +286,14 @@
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "swipe_on_mobile": true
       }
     },
     "1633656091473fb21f": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Video",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
