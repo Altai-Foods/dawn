@@ -108,7 +108,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": false
       }
     },

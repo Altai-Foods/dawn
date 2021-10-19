@@ -65,7 +65,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/variety-pack"
+            "button_link": "shopify:\/\/products\/meal-plans"
           }
         }
       },
