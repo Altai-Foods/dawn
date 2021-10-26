@@ -141,7 +141,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shelf Stable - No Freezing Required",
-            "content": "",
+            "content": "<p>The unopened units of Happy Howl are good for 2+ years! So, you shouldn't have any worry of the food going bad.<\/p>",
             "page": "",
             "icon": "star"
           }
@@ -202,7 +202,7 @@
         "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7"
       ],
       "settings": {
-        "heading": "OUR TRUTH",
+        "heading": "QUALITY & TRANSPARENCY",
         "heading_size": "medium"
       }
     },
@@ -284,8 +284,8 @@
         "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
+        "column_alignment": "center",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": true

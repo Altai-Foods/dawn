@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true
+      }
+    },
+    "16350261170ba35b59": {
+      "type": "rich-text",
+      "blocks": {
+        "16350261170ba35b59-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Feeding Guide",
+            "heading_size": "h1"
+          }
+        },
+        "16350261170ba35b59-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have prepared a feeding guide that will help you know exactly the amount to feed your pup.<\/p>"
+          }
+        },
+        "16350261170ba35b59-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Feeding Guide",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/7453\/6301\/files\/HH_feeding_schedule_v2.pdf?v=1617173451",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16350261170ba35b59-0",
+        "16350261170ba35b59-1",
+        "16350261170ba35b59-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16350261170ba35b59"
+  ]
+}

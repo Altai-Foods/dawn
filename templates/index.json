@@ -1,70 +1,24 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Healthier Food for Happier Dogs",
-            "heading_size": "large"
-          }
-        },
-        "357728cf-987d-4198-8bba-423f5314ec13": {
-          "type": "text",
-          "settings": {
-            "text": "Free Shipping. Cancel Anytime."
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "357728cf-987d-4198-8bba-423f5314ec13",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_25.png",
-        "image_2": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Beef_1.jpg",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "accent-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "16325108529508dbe8": {
       "type": "image-with-text",
       "blocks": {
         "16325108529508dbe8-0": {
           "type": "heading",
           "settings": {
-            "heading": "Healthier Food for Happier Dogs"
+            "heading": "healthier food for happier dogs"
           }
         },
         "16325108529508dbe8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Free Shipping. Cancel Anytime.<\/p>"
+            "text": "<p>more years • more love<\/p>"
           }
         },
         "16325108529508dbe8-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP NOW",
+            "button_label": "BUY NOW",
             "button_link": "shopify:\/\/products\/meal-plans"
           }
         }
@@ -77,7 +31,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
         "height": "adapt",
-        "color_scheme": "accent-1",
+        "color_scheme": "inverse",
         "layout": "image_first"
       }
     },
@@ -88,24 +42,24 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_44.png",
-            "title": "1. Choose Your Recipes",
-            "text": "<p>Choose the recipe and portion size that fits your dog and your budget.<\/p>"
+            "title": "i. choose your recipes",
+            "text": "<p>choose the recipe and delivery frequency that fits your dog and your budget.<\/p>"
           }
         },
         "16292521517f255f17-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_45.png",
-            "title": "2. Free Delivery & Easy Storage",
-            "text": "<p>Our shelf-stable meals ship free and arrive ready to eat. No freezer space required!<\/p>"
+            "title": "ii. free delivery & easy storage",
+            "text": "<p>our meals ship free and have a two-year freshness guarantee. Store our meals in your pantry - preservative free.<\/p>"
           }
         },
         "16292521517f255f17-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_46.png",
-            "title": "3. Eat Good, Feel Good",
-            "text": "<p>With every meal, your dog gets healthier and you help us help rescue dogs in need.<\/p>"
+            "title": "iii. eat good, feel good",
+            "text": "<p>with every meal, your dog gets healthier and you help us help rescue dogs in need. Together, we can save all of the dogs.<\/p>"
           }
         }
       },
@@ -115,21 +69,214 @@
         "16292521517f255f17-2"
       ],
       "settings": {
-        "title": "",
+        "title": "how it works:",
         "image_width": "third",
         "image_ratio": "square",
         "column_alignment": "center",
         "background_style": "none",
+        "button_label": "CREATE MEAL PLAN",
+        "button_link": "shopify:\/\/products\/meal-plans",
+        "swipe_on_mobile": true
+      }
+    },
+    "1634751717114493c3": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634751717114493c3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
+            "title": "LAMB DELIGHT",
+            "text": "<p>FORMULATED FOR THE \"WE'VE TRIED EVERYTHING\"<\/p><p> - - - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries making this the healthiest recipe known to man[s best friend].<\/p><p>- - - - - - - - - - - - - <\/p><p>BEST FOR:<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p>- all size breeds (best for small)<\/p><p>- picky eaters<\/p>"
+          }
+        },
+        "1634751717114493c3-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
+            "title": "TASTY TURKEY FEAST",
+            "text": "<p><strong>BEST SELLING RECIPE<\/strong><\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods that your pup is always begging for.<\/p><p>- - - - - - - - - - - - - - -<\/p><p>BEST FOR:<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- all size breeds (best for medium)<\/p><p>- picky eaters<\/p>"
+          }
+        },
+        "1634751717114493c3-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
+            "title": "GRANDMA'S BEEF STEW",
+            "text": "<p>THE PACK FAVORITE<\/p><p>- - - - - - - - - - - - - -<\/p><p>high-quality tender beef mixed with freshly cooked fruits and veggies that is everyone's favorite winter crock-pot comfort food. <\/p><p>- - - - - - - - - - - - - -<\/p><p>BEST FOR:<\/p><p>- puppies & adults<\/p><p>- weight maintenance <\/p><p>- diabetic treatment<\/p><p>- sarcoma & tumor preventative<\/p><p>- active dogs<\/p><p>- large breed dogs (best for large)<\/p><p>- picky eaters<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634751717114493c3-1",
+        "1634751717114493c3-0",
+        "1634751717114493c3-2"
+      ],
+      "settings": {
+        "title": "fresh out the kitchen:",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "SHOP ALL RECIPES",
+        "button_link": "shopify:\/\/products\/meal-plans",
+        "swipe_on_mobile": true
+      }
+    },
+    "1634847173b250c475": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634847173b250c475-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_47.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1634847173b250c475-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_48.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1634847173b250c475-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_49.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634847173b250c475-0",
+        "1634847173b250c475-1",
+        "1634847173b250c475-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1634754847826ccdcf": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634754847826ccdcf-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alicia-jones-13Nt3KvEQ3w-unsplash-removebg-preview.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1634754847826ccdcf-1": {
+          "type": "column",
+          "settings": {
+            "title": "the happy dog promise",
+            "text": "<p><br\/><\/p><p><strong>our mission of helping rescues in need by supporting dogs with:<\/strong><\/p><p><br\/><\/p><p><\/p><p><\/p><p><strong>- healthier meals <\/strong><\/p><p><strong>- necessary supplies<\/strong><\/p><p><strong>- medical treatment assistance <\/strong><\/p><p><strong>- and ultimately, their furever homes.<\/strong><\/p><p><br\/><\/p><p><em>just 1 in 10 dogs born will find a forever home. <\/em><\/p><p><br\/><\/p><p><em>together, we can make the difference.<\/em><\/p>"
+          }
+        },
+        "1634754847826ccdcf-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "77dd248b-a235-47d5-a261-4654baa862a3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634754847826ccdcf-0",
+        "1634754847826ccdcf-1",
+        "1634754847826ccdcf-2",
+        "77dd248b-a235-47d5-a261-4654baa862a3"
+      ],
+      "settings": {
+        "title": "dogs deserve better.",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "NOMINATE A RESCUE",
+        "button_link": "shopify:\/\/pages\/impact",
         "swipe_on_mobile": false
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-1.png",
+            "title": "Melanie Glenn & Husky, Romeo",
+            "text": "<p>“Romeo goes crazy for all three Happy Howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-2.png",
+            "title": "Victor Nicastro & Beagle, Gus",
+            "text": "<p>“I have never seen Gus enjoy a bowl of food like he did with Happy Howl. It looked and smelled so good that we thought it was made for actual humans!”<\/p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group.png",
+            "title": "Julia Feschcenko & Golden Retriever, Wilfred",
+            "text": "<p>“My puppy absolutely loves it. He usually gets an upset stomach after his meals, but not with Happy Howl. This is a huge win for us!”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column2",
+        "column1",
+        "column3"
+      ],
+      "settings": {
+        "title": "they're all howlin' about it:",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "LEAVE A REVIEW",
+        "button_link": "https:\/\/www.trustpilot.com\/review\/thehappyhowl.com?utm_medium=trustbox&utm_source=MicroReviewCount",
+        "swipe_on_mobile": true
       }
     },
     "163277117268e48227": {
       "type": "multicolumn",
       "blocks": {
+        "96bc7b4c-4f75-49b4-8b2f-60b858db4382": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ingredsss.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
         "163277117268e48227-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_39.png",
             "title": "",
@@ -146,17 +293,28 @@
         },
         "163277117268e48227-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_40.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "24bb56df-b6a9-42a8-b134-f5bdb345b310": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ingredsss.jpg",
             "title": "",
             "text": ""
           }
         }
       },
       "block_order": [
+        "96bc7b4c-4f75-49b4-8b2f-60b858db4382",
         "163277117268e48227-1",
         "163277117268e48227-2",
-        "163277117268e48227-0"
+        "163277117268e48227-0",
+        "24bb56df-b6a9-42a8-b134-f5bdb345b310"
       ],
       "settings": {
         "title": "",
@@ -164,8 +322,8 @@
         "image_ratio": "square",
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "OUR STORY",
+        "button_link": "shopify:\/\/blogs\/happy-blog",
         "swipe_on_mobile": true
       }
     },
@@ -200,62 +358,20 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_from_iOS_3__adobespark.jpg",
-        "height": "adapt",
+        "height": "small",
         "color_scheme": "accent-2",
         "layout": "image_first"
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_Group-2.png",
-            "title": "Victor Nicastro & Beagle, Gus",
-            "text": "<p>“I have never seen Gus enjoy a bowl of food like he did with Happy Howl. It looked and smelled so good that we thought it was made for actual humans!”<\/p>"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_Group-1.png",
-            "title": "Melanie Glenn & Husky, Romeo",
-            "text": "<p>“Romeo goes crazy for all three Happy Howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_Group.png",
-            "title": "Julia Feschcenko & Golden Retriever, Wilfred",
-            "text": "<p>“My puppy absolutely loves it. He usually gets an upset stomach after his meals, but not with Happy Howl. This is a huge win for us!”<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Reviews",
-        "image_width": "third",
-        "image_ratio": "circle",
-        "column_alignment": "center",
-        "background_style": "secondary",
-        "button_label": "Add your review",
-        "button_link": "https:\/\/www.trustpilot.com\/review\/thehappyhowl.com?utm_medium=trustbox&utm_source=MicroReviewCount",
-        "swipe_on_mobile": true
       }
     }
   },
   "order": [
-    "image_banner",
     "16325108529508dbe8",
     "16292521517f255f17",
+    "1634751717114493c3",
+    "1634847173b250c475",
+    "1634754847826ccdcf",
+    "multi_column",
     "163277117268e48227",
-    "16325116292cb9b56f",
-    "multi_column"
+    "16325116292cb9b56f"
   ]
 }
