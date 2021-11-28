@@ -68,6 +68,7 @@
         },
         "98d6d88a-87d5-4065-9481-5f8c6e15ebdd": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Ingredients",
             "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
@@ -77,10 +78,11 @@
         },
         "c5e0d89d-126f-43e8-9259-5775b110060c": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Nutrition",
             "content": "",
-            "page": "",
+            "page": "ga-ingredients",
             "icon": "heart"
           }
         },
@@ -123,6 +125,247 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
+      }
+    },
+    "16358870425dcda2ad": {
+      "type": "collage",
+      "blocks": {
+        "16358870425dcda2ad-1": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "16358870425dcda2ad-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "f18e9ebb-2247-43ea-8237-f77645fbe27e": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/turkey_turkey_broth_brown_rice_carrots_green_beans_peas_potato_wheat_flour_spinach_blueberries_turkey_liver_tricalcium_phosphate_pink_Himalayan_salt_salt_dextrose_vitamin_blend_Vitami_28cb87b1-cf82-49af-8b63-91b0994a36ac.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "16358870425dcda2ad-1",
+        "16358870425dcda2ad-2",
+        "f18e9ebb-2247-43ea-8237-f77645fbe27e"
+      ],
+      "settings": {
+        "heading": "NUTRITIONAL INFORMATION",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
+    "1635962208cc17b3ed": {
+      "type": "collage",
+      "blocks": {
+        "779c4ece-ed40-4125-adfd-fff9aeb0ff5e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_47.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "7d8089ee-7ffc-4247-b1ea-99d1e761deb1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "257db9bb-ae3c-40ab-a19e-d46362c06c2a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_54.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "779c4ece-ed40-4125-adfd-fff9aeb0ff5e",
+        "7d8089ee-7ffc-4247-b1ea-99d1e761deb1",
+        "257db9bb-ae3c-40ab-a19e-d46362c06c2a"
+      ],
+      "settings": {
+        "heading": "Lamb Delight",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
+    "163596189963befadd": {
+      "type": "collage",
+      "blocks": {
+        "30eddab5-5647-4935-ab95-d4d388700a42": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_48.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "e0e19ecf-90c1-41b2-85b6-10822beea881": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "5f75ac20-a8e0-433d-aa48-a402ecc2fea1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_53.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "30eddab5-5647-4935-ab95-d4d388700a42",
+        "e0e19ecf-90c1-41b2-85b6-10822beea881",
+        "5f75ac20-a8e0-433d-aa48-a402ecc2fea1"
+      ],
+      "settings": {
+        "heading": "Tasty Turkey Feast",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
+    "1635961362ae7c08c0": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1635961362ae7c08c0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tasty Turkey Feast"
+          }
+        },
+        "1635961362ae7c08c0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "c366e142-cb6f-4ac6-89bb-ac8ab620a23a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635961362ae7c08c0-0",
+        "1635961362ae7c08c0-1",
+        "c366e142-cb6f-4ac6-89bb-ac8ab620a23a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_53.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1635962396f37d6d0b": {
+      "type": "collage",
+      "blocks": {
+        "fb7de8b7-2b66-42c4-98ae-18206e9b4849": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_49.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "eda4614e-1d69-4b09-a81e-221e31d2d6b3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grandma_s_Beef_stew_ingredients_and_bowl-min.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "3d034cf9-6f8b-46d1-bdad-10d7dd787387": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_55.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "fb7de8b7-2b66-42c4-98ae-18206e9b4849",
+        "eda4614e-1d69-4b09-a81e-221e31d2d6b3",
+        "3d034cf9-6f8b-46d1-bdad-10d7dd787387"
+      ],
+      "settings": {
+        "heading": "Grandma's Beef Stew",
+        "desktop_layout": "right",
+        "mobile_layout": "collage"
+      }
+    },
+    "1635885369ba5d0784": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1635885369ba5d0784-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_49.png",
+            "title": "Grandma's Beef Stew - Hearty & Healthy",
+            "text": ""
+          }
+        },
+        "1635885369ba5d0784-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_47.png",
+            "title": "Lamb Delight - Prescription Alternative",
+            "text": ""
+          }
+        },
+        "1635885369ba5d0784-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_48.png",
+            "title": "Tasty Turkey Feast - Lean & Clean",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1635885369ba5d0784-2",
+        "1635885369ba5d0784-0",
+        "1635885369ba5d0784-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "1631733066fe40f40f": {
@@ -208,27 +451,29 @@
     },
     "1632768446d76bb16c": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "1632768446d76bb16c-0": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
+            "cover_image": "shopify:\/\/shop_images\/AdobeStock_82849225_2.jpg",
+            "video_url": "https:\/\/vimeo.com\/544062431",
+            "description": "Olive the Tiny Doodle gets happy for dinner time. Olive suffers from cerebellar hypoplasia and represents the Be Like Josh Foundation.",
             "image_padding": false
           }
         },
         "1632768446d76bb16c-1": {
           "type": "product",
+          "disabled": true,
           "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
+            "product": "meal-plans",
+            "second_image": true,
+            "image_padding": true,
             "secondary_background": false
           }
         },
         "1632768446d76bb16c-2": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image_padding": false,
@@ -242,13 +487,14 @@
         "1632768446d76bb16c-2"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Happy Rescue Doggies",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
     },
     "16327685259c766dcd": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16327685259c766dcd-0": {
           "type": "column",
@@ -305,6 +551,12 @@
   "order": [
     "main",
     "product-recommendations",
+    "16358870425dcda2ad",
+    "1635962208cc17b3ed",
+    "163596189963befadd",
+    "1635961362ae7c08c0",
+    "1635962396f37d6d0b",
+    "1635885369ba5d0784",
     "1631733066fe40f40f",
     "1632768446d76bb16c",
     "16327685259c766dcd",
