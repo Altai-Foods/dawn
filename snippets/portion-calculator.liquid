@@ -69,12 +69,50 @@
         {% render 'icon-caret' %}
       </div>
       <div class="form__label warning">
-        * Note: If you choose an option other than Top Dog (100%), you still need to feed your dog other food to complete their meal.
+        * Note: If you choose an option other than Top Dog (100%), you will need to supplement additional food with Happy Howl.
       </div>
     </div>
     <button type="submit" class='button button--primary'>Calculate</button>
-    <p id="recommendation-banner" class="hidden">
-      We recommend feeding your dog <span id="daily-unit-recommendation"></span> cartons of Happy Howl food per day (not per meal).
-    </p>
+    <div id="recommendations" class="hidden">
+      <h3>
+        Recommendations
+      </h3>
+      <p id="recommendation-banner">
+        We recommend feeding your dog <strong><span id="daily-unit-recommendation"></span> cartons</strong> or <strong><span id="daily-cup-recommendation"></span> cups</strong> of Happy Howl food per day (not per meal).
+      </p>
+      <table id="recommendation-table">
+        <thead>
+          <th>
+            Cartons
+          </th>
+          <th>
+            Quantity
+          </th>
+          <th>
+            Recommended Days
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="carton-6-variant">
+              6
+            </td>
+            <td id="carton-6-quantity">
+            </td>
+            <td id="carton-6-recommended-days">
+            </td>
+          </tr>
+          <tr>
+            <td d="carton-18-variant">
+              18
+            </td>
+            <td id="carton-18-quantity">
+            </td>
+            <td id="carton-18-recommended-days">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </form>
 </portion-calculator-form>

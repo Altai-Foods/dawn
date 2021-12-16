@@ -24,16 +24,29 @@ class PortionCalculatorForm extends HTMLElement {
     );
 
     const unitsPerDay = getUnitsPerDay(caloriesPerDay, productSelection);
-    console.log(unitsPerDay)
-
     const roundedUnitsPerDayByQuarter = (Math.round(unitsPerDay * 4) / 4).toFixed(2);
+    const cupsPerDay = unitsPerDay / cartonCups;
+    const roundedCupsPerDayByQuarter = (Math.round(cupsPerDay * 4) / 4).toFixed(2);
 
-    console.log(form.querySelector('#daily-unit-recommendation'));
+    const smallCaseBaseRecommendedDays = Math.pow((unitsPerDay) / standardKittingMultiple, -1);
+    const standardCaseBaseRecommendedDays = Math.pow((unitsPerDay) / standardPackageSize, -1);
+
+    const smallCasePortionInfo = getMinimumPortionInfo(standardKittingMultiple, smallCaseBaseRecommendedDays);
+    const standardCasePortionInfo = getMinimumPortionInfo(standardPackageSize, standardCaseBaseRecommendedDays);
+
+    // Banner
     form.querySelector('#daily-unit-recommendation').innerText = roundedUnitsPerDayByQuarter;
-    form.querySelector('#recommendation-banner').classList.remove("hidden");
+    form.querySelector('#daily-cup-recommendation').innerText = roundedCupsPerDayByQuarter;
 
-    console.log(roundedUnitsPerDayByQuarter);
-   
+    // Table
+    form.querySelector('#carton-6-recommended-days').innerText = Math.floor(smallCasePortionInfo.recommendedDays);
+    form.querySelector('#carton-6-quantity').innerText = smallCasePortionInfo.quantity;
+    form.querySelector('#carton-18-recommended-days').innerText = Math.floor(standardCasePortionInfo.recommendedDays);
+    form.querySelector('#carton-18-quantity').innerText = standardCasePortionInfo.quantity;
+    form.querySelector('#recommendation-table').removeAttribute('class');
+
+    // Recommendations
+    form.querySelector('#recommendations').classList.remove('hidden');
   }
 }
 
@@ -134,6 +147,16 @@ const caloriesNeeded = Object.freeze({
     },
   },
 });
+
+/**
+ * Fluid ounces of each carton content
+ */
+const cartonOunces = 14.6;
+
+/**
+ * Number of cups of food in each carton
+ */
+const cartonCups = cartonOunces / 8;
 
 /**
  * Package size from the manufacturer
@@ -301,13 +324,19 @@ const mapWeight = (weight) => {
   };
 };
 
-const {
-  images: {
-    wizardForm: {
-      stepThree: { oneWeekCal, twoWeekCal, fourWeekCal },
-    },
-  },
-} = window.liquidVariables;
+const getMinimumPortionInfo = (caseSize, recommendedBaseDays) => {
+  let recommendedDays = recommendedBaseDays;
+  let quantity = 1;
+  while (recommendedDays <= 14) {
+    recommendedDays += recommendedBaseDays;
+    quantity += 1;
+  }
+  return {
+    caseSize,
+    recommendedDays,
+    quantity
+  }
+}
 
 /**
  * Creates options for shipping frequency based on a standard shipping window
