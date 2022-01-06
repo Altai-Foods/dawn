@@ -5,6 +5,20 @@
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
 <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
 
 {%- assign product = section.settings.product -%}
@@ -16,48 +30,50 @@
   <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
-<section class="{% if section.settings.secondary_background %}background-secondary{% else %}spaced-section{% endif %}">
-  <div class="page-width">
+<section{% if section.settings.secondary_background %} class="background-secondary"{% endif %}>
+  <div class="page-width section-{{ section.id }}-padding">
     <div class="featured-product product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
       <div class="grid__item product__media-wrapper">
-        <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
-          {{ "accessibility.skip_to_product_info" | t }}
-        </a>
-        <div class="product__media-list">
-          {%- if product.selected_or_first_available_variant.featured_media != null -%}
-            {%- assign media = product.selected_or_first_available_variant.featured_media -%}
-            <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
-              {% render 'product-thumbnail', media: media, position: 'featured', loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: false %}
-            </div>
-          {%- endif -%}
-          {%- liquid
-            assign media_to_render = product.featured_media.id
-            for variant in product.variants
-              assign media_to_render = media_to_render | append: variant.featured_media.id | append: ' '
-            endfor
-          -%}
-          {%- for media in product.media -%}
-            {%- if media_to_render contains media.id and media.id != product.selected_or_first_available_variant.featured_media.id -%}
+        <media-gallery id="MediaGallery-{{ section.id }}" role="region" aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="stacked">
+          <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
+            {{ "accessibility.skip_to_product_info" | t }}
+          </a>
+          <div id="GalleryViewer-{{ section.id }}" class="product__media-list">
+            {%- if product.selected_or_first_available_variant.featured_media != null -%}
+              {%- assign media = product.selected_or_first_available_variant.featured_media -%}
               <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
-                {% render 'product-thumbnail', media: media, position: forloop.index, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: false %}
+                {% render 'product-thumbnail', media: media, position: 'featured', loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: false, media_width: 0.5 %}
               </div>
             {%- endif -%}
-          {%- endfor -%}
-        </div>
-        {%- if first_3d_model -%}
-          <button
-            class="button button--full-width product__xr-button"
-            type="button"
-            aria-label="{{ 'products.product.xr_button_label' | t }}"
-            data-shopify-xr
-            data-shopify-model3d-id="{{ first_3d_model.id }}"
-            data-shopify-title="{{ product.title | escape }}"
-            data-shopify-xr-hidden
-          >
-            {% render 'icon-3d-model' %}
-            {{ 'products.product.xr_button' | t }}
-          </button>
-        {%- endif -%}
+            {%- liquid
+              assign media_to_render = product.featured_media.id
+              for variant in product.variants
+                assign media_to_render = media_to_render | append: variant.featured_media.id | append: ' '
+              endfor
+            -%}
+            {%- for media in product.media -%}
+              {%- if media_to_render contains media.id and media.id != product.selected_or_first_available_variant.featured_media.id -%}
+                <div class="product__media-item" data-media-id="{{ section.id }}-{{ media.id }}">
+                  {% render 'product-thumbnail', media: media, position: forloop.index, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: false, media_width: 0.5 %}
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+          {%- if first_3d_model -%}
+            <button
+              class="button button--full-width product__xr-button"
+              type="button"
+              aria-label="{{ 'products.product.xr_button_label' | t }}"
+              data-shopify-xr
+              data-shopify-model3d-id="{{ first_3d_model.id }}"
+              data-shopify-title="{{ product.title | escape }}"
+              data-shopify-xr-hidden
+            >
+              {% render 'icon-3d-model' %}
+              {{ 'products.product.xr_button' | t }}
+            </button>
+          {%- endif -%}
+        </media-gallery>
       </div>
       <div class="product__info-wrapper grid__item">
         <div id="ProductInfo-{{ section.id }}" class="product__info-container">
@@ -78,7 +94,7 @@
                 {%- endif -%}
               </h2>
             {%- when 'price' -%}
-              <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
+              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                 {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
               </div>
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
@@ -119,7 +135,7 @@
                       id="Quantity-{{ section.id }}"
                       min="1"
                       value="1"
-                      form="product-form-{{ section.id }}"
+                      form="{{ product_form_id }}"
                     >
                   <button class="quantity__button no-js-hidden" name="plus" type="button">
                     <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
@@ -129,12 +145,12 @@
               </div>
             {%- when 'share' -%}
               <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-              <share-button class="share-button" {{ block.shopify_attributes }}>
+              <share-button id="Share-{{ section.id }}" class="share-button" {{ block.shopify_attributes }}>
                 <button class="share-button__button hidden">
                   {% render 'icon-share' %}
                   {{ block.settings.share_label | escape }}
                 </button>
-                <details>
+                <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary class="share-button__button">
                     {% render 'icon-share' %}
                     {{ block.settings.share_label | escape }}
@@ -146,7 +162,7 @@
                       <input type="text"
                             class="field__input"
                             id="url"
-                            value="{{ shop.url | append: product.url }}"
+                            value="{{ product.selected_variant.url | default: product.url | prepend: shop.url }}"
                             placeholder="{{ 'general.share.share_url' | t }}"
                             onclick="this.select();"
                             readonly
@@ -172,13 +188,13 @@
                         <fieldset class="js product-form__input">
                           <legend class="form__label">{{ option.name }}</legend>
                           {%- for value in option.values -%}
-                            <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
+                            <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                                   name="{{ option.name }}"
                                   value="{{ value | escape }}"
-                                  form="product-form-{{ section.id }}"
+                                  form="{{ product_form_id }}"
                                   {% if option.selected_value == value %}checked{% endif %}
                             >
-                            <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
+                            <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                               {{ value }}
                             </label>
                           {%- endfor -%}
@@ -199,7 +215,7 @@
                           <select id="Option-{{ section.id }}-{{ forloop.index0 }}"
                             class="select__select"
                             name="options[{{ option.name | escape }}]"
-                            form="product-form-{{ section.id }}"
+                            form="{{ product_form_id }}"
                           >
                             {%- for value in option.values -%}
                               <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
@@ -223,7 +239,7 @@
                 <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                   <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
                   <div class="select">
-                    <select name="id" data-productid="{{ product.id }}" id="Variants-{{ section.id }}" class="select__select" form="product-form">
+                    <select name="id" data-productid="{{ product.id }}" id="Variants-{{ section.id }}" class="select__select" form="{{ product_form_id }}">
                       {%- for variant in product.variants -%}
                         <option
                           {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
@@ -258,8 +274,7 @@
                       <!-- Begin ReCharge code -->
                       {% if product.available %}{% render 'subscription-product' with product as product %}{% endif %}
                       <!-- End ReCharge code -->
-
-                      <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                      <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                       <div class="product-form__buttons">
                         <button
                           type="submit"
@@ -336,7 +351,6 @@
         </div>
       </div>
     </div>
-
     <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
       <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
         <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
@@ -413,22 +427,30 @@
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
 {%- endif -%}
 
+{%- liquid
+  if product.selected_or_first_available_variant.featured_media
+    assign seo_media = product.selected_or_first_available_variant.featured_media
+  else
+    assign seo_media = product.featured_media
+  endif
+-%}
+
 <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
     "@type": "Product",
     "name": {{ product.title | json }},
     "url": {{ shop.url | append: product.url | json }},
-    {%- if product.selected_or_first_available_variant.featured_media -%}
-      {%- assign media_size = product.selected_or_first_available_variant.featured_media.preview_image.width | append: 'x' -%}
+    {% if seo_media -%}
+      {%- assign media_size = seo_media.preview_image.width | append: 'x' -%}
       "image": [
-        {{ product.featured_media | img_url: media_size | prepend: "https:" | json }}
+        {{ seo_media | img_url: media_size | prepend: "https:" | json }}
       ],
-    {%- endif -%}
+    {%- endif %}
     "description": {{ product.description | strip_html | json }},
-    {%- if product.selected_or_first_available_variant.sku != blank -%}
+    {% if product.selected_or_first_available_variant.sku != blank -%}
       "sku": {{ product.selected_or_first_available_variant.sku | json }},
-    {%- endif -%}
+    {%- endif %}
     "brand": {
       "@type": "Thing",
       "name": {{ product.vendor | json }}
@@ -473,11 +495,15 @@
   });
 </script>
 
+{% if product.media.size > 0 %}
+  <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
+{% endif %}
+
 {% schema %}
 {
   "name": "t:sections.featured-product.name",
   "tag": "section",
-  "class": "featured-product-section spaced-section spaced-section--full-width",
+  "class": "section section-featured-product",
   "blocks": [
     {
       "type": "text",
@@ -635,6 +661,30 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.featured-product.settings.enable_video_looping.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
     }
   ],
   "presets": [
