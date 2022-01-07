@@ -6,13 +6,13 @@
         "16325108529508dbe8-0": {
           "type": "heading",
           "settings": {
-            "heading": "The #1 Food For Dogs With Digestive Problems"
+            "heading": "Healthier, Easier, More Affordable."
           }
         },
         "16325108529508dbe8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>See a difference with your first order.<\/p><p>Our all-natural ingredients give dogs more years to enjoy happier days, without locking you into a subscription.<\/p>"
+            "text": "<p><\/p><p>Don't have room for 15 pounds of dog food in your freezer? <\/p><p>Happy Howl's revolutionary steam and pressure preparation delivers healthier, all-natural meals with ZERO freezing and thawing - without locking you into a subscription!<\/p>"
           }
         },
         "16325108529508dbe8-2": {
@@ -76,6 +76,86 @@
         "background_style": "none",
         "button_label": "READ ALL REVIEWS",
         "button_link": "https:\/\/www.trustpilot.com\/review\/thehappyhowl.com?utm_medium=trustbox&utm_source=MicroReviewCount",
+        "swipe_on_mobile": true
+      }
+    },
+    "16413425295f662b3e": {
+      "type": "image-with-text",
+      "blocks": {
+        "1641342529ee45038b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dog Food Filling Up Your Freezer?"
+          }
+        },
+        "1641342529ee45038b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Fresh” doesn’t mean “frozen.” Happy Howl’s revolutionary Steam Pressure preparation process means our food stays fresh in your pantry for two years - with zero preservatives!<\/p>"
+          }
+        },
+        "1641342529ee45038b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Get 50% Off Your First Box!",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641342529ee45038b-0",
+        "1641342529ee45038b-1",
+        "1641342529ee45038b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Happy_Howl_Pantry_Stable_Fresh_Dog_Food_No_Freezing_or_Thawing.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "image_first"
+      }
+    },
+    "1634751717114493c3": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634751717114493c3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
+            "title": "LAMB DELIGHT",
+            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
+          }
+        },
+        "1634751717114493c3-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
+            "title": "TASTY TURKEY FEAST",
+            "text": "<p>WEIGHT LOSS & HEALTHY HEARTS<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods<\/p>"
+          }
+        },
+        "1634751717114493c3-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
+            "title": "GRANDMA'S BEEF STEW",
+            "text": "<p><\/p><p>FOR ACTIVE DOGS<\/p><p>- weight maintenance <\/p><p>- diabetic treatment<\/p><p>- sarcoma & tumor preventative<\/p><p>- active dogs<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - -<\/p><p>high-quality tender beef mixed with freshly cooked fruits and veggies<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634751717114493c3-1",
+        "1634751717114493c3-0",
+        "1634751717114493c3-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "FREE SHIPPING, ALWAYS",
+        "button_link": "shopify:\/\/products\/meal-plans",
         "swipe_on_mobile": true
       }
     },
@@ -258,42 +338,6 @@
         "show_text_below": true
       }
     },
-    "16413425295f662b3e": {
-      "type": "image-with-text",
-      "blocks": {
-        "1641342529ee45038b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Dog Food Filling Up Your Freezer?"
-          }
-        },
-        "1641342529ee45038b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“Fresh” doesn’t mean “frozen.” Happy Howl’s revolutionary Steam Pressure preparation process means our food stays fresh in your pantry for two years - with zero preservatives!<\/p>"
-          }
-        },
-        "1641342529ee45038b-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Get 50% Off Your First Box!",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1641342529ee45038b-0",
-        "1641342529ee45038b-1",
-        "1641342529ee45038b-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Howl_Pantry_Stable_Fresh_Dog_Food_No_Freezing_or_Thawing.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-1",
-        "layout": "image_first"
-      }
-    },
     "1634754847826ccdcf": {
       "type": "multicolumn",
       "blocks": {
@@ -344,50 +388,6 @@
         "button_label": "NOMINATE A RESCUE",
         "button_link": "shopify:\/\/pages\/impact",
         "swipe_on_mobile": false
-      }
-    },
-    "1634751717114493c3": {
-      "type": "multicolumn",
-      "blocks": {
-        "1634751717114493c3-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
-            "title": "LAMB DELIGHT",
-            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
-          }
-        },
-        "1634751717114493c3-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
-            "title": "TASTY TURKEY FEAST",
-            "text": "<p>WEIGHT LOSS & HEALTHY HEARTS<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods<\/p>"
-          }
-        },
-        "1634751717114493c3-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
-            "title": "GRANDMA'S BEEF STEW",
-            "text": "<p><\/p><p>FOR ACTIVE DOGS<\/p><p>- weight maintenance <\/p><p>- diabetic treatment<\/p><p>- sarcoma & tumor preventative<\/p><p>- active dogs<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - -<\/p><p>high-quality tender beef mixed with freshly cooked fruits and veggies<\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1634751717114493c3-1",
-        "1634751717114493c3-0",
-        "1634751717114493c3-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "SHOP ALL RECIPES",
-        "button_link": "shopify:\/\/products\/meal-plans",
-        "swipe_on_mobile": true
       }
     },
     "163277117268e48227": {
@@ -596,13 +596,13 @@
   "order": [
     "16325108529508dbe8",
     "multi_column",
+    "16413425295f662b3e",
+    "1634751717114493c3",
     "1640280927ec9d7fdf",
     "1634847173b250c475",
     "16292521517f255f17",
     "1640281644a3d05fc7",
-    "16413425295f662b3e",
     "1634754847826ccdcf",
-    "1634751717114493c3",
     "163277117268e48227",
     "16325116292cb9b56f",
     "16402809522c255109",

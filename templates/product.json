@@ -22,11 +22,6 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -57,6 +52,11 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
@@ -97,12 +97,12 @@
         "vendor",
         "title",
         "subtitle",
-        "price",
         "description",
         "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
         "ba495c40-c1f5-4da8-99b0-f80559c39437",
         "variant_picker",
         "quantity_selector",
+        "price",
         "buy_buttons",
         "98d6d88a-87d5-4065-9481-5f8c6e15ebdd",
         "c5e0d89d-126f-43e8-9259-5775b110060c",

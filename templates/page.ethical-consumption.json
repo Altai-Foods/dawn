@@ -6,13 +6,13 @@
         "16325108529508dbe8-0": {
           "type": "heading",
           "settings": {
-            "heading": "The #1 Food For Dogs With Digestive Problems"
+            "heading": "Every Order Feeds a Rescue Dog"
           }
         },
         "16325108529508dbe8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>See a difference with your first order.<\/p><p>Our all-natural ingredients give dogs more years to enjoy happier days, without locking you into a subscription.<\/p>"
+            "text": "<p>When we say we care about healthier dogs, we mean it. <\/p><p>Happy Howl doesn't just help pups at home, we also support animal rescues across America.<\/p>"
           }
         },
         "16325108529508dbe8-2": {
@@ -33,6 +33,102 @@
         "height": "adapt",
         "color_scheme": "inverse",
         "layout": "image_first"
+      }
+    },
+    "1634754847826ccdcf": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634754847826ccdcf-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alicia-jones-13Nt3KvEQ3w-unsplash-removebg-preview.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1634754847826ccdcf-1": {
+          "type": "column",
+          "settings": {
+            "title": "Join our mission of assisting rescue organizations by providing vulnerable dogs with:",
+            "text": "<p><\/p><p><\/p><p><\/p><p><strong>- healthier meals <\/strong><\/p><p><strong>- necessary supplies<\/strong><\/p><p><strong>- medical treatment assistance <\/strong><\/p><p><strong>- and ultimately, their furever homes.<\/strong><\/p><p><br\/><em>just 1 in 10 dogs born will find a forever home. <\/em><\/p><p><em>together, we can make the difference.<\/em><\/p>"
+          }
+        },
+        "1634754847826ccdcf-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "77dd248b-a235-47d5-a261-4654baa862a3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634754847826ccdcf-0",
+        "1634754847826ccdcf-1",
+        "1634754847826ccdcf-2",
+        "77dd248b-a235-47d5-a261-4654baa862a3"
+      ],
+      "settings": {
+        "title": "Every order feeds a rescue dog",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "NOMINATE A RESCUE",
+        "button_link": "shopify:\/\/pages\/impact",
+        "swipe_on_mobile": false
+      }
+    },
+    "1640280927ec9d7fdf": {
+      "type": "multicolumn",
+      "blocks": {
+        "16402809276ef235a1-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Howl_Human_Grade_Ingredients_Icon_Healthiest_Dog_Food.png",
+            "title": "Human-Grade Fresh Ingredients",
+            "text": "<p>100% all-natural ingredients exceed all AFFCO standards and provide complete and balanced nutrition<\/p>"
+          }
+        },
+        "16402809276ef235a1-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Howl_Vet_Formulated_Recipes_Icon_Healthiest_Dog_Food.png",
+            "title": "Vet-Formulated Recipes",
+            "text": "<p>Our recipes aren't just delicious - they're designed by vets to combat health and digestive problems<\/p>"
+          }
+        },
+        "16402809276ef235a1-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Howl_USDA_Certified_Kitchens_Icon_Healthiest_Dog_Food.png",
+            "title": "Cooked in a USDA-Certified Kitchen",
+            "text": "<p>Just like the food you eat yourself! Our food is hand-cooked in small batches, then rigorously tested by a certified 3rd party for quality assurance<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16402809276ef235a1-0",
+        "16402809276ef235a1-1",
+        "16402809276ef235a1-2"
+      ],
+      "settings": {
+        "title": "The Healthiest, Easiest, Most Affordable Fresh Dog Food. Anywhere.",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "FREE SHIPPING, ALWAYS",
+        "button_link": "shopify:\/\/products\/meal-plans",
+        "swipe_on_mobile": false
       }
     },
     "multi_column": {
@@ -79,48 +175,48 @@
         "swipe_on_mobile": true
       }
     },
-    "1640280927ec9d7fdf": {
+    "1634751717114493c3": {
       "type": "multicolumn",
       "blocks": {
-        "16402809276ef235a1-0": {
+        "1634751717114493c3-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Happy_Howl_Human_Grade_Ingredients_Icon_Healthiest_Dog_Food.png",
-            "title": "Human-Grade Fresh Ingredients",
-            "text": "<p>100% all-natural ingredients exceed all AFFCO standards and provide complete and balanced nutrition<\/p>"
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
+            "title": "LAMB DELIGHT",
+            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
           }
         },
-        "16402809276ef235a1-1": {
+        "1634751717114493c3-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Happy_Howl_Vet_Formulated_Recipes_Icon_Healthiest_Dog_Food.png",
-            "title": "Vet-Formulated Recipes",
-            "text": "<p>Our recipes aren't just delicious - they're designed by vets to combat health and digestive problems<\/p>"
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
+            "title": "TASTY TURKEY FEAST",
+            "text": "<p>WEIGHT LOSS & HEALTHY HEARTS<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods<\/p>"
           }
         },
-        "16402809276ef235a1-2": {
+        "1634751717114493c3-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Happy_Howl_USDA_Certified_Kitchens_Icon_Healthiest_Dog_Food.png",
-            "title": "Cooked in a USDA-Certified Kitchen",
-            "text": "<p>Just like the food you eat yourself! Our food is hand-cooked in small batches, then rigorously tested by a certified 3rd party for quality assurance<\/p>"
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
+            "title": "GRANDMA'S BEEF STEW",
+            "text": "<p><\/p><p>FOR ACTIVE DOGS<\/p><p>- weight maintenance <\/p><p>- diabetic treatment<\/p><p>- sarcoma & tumor preventative<\/p><p>- active dogs<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - -<\/p><p>high-quality tender beef mixed with freshly cooked fruits and veggies<\/p><p><\/p>"
           }
         }
       },
       "block_order": [
-        "16402809276ef235a1-0",
-        "16402809276ef235a1-1",
-        "16402809276ef235a1-2"
+        "1634751717114493c3-1",
+        "1634751717114493c3-0",
+        "1634751717114493c3-2"
       ],
       "settings": {
-        "title": "The Healthiest, Easiest, Most Affordable Fresh Dog Food. Anywhere.",
-        "image_width": "half",
+        "title": "",
+        "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "50% OFF YOUR 1st BOX",
+        "button_label": "SHOP ALL RECIPES",
         "button_link": "shopify:\/\/products\/meal-plans",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "1634847173b250c475": {
@@ -292,102 +388,6 @@
         "height": "adapt",
         "color_scheme": "accent-1",
         "layout": "image_first"
-      }
-    },
-    "1634754847826ccdcf": {
-      "type": "multicolumn",
-      "blocks": {
-        "1634754847826ccdcf-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alicia-jones-13Nt3KvEQ3w-unsplash-removebg-preview.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "1634754847826ccdcf-1": {
-          "type": "column",
-          "settings": {
-            "title": "Join our mission of supporting rescues across America by providing vulnerable dogs with:",
-            "text": "<p><\/p><p><\/p><p><\/p><p><strong>- healthier meals <\/strong><\/p><p><strong>- necessary supplies<\/strong><\/p><p><strong>- medical treatment assistance <\/strong><\/p><p><strong>- and ultimately, their furever homes.<\/strong><\/p><p><br\/><em>just 1 in 10 dogs born will find a forever home. <\/em><\/p><p><em>together, we can make the difference.<\/em><\/p>"
-          }
-        },
-        "1634754847826ccdcf-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "77dd248b-a235-47d5-a261-4654baa862a3": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1634754847826ccdcf-0",
-        "1634754847826ccdcf-1",
-        "1634754847826ccdcf-2",
-        "77dd248b-a235-47d5-a261-4654baa862a3"
-      ],
-      "settings": {
-        "title": "Every order feeds a rescue dog",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "NOMINATE A RESCUE",
-        "button_link": "shopify:\/\/pages\/impact",
-        "swipe_on_mobile": false
-      }
-    },
-    "1634751717114493c3": {
-      "type": "multicolumn",
-      "blocks": {
-        "1634751717114493c3-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
-            "title": "LAMB DELIGHT",
-            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
-          }
-        },
-        "1634751717114493c3-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
-            "title": "TASTY TURKEY FEAST",
-            "text": "<p>WEIGHT LOSS & HEALTHY HEARTS<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods<\/p>"
-          }
-        },
-        "1634751717114493c3-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
-            "title": "GRANDMA'S BEEF STEW",
-            "text": "<p><\/p><p>FOR ACTIVE DOGS<\/p><p>- weight maintenance <\/p><p>- diabetic treatment<\/p><p>- sarcoma & tumor preventative<\/p><p>- active dogs<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - -<\/p><p>high-quality tender beef mixed with freshly cooked fruits and veggies<\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1634751717114493c3-1",
-        "1634751717114493c3-0",
-        "1634751717114493c3-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "SHOP ALL RECIPES",
-        "button_link": "shopify:\/\/products\/meal-plans",
-        "swipe_on_mobile": true
       }
     },
     "163277117268e48227": {
@@ -595,14 +595,14 @@
   },
   "order": [
     "16325108529508dbe8",
-    "multi_column",
+    "1634754847826ccdcf",
     "1640280927ec9d7fdf",
+    "multi_column",
+    "1634751717114493c3",
     "1634847173b250c475",
     "16292521517f255f17",
     "1640281644a3d05fc7",
     "16413425295f662b3e",
-    "1634754847826ccdcf",
-    "1634751717114493c3",
     "163277117268e48227",
     "16325116292cb9b56f",
     "16402809522c255109",
