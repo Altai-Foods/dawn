@@ -35,6 +35,50 @@
         "layout": "image_first"
       }
     },
+    "1634751717114493c3": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634751717114493c3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
+            "title": "LAMB DELIGHT",
+            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
+          }
+        },
+        "1634751717114493c3-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
+            "title": "TASTY TURKEY FEAST",
+            "text": "<p>WEIGHT LOSS & HEALTHY HEARTS<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods<\/p>"
+          }
+        },
+        "1634751717114493c3-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
+            "title": "GRANDMA'S BEEF STEW",
+            "text": "<p><\/p><p>FOR ACTIVE DOGS<\/p><p>- weight maintenance <\/p><p>- diabetic treatment<\/p><p>- sarcoma & tumor preventative<\/p><p>- active dogs<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - -<\/p><p>high-quality tender beef mixed with freshly cooked fruits and veggies<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634751717114493c3-1",
+        "1634751717114493c3-0",
+        "1634751717114493c3-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "FREE SHIPPING, ALWAYS",
+        "button_link": "shopify:\/\/products\/meal-plans",
+        "swipe_on_mobile": true
+      }
+    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -346,50 +390,6 @@
         "swipe_on_mobile": false
       }
     },
-    "1634751717114493c3": {
-      "type": "multicolumn",
-      "blocks": {
-        "1634751717114493c3-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
-            "title": "LAMB DELIGHT",
-            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
-          }
-        },
-        "1634751717114493c3-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
-            "title": "TASTY TURKEY FEAST",
-            "text": "<p>WEIGHT LOSS & HEALTHY HEARTS<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods<\/p>"
-          }
-        },
-        "1634751717114493c3-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
-            "title": "GRANDMA'S BEEF STEW",
-            "text": "<p><\/p><p>FOR ACTIVE DOGS<\/p><p>- weight maintenance <\/p><p>- diabetic treatment<\/p><p>- sarcoma & tumor preventative<\/p><p>- active dogs<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - -<\/p><p>high-quality tender beef mixed with freshly cooked fruits and veggies<\/p><p><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1634751717114493c3-1",
-        "1634751717114493c3-0",
-        "1634751717114493c3-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "SHOP ALL RECIPES",
-        "button_link": "shopify:\/\/products\/meal-plans",
-        "swipe_on_mobile": true
-      }
-    },
     "163277117268e48227": {
       "type": "multicolumn",
       "blocks": {
@@ -595,6 +595,7 @@
   },
   "order": [
     "16325108529508dbe8",
+    "1634751717114493c3",
     "multi_column",
     "1640280927ec9d7fdf",
     "1634847173b250c475",
@@ -602,7 +603,6 @@
     "1640281644a3d05fc7",
     "16413425295f662b3e",
     "1634754847826ccdcf",
-    "1634751717114493c3",
     "163277117268e48227",
     "16325116292cb9b56f",
     "16402809522c255109",
