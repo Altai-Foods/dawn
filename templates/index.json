@@ -42,23 +42,23 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_Group-1.png",
-            "title": "Melanie Glenn & Husky, Romeo",
+            "title": "Melanie & Romeo",
             "text": "<p>“Romeo goes crazy for all three Happy Howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
           }
         },
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_Group-2.png",
-            "title": "Victor Nicastro & Beagle, Gus",
-            "text": "<p>“I have never seen Gus enjoy a bowl of food like he did with Happy Howl. It looked and smelled so good that we thought it was made for actual humans!”<\/p>"
+            "image": "shopify:\/\/shop_images\/pexels-samson-katt-5256178-modified.png",
+            "title": "Vanessa & Latte",
+            "text": "<p>\"Latte has been acting like a puppy again eating Happy Howl! He's so excited every time I grab a box out of the pantry and I feel good knowing Happy Howl supports our favorite dog rescue.\"<\/p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_Group.png",
-            "title": "Julia Feschcenko & Golden Retriever, Wilfred",
+            "title": "Julia & Wilfred",
             "text": "<p>“My puppy absolutely loves it. He usually gets an upset stomach after his meals, but not with Happy Howl. This is a huge win for us!”<\/p>"
           }
         }
@@ -309,7 +309,7 @@
           "type": "column",
           "settings": {
             "title": "Join our mission of supporting rescues across America by providing vulnerable dogs with:",
-            "text": "<p><\/p><p><\/p><p><\/p><p><strong>- healthier meals <\/strong><\/p><p><strong>- necessary supplies<\/strong><\/p><p><strong>- medical treatment assistance <\/strong><\/p><p><strong>- and ultimately, their furever homes.<\/strong><\/p><p><br\/><em>just 1 in 10 dogs born will find a forever home. <\/em><\/p><p><em>together, we can make the difference.<\/em><\/p>"
+            "text": "<p><\/p><p><\/p><p><\/p><p><strong>- healthier meals <\/strong><\/p><p><strong>- necessary supplies<\/strong><\/p><p><strong>- medical treatment assistance <\/strong><\/p><p><strong>- and ultimately, their furever homes<\/strong><\/p><p><br\/><em>just 1 in 10 dogs born will find a forever home. <\/em><\/p><p><em>together, we can make the difference.<\/em><\/p>"
           }
         },
         "1634754847826ccdcf-2": {
@@ -336,7 +336,7 @@
         "77dd248b-a235-47d5-a261-4654baa862a3"
       ],
       "settings": {
-        "title": "Every order feeds a rescue dog",
+        "title": "Every Order Feeds a Rescue Dog",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "center",

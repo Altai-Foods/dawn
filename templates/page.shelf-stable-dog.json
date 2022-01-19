@@ -6,13 +6,13 @@
         "16325108529508dbe8-0": {
           "type": "heading",
           "settings": {
-            "heading": "The #1 Food For Dogs With Digestive Problems"
+            "heading": "Healthier, Easier, More Affordable."
           }
         },
         "16325108529508dbe8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>See a difference with your first order.<\/p><p>Our all-natural ingredients give dogs more years to enjoy happier days, without locking you into a subscription.<\/p>"
+            "text": "<p><\/p><p>Don't have room for 15 pounds of dog food in your freezer? <\/p><p>Happy Howl's revolutionary steam and pressure preparation delivers healthier, all-natural meals with ZERO freezing and thawing - without locking you into a subscription!<\/p>"
           }
         },
         "16325108529508dbe8-2": {
@@ -29,9 +29,89 @@
         "16325108529508dbe8-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
+        "image": "shopify:\/\/shop_images\/Fresh_Dog_Food_Human_Grade_Affordable_Happy_Howl.jpg",
         "height": "adapt",
         "color_scheme": "inverse",
+        "layout": "image_first"
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-1.png",
+            "title": "Melanie Glenn & Husky, Romeo",
+            "text": "<p>“Romeo goes crazy for all three Happy Howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-2.png",
+            "title": "Victor Nicastro & Beagle, Gus",
+            "text": "<p>“I have never seen Gus enjoy a bowl of food like he did with Happy Howl. It looked and smelled so good that we thought it was made for actual humans!”<\/p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group.png",
+            "title": "Julia Feschcenko & Golden Retriever, Wilfred",
+            "text": "<p>“My puppy absolutely loves it. He usually gets an upset stomach after his meals, but not with Happy Howl. This is a huge win for us!”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column2",
+        "column1",
+        "column3"
+      ],
+      "settings": {
+        "title": "100% 5-Star Reviews on Trustpilot",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "READ ALL REVIEWS",
+        "button_link": "https:\/\/www.trustpilot.com\/review\/thehappyhowl.com?utm_medium=trustbox&utm_source=MicroReviewCount",
+        "swipe_on_mobile": true
+      }
+    },
+    "16413425295f662b3e": {
+      "type": "image-with-text",
+      "blocks": {
+        "1641342529ee45038b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dog Food Filling Up Your Freezer?"
+          }
+        },
+        "1641342529ee45038b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Fresh” doesn’t mean “frozen.” Happy Howl’s revolutionary Steam Pressure preparation process means our food stays fresh in your pantry for two years - with zero preservatives!<\/p>"
+          }
+        },
+        "1641342529ee45038b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Get 50% Off Your First Box!",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641342529ee45038b-0",
+        "1641342529ee45038b-1",
+        "1641342529ee45038b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Happy_Howl_Pantry_Stable_Fresh_Dog_Food_No_Freezing_or_Thawing.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-1",
         "layout": "image_first"
       }
     },
@@ -76,50 +156,6 @@
         "background_style": "none",
         "button_label": "FREE SHIPPING, ALWAYS",
         "button_link": "shopify:\/\/products\/meal-plans",
-        "swipe_on_mobile": true
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_Group-1.png",
-            "title": "Melanie Glenn & Husky, Romeo",
-            "text": "<p>“Romeo goes crazy for all three Happy Howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
-          }
-        },
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_Group-2.png",
-            "title": "Victor Nicastro & Beagle, Gus",
-            "text": "<p>“I have never seen Gus enjoy a bowl of food like he did with Happy Howl. It looked and smelled so good that we thought it was made for actual humans!”<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_Group.png",
-            "title": "Julia Feschcenko & Golden Retriever, Wilfred",
-            "text": "<p>“My puppy absolutely loves it. He usually gets an upset stomach after his meals, but not with Happy Howl. This is a huge win for us!”<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column2",
-        "column1",
-        "column3"
-      ],
-      "settings": {
-        "title": "100% 5-Star Reviews on Trustpilot",
-        "image_width": "half",
-        "image_ratio": "circle",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "READ ALL REVIEWS",
-        "button_link": "https:\/\/www.trustpilot.com\/review\/thehappyhowl.com?utm_medium=trustbox&utm_source=MicroReviewCount",
         "swipe_on_mobile": true
       }
     },
@@ -300,42 +336,6 @@
         "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "16413425295f662b3e": {
-      "type": "image-with-text",
-      "blocks": {
-        "1641342529ee45038b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Dog Food Filling Up Your Freezer?"
-          }
-        },
-        "1641342529ee45038b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“Fresh” doesn’t mean “frozen.” Happy Howl’s revolutionary Steam Pressure preparation process means our food stays fresh in your pantry for two years - with zero preservatives!<\/p>"
-          }
-        },
-        "1641342529ee45038b-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Get 50% Off Your First Box!",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1641342529ee45038b-0",
-        "1641342529ee45038b-1",
-        "1641342529ee45038b-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Howl_Pantry_Stable_Fresh_Dog_Food_No_Freezing_or_Thawing.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-1",
-        "layout": "image_first"
       }
     },
     "1634754847826ccdcf": {
@@ -595,13 +595,13 @@
   },
   "order": [
     "16325108529508dbe8",
-    "1634751717114493c3",
     "multi_column",
+    "16413425295f662b3e",
+    "1634751717114493c3",
     "1640280927ec9d7fdf",
     "1634847173b250c475",
     "16292521517f255f17",
     "1640281644a3d05fc7",
-    "16413425295f662b3e",
     "1634754847826ccdcf",
     "163277117268e48227",
     "16325116292cb9b56f",

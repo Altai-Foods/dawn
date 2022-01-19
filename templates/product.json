@@ -30,7 +30,7 @@
         "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce": {
           "type": "popup",
           "settings": {
-            "text": "Portion Calculator",
+            "text": "FEEDING CALCULATOR",
             "form_picker": "portion_calculator",
             "page": ""
           }
@@ -42,6 +42,21 @@
             "text": "Meal Plan Sizes",
             "form_picker": "none",
             "page": ""
+          }
+        },
+        "5165184d-f0be-4928-a331-ef32da3e3c39": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "50% + 10% OFF on Subscribe & Save!",
+            "text_style": "body"
+          }
+        },
+        "2096f799-b8b8-47f7-89a1-caa91d122d06": {
+          "type": "text",
+          "settings": {
+            "text": "With discount: $44 (18-count), or $40 (with Subscribe & Save)",
+            "text_style": "subtitle"
           }
         },
         "variant_picker": {
@@ -57,6 +72,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -86,6 +102,13 @@
             "icon": "heart"
           }
         },
+        "b0c7632a-9f9a-4bdc-9f83-a85bb86a7fbc": {
+          "type": "text",
+          "settings": {
+            "text": "FREE SHIPPING for All Orders in the Continental US!",
+            "text_style": "body"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -100,17 +123,20 @@
         "description",
         "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
         "ba495c40-c1f5-4da8-99b0-f80559c39437",
+        "5165184d-f0be-4928-a331-ef32da3e3c39",
+        "2096f799-b8b8-47f7-89a1-caa91d122d06",
         "variant_picker",
         "quantity_selector",
         "price",
         "buy_buttons",
         "98d6d88a-87d5-4065-9481-5f8c6e15ebdd",
         "c5e0d89d-126f-43e8-9259-5775b110060c",
+        "b0c7632a-9f9a-4bdc-9f83-a85bb86a7fbc",
         "share"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "hide_variants": false,
+        "hide_variants": true,
         "enable_video_looping": false
       }
     },
@@ -125,6 +151,87 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
+      }
+    },
+    "1631733066fe40f40f": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "34936b6b-a118-494c-9ca3-531409cd0d07": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "100% Human Grade Ingredients",
+            "content": "<p>Our food is made from only ingredients that are safe for humans to eat too.<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "79270050-5e9c-40a6-9085-d92bd969b55a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shelf Stable - No Freezing Required",
+            "content": "<p>The unopened units of Happy Howl are good for 2+ years! So, you shouldn't have any worry of the food going bad.<\/p>",
+            "page": "",
+            "icon": "star"
+          }
+        },
+        "66d96666-f331-4045-aba0-5b770e9d9113": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Zero Artificial Preservatives",
+            "content": "<p>Pink Himalayan salt is technically a preservative, (we use it cause it’s tasty!) so that’s why we say “no artificial preservatives.”<\/p>",
+            "page": "",
+            "icon": "leaf"
+          }
+        },
+        "a96f301d-1de4-488d-bc42-977fe3e8aef5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cooked In USDA Kitchen",
+            "content": "<p>We make our food in a location that is regulated by the United States Department of Agriculture.<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "51d87ce1-e0f9-4820-be3f-bbb660e30ea3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Complete & Balanced for All Life Stages",
+            "content": "<p>You bet your pup is getting all the nutrients they need from our meals, or else we wouldn’t be able to say so!<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "c036539b-6b3c-4429-af1f-dc43dfa85bcb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Responsibly-Sourced & Recyclable Packaging",
+            "content": "<p>Unlike other brands that list “meat” as an ingredient, our recipes are 100% real beef, lamb, or turkey.<\/p><p><\/p><p>Our lightweight carton-based packaging is responsibly sourced and 100% recyclable in the United States – and, it’s part of our commitment to attain a carbon-neutral footprint on our way to a circular economy.<\/p>",
+            "page": "",
+            "icon": "leaf"
+          }
+        },
+        "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Exceeding AFFCO Requirements",
+            "content": "<p>This means our meal plans have exceeded the nutritional standards for all doggo life stages.<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        }
+      },
+      "block_order": [
+        "34936b6b-a118-494c-9ca3-531409cd0d07",
+        "79270050-5e9c-40a6-9085-d92bd969b55a",
+        "66d96666-f331-4045-aba0-5b770e9d9113",
+        "a96f301d-1de4-488d-bc42-977fe3e8aef5",
+        "51d87ce1-e0f9-4820-be3f-bbb660e30ea3",
+        "c036539b-6b3c-4429-af1f-dc43dfa85bcb",
+        "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7"
+      ],
+      "settings": {
+        "heading": "QUALITY & TRANSPARENCY",
+        "heading_size": "medium"
       }
     },
     "1638132326faf7da89": {
@@ -421,92 +528,13 @@
         "swipe_on_mobile": false
       }
     },
-    "1631733066fe40f40f": {
-      "type": "collapsible-tabs",
-      "blocks": {
-        "34936b6b-a118-494c-9ca3-531409cd0d07": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "100% Human Grade Ingredients",
-            "content": "<p>Our food is made from only ingredients that are safe for humans to eat too.<\/p>",
-            "page": "",
-            "icon": "heart"
-          }
-        },
-        "79270050-5e9c-40a6-9085-d92bd969b55a": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shelf Stable - No Freezing Required",
-            "content": "<p>The unopened units of Happy Howl are good for 2+ years! So, you shouldn't have any worry of the food going bad.<\/p>",
-            "page": "",
-            "icon": "star"
-          }
-        },
-        "66d96666-f331-4045-aba0-5b770e9d9113": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Zero Artificial Preservatives",
-            "content": "<p>Pink Himalayan salt is technically a preservative, (we use it cause it’s tasty!) so that’s why we say “no artificial preservatives.”<\/p>",
-            "page": "",
-            "icon": "leaf"
-          }
-        },
-        "a96f301d-1de4-488d-bc42-977fe3e8aef5": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Cooked In USDA Kitchen",
-            "content": "<p>We make our food in a location that is regulated by the United States Department of Agriculture.<\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        },
-        "51d87ce1-e0f9-4820-be3f-bbb660e30ea3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Complete & Balanced for All Life Stages",
-            "content": "<p>You bet your pup is getting all the nutrients they need from our meals, or else we wouldn’t be able to say so!<\/p>",
-            "page": "",
-            "icon": "heart"
-          }
-        },
-        "c036539b-6b3c-4429-af1f-dc43dfa85bcb": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Responsibly-Sourced & Recyclable Packaging",
-            "content": "<p>Unlike other brands that list “meat” as an ingredient, our recipes are 100% real beef, lamb, or turkey.<\/p><p><\/p><p>Our lightweight carton-based packaging is responsibly sourced and 100% recyclable in the United States – and, it’s part of our commitment to attain a carbon-neutral footprint on our way to a circular economy.<\/p>",
-            "page": "",
-            "icon": "leaf"
-          }
-        },
-        "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Exceeding AFFCO Requirements",
-            "content": "<p>This means our meal plans have exceeded the nutritional standards for all doggo life stages.<\/p>",
-            "page": "",
-            "icon": "check_mark"
-          }
-        }
-      },
-      "block_order": [
-        "34936b6b-a118-494c-9ca3-531409cd0d07",
-        "79270050-5e9c-40a6-9085-d92bd969b55a",
-        "66d96666-f331-4045-aba0-5b770e9d9113",
-        "a96f301d-1de4-488d-bc42-977fe3e8aef5",
-        "51d87ce1-e0f9-4820-be3f-bbb660e30ea3",
-        "c036539b-6b3c-4429-af1f-dc43dfa85bcb",
-        "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7"
-      ],
-      "settings": {
-        "heading": "QUALITY & TRANSPARENCY",
-        "heading_size": "medium"
-      }
-    },
     "163813841052d3cf39": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1638138410ce5394c5-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Happy Rescue Doggies",
             "heading_size": "h1"
@@ -523,6 +551,7 @@
     },
     "1633656091473fb21f": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Olive the Tiny Doodle",
         "cover_image": "shopify:\/\/shop_images\/AdobeStock_82849225_2.jpg",
@@ -580,6 +609,7 @@
   "order": [
     "main",
     "product-recommendations",
+    "1631733066fe40f40f",
     "1638132326faf7da89",
     "16358870425dcda2ad",
     "1635962208cc17b3ed",
@@ -587,7 +617,6 @@
     "163596189963befadd",
     "1635962396f37d6d0b",
     "1635885369ba5d0784",
-    "1631733066fe40f40f",
     "163813841052d3cf39",
     "1633656091473fb21f",
     "16327685259c766dcd"

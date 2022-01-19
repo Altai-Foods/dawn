@@ -397,5 +397,22 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "calculating_shipping": "FREE ",
+        "shipping_default_value": "FREE",
+        "shipping_pending_value": "FREE",
+        "shipping_pending_message": "FREE"
+      },
+      "shipping": {
+        "please_enter_your_shipping_information_notice": "FREE",
+        "shipping_rate_discounted_amount": "FREE",
+        "subscription_delivery_description": {
+          "shipping_price_included": "Included"
+        }
+      }
+    }
   }
 }
