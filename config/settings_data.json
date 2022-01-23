@@ -20,10 +20,9 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
+              "text": "FREE SHIPPING + 50% OFF FOR ALL FIRST-TIME CUSTOMERS",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }

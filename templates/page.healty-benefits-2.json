@@ -1,0 +1,292 @@
+{
+  "sections": {
+    "16325108529508dbe8": {
+      "type": "image-with-text",
+      "blocks": {
+        "16325108529508dbe8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fresh, Human-Grade Dog Food"
+          }
+        },
+        "16325108529508dbe8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stays fresh in your pantry. No freezing required.<\/p><p>Our complete & balanced meals are prepared with all-natural real ingredients and zero preservatives to help dogs lead longer, happier lives.<\/p>"
+          }
+        },
+        "16325108529508dbe8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "50% OFF YOUR 1ST BOX",
+            "button_link": "shopify:\/\/products\/meal-plans"
+          }
+        }
+      },
+      "block_order": [
+        "16325108529508dbe8-0",
+        "16325108529508dbe8-1",
+        "16325108529508dbe8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Fresh_Dog_Food_Human_Grade_Affordable_Happy_Howl.jpg",
+        "height": "adapt",
+        "color_scheme": "inverse",
+        "layout": "image_first"
+      }
+    },
+    "1640280927ec9d7fdf": {
+      "type": "multicolumn",
+      "blocks": {
+        "16402809276ef235a1-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Howl_Vet_Formulated_Recipes_Icon_Healthiest_Dog_Food.png",
+            "title": "Vet-Formulated Recipes",
+            "text": "<p>Our recipes aren't just delicious - they're designed by vets to combat health and digestive problems<\/p>"
+          }
+        },
+        "16402809276ef235a1-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Happy_Howl_Human_Grade_Ingredients_Icon_Healthiest_Dog_Food.png",
+            "title": "Real Ingredients",
+            "text": "<p>100% all-natural ingredients exceed all AFFCO standards and provide complete and balanced nutrition<\/p>"
+          }
+        },
+        "16402809276ef235a1-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HH-no-refrigeration-green.png",
+            "title": "No Freezing Required",
+            "text": "<p>Our revolutionary Steam & Pressure preparation process means meals stay fresh in your pantry for up to 2 years<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16402809276ef235a1-1",
+        "16402809276ef235a1-0",
+        "16402809276ef235a1-2"
+      ],
+      "settings": {
+        "title": "A Revolution in Dog Nutrition",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "GET 50% OFF YOUR 1st BOX",
+        "button_link": "shopify:\/\/products\/meal-plans",
+        "swipe_on_mobile": false
+      }
+    },
+    "164262080351fef33e": {
+      "type": "multicolumn",
+      "blocks": {
+        "16426208035791cc7e-0": {
+          "type": "column",
+          "settings": {
+            "title": "Give Your Pup an Energy Boost",
+            "text": "<p>- More active behavior<\/p><p>- Weight management<\/p><p>- Prevent heart disease<\/p>"
+          }
+        },
+        "16426208035791cc7e-1": {
+          "type": "column",
+          "settings": {
+            "title": "Relief for Sensitive Tummies",
+            "text": "<p>- Help with diarrhea & vomiting<\/p><p>- Perfect for picky eaters<\/p><p>- Prevent pancreatitis & gastrointestinal illnesses<\/p>"
+          }
+        },
+        "16426208035791cc7e-2": {
+          "type": "column",
+          "settings": {
+            "title": "Longterm Health Improvements",
+            "text": "<p>- Skin & fur conditions<\/p><p>- Sarcoma & tumor prevention<\/p><p>- Diabetic treatment<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16426208035791cc7e-0",
+        "16426208035791cc7e-1",
+        "16426208035791cc7e-2"
+      ],
+      "settings": {
+        "title": "See a Difference With Your First Order",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1642624349280db6be": {
+      "type": "rich-text",
+      "blocks": {
+        "164262434887663646-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Best Nutrition at the Best Price",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "164262434887663646-0"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
+    },
+    "16426208618e7535fb": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "9dd06754-82a8-4741-a308-6a4e5dbdfc58": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Half the Cost of Just Food for Dogs",
+            "content": "<p>Priced per pound, we offer healthier recipes at a lower cost than Just Food For Dogs, Ziwi Peak, and Blue Buffalo<\/p>",
+            "page": "",
+            "icon": "price_tag"
+          }
+        },
+        "6c393229-cb2f-4ea3-ae76-b60832bca2b9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Cooked in USDA Certified Kitchens",
+            "content": "<p>All our food is hand-made in a kitchen regulated by the United States Department of Agriculture.<\/p>",
+            "page": "",
+            "icon": "star"
+          }
+        },
+        "fb22d42a-a4d4-4715-ac73-50ca0cfbdc65": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Real Ingredients, Simple Recipes",
+            "content": "<p>There's no mystery to our recipes, just high-quality, all-natural ingredients.<\/p>",
+            "page": "",
+            "icon": "leaf"
+          }
+        },
+        "1acc9cd8-44a2-44ef-bb86-efce5178fbcb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Every Order Feeds a Rescue Dog",
+            "content": "<p>We donate healthy food, supplies, and medical assistance to animal rescues across America.<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        }
+      },
+      "block_order": [
+        "9dd06754-82a8-4741-a308-6a4e5dbdfc58",
+        "6c393229-cb2f-4ea3-ae76-b60832bca2b9",
+        "fb22d42a-a4d4-4715-ac73-50ca0cfbdc65",
+        "1acc9cd8-44a2-44ef-bb86-efce5178fbcb"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "large"
+      }
+    },
+    "1634751717114493c3": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1634751717114493c3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
+            "title": "LAMB DELIGHT",
+            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
+          }
+        },
+        "1634751717114493c3-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
+            "title": "TASTY TURKEY FEAST",
+            "text": "<p>WEIGHT LOSS & HEALTHY HEARTS<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods<\/p>"
+          }
+        },
+        "1634751717114493c3-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
+            "title": "GRANDMA'S BEEF STEW",
+            "text": "<p><\/p><p>FOR ACTIVE DOGS<\/p><p>- weight maintenance <\/p><p>- diabetic treatment<\/p><p>- sarcoma & tumor preventative<\/p><p>- active dogs<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - -<\/p><p>high-quality tender beef mixed with freshly cooked fruits and veggies<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634751717114493c3-1",
+        "1634751717114493c3-0",
+        "1634751717114493c3-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "FREE SHIPPING, ALWAYS",
+        "button_link": "shopify:\/\/products\/meal-plans",
+        "swipe_on_mobile": true
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-1.png",
+            "title": "Melanie Glenn & Husky, Romeo",
+            "text": "<p>“Romeo goes crazy for all three Happy Howl recipes! I feel great knowing I’m feeding my dog the right amount of food and giving him fresh fruit, vegetables, and protein that kibble can’t match.”<\/p>"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group-2.png",
+            "title": "Victor Nicastro & Beagle, Gus",
+            "text": "<p>“I have never seen Gus enjoy a bowl of food like he did with Happy Howl. It looked and smelled so good that we thought it was made for actual humans!”<\/p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_Group.png",
+            "title": "Julia Feschcenko & Golden Retriever, Wilfred",
+            "text": "<p>“My puppy absolutely loves it. He usually gets an upset stomach after his meals, but not with Happy Howl. This is a huge win for us!”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column2",
+        "column1",
+        "column3"
+      ],
+      "settings": {
+        "title": "100% 5-Star Reviews on Trustpilot",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "GET 50% OFF YOUR 1st BOX",
+        "button_link": "shopify:\/\/products\/meal-plans",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "16325108529508dbe8",
+    "1640280927ec9d7fdf",
+    "164262080351fef33e",
+    "1642624349280db6be",
+    "16426208618e7535fb",
+    "1634751717114493c3",
+    "multi_column"
+  ]
+}

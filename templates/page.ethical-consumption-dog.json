@@ -82,8 +82,8 @@
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "NOMINATE A RESCUE",
-        "button_link": "shopify:\/\/pages\/impact",
+        "button_label": "50% OFF YOUR 1st BOX",
+        "button_link": "shopify:\/\/products\/meal-plans",
         "swipe_on_mobile": false
       }
     },
@@ -371,10 +371,9 @@
         },
         "1641342529ee45038b-2": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "Get 50% Off Your First Box!",
-            "button_link": ""
+            "button_link": "shopify:\/\/products\/meal-plans"
           }
         }
       },
@@ -392,6 +391,7 @@
     },
     "163277117268e48227": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "96bc7b4c-4f75-49b4-8b2f-60b858db4382": {
           "type": "column",

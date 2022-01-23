@@ -6,7 +6,7 @@
         "16325108529508dbe8-0": {
           "type": "heading",
           "settings": {
-            "heading": "The #1 Food For Dogs With Digestive Problems"
+            "heading": "Fresh, Human-Grade Dog Food"
           }
         },
         "16325108529508dbe8-1": {
@@ -304,8 +304,8 @@
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "NOMINATE A RESCUE",
-        "button_link": "shopify:\/\/pages\/impact",
+        "button_label": "50% OFF YOUR 1st BOX",
+        "button_link": "shopify:\/\/products\/meal-plans",
         "swipe_on_mobile": false
       }
     },
@@ -391,6 +391,7 @@
     },
     "163277117268e48227": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "96bc7b4c-4f75-49b4-8b2f-60b858db4382": {
           "type": "column",

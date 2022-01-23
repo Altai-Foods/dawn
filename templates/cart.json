@@ -28,10 +28,119 @@
       "settings": {
         "show_cart_note": false
       }
+    },
+    "1642716099b47c42b3": {
+      "type": "multicolumn",
+      "blocks": {
+        "5caff4e9-c20a-4b7b-9131-57bc803dd626": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HappyHowl_Shipper_Rendering_ClosedBox.png",
+            "title": "TRANSITION GUIDE",
+            "text": "<p>Scan the QR code on the top of your shipment box with your phones camera to unlock our easy-to-follow transition guide to easily understand the best way to transition your dog to Happy Howl from their previous diet.<\/p><p><strong>CURRENT PRICE: FREE<\/strong><\/p>"
+          }
+        },
+        "1642716099b4924a4e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_68.png",
+            "title": "STAINLESS STEEL SCOOPER",
+            "text": "<p>Custom-sized silverware to easily scoop out the desired portion for every meal.<\/p><p><strong>CURRENT PRICE: FREE<\/strong><\/p><p><em>COMPARE AT PRICE: $9.99<\/em><\/p>"
+          }
+        },
+        "1642716099b4924a4e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_70.png",
+            "title": "(3) RESEALABLE STORAGE BAGS",
+            "text": "<p>Recyclable & Resealable. Once one of your shelf-stable individual meals are opened but not finished, easily use one of our gusseted storage bags to store your opened carton in an airtight storage bag to preserve the food for up to 6 additional days in your refrigerator. <\/p><p><strong>CURRENT PRICE: FREE<\/strong><\/p><p><em>COMPARE AT PRICE: $8.97<\/em><\/p>"
+          }
+        },
+        "1642716099b4924a4e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feeding_schedule_calendar.jpg",
+            "title": "MONTHLY FEEDING SCHEDULE",
+            "text": "<p>Utilize our postcard-sized monthly schedule to keep track of \"if\" your pup has been fed their meal. Perfect for homes with multiple people who feed the dogs. Easily attach it to the fridge as a reminder!<\/p><p><strong>CURRENT PRICE: FREE<\/strong><\/p><p><em>COMPARE AT PRICE: $4.99<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5caff4e9-c20a-4b7b-9131-57bc803dd626",
+        "1642716099b4924a4e-0",
+        "1642716099b4924a4e-1",
+        "1642716099b4924a4e-2"
+      ],
+      "settings": {
+        "title": "COMPLIMENTARY GIFTS INCLUDED IN EVERY CASE:",
+        "image_width": "half",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "1642718437de516b90": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "16427184378ac19d3b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_73.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16427184378ac19d3b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_76.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "9ad1f7bf-f659-4ce1-883e-246259beddde": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_78.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16427184378ac19d3b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_74.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16427184378ac19d3b-0",
+        "16427184378ac19d3b-1",
+        "9ad1f7bf-f659-4ce1-883e-246259beddde",
+        "16427184378ac19d3b-2"
+      ],
+      "settings": {
+        "title": "OUR HOWLIN' TRUSTPILOT REVIEWS:",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "1642716099b47c42b3",
+    "1642718437de516b90"
   ]
 }
