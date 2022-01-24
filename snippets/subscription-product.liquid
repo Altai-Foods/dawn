@@ -188,7 +188,9 @@
 					<label for="rc_purchase_type_onetime" class="rc_label rc_label__onetime">
 						{{ label_onetime }}{% if discount_percentage > 0 %}:{% endif %}
 						{% if discount_percentage > 0 %}
-							<span id="rc_price_onetime" class="rc_price rc_price__onetime" aria-label="original price"></span>
+							{% comment %} TODO: Rollback hack when discount changes / no longer needed {% endcomment %}
+							<s id="rc_price_onetime" class="rc_price rc_price__onetime" aria-label="original price"></s>
+							<span class="rc_price rc_price__onetime" aria-label="discount">50% off</span>
 						{% endif %}
 					</label>
 				</div>
@@ -200,7 +202,9 @@
 						{{ label_autodeliver }}
 						{% if discount_percentage > 0 %}
 							<span class="rc_label__discount" aria-label="subscription discount">({{ discount_percentage }}%):</span>
-							<span id="rc_price_autodeliver" class="rc_price rc_price__autodeliver" aria-label="recurring price"></span>
+							{% comment %} TODO: Rollback hack when discount changes / no longer needed {% endcomment %}
+							<s id="rc_price_autodeliver" class="rc_price rc_price__autodeliver" aria-label="recurring price"></s>
+							<span class="rc_price rc_price__autodeliver" aria-label="discount">50% off</span>
 						{% endif %}
 					</label>
 				{% endunless %}
