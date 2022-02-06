@@ -87,7 +87,7 @@
         "15894ceb-012d-4ea1-995b-ad134bb6fa96"
       ],
       "settings": {
-        "title": "Our Guiding Priciples",
+        "title": "Happy Howl's Foundation: \"Be the change you wish to see in the world.\"",
         "image_width": "third",
         "image_ratio": "circle",
         "column_alignment": "left",
@@ -211,6 +211,7 @@
         },
         "68a2624c-50a2-42d3-9033-f8da8ac5f911": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/margaret.jpg",
             "title": "Margaret Hanken",
@@ -219,6 +220,7 @@
         },
         "143876b4-a302-4be7-9fbd-a4cd0fd21738": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hans.jpg",
             "title": "Hans Hanken",
@@ -227,6 +229,7 @@
         },
         "16295941961bc94792-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/dawn.jpg",
             "title": "Dawn Lobenstein",
@@ -258,7 +261,7 @@
         "title": "",
         "image_width": "half",
         "image_ratio": "circle",
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",

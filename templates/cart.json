@@ -6,6 +6,33 @@
         "show_vendor": true
       }
     },
+    "1643830155978d13b2": {
+      "type": "rich-text",
+      "blocks": {
+        "16438301550edf1fc8-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "*discount or partner code can be added on next page, if applicable.",
+            "heading_size": "h2"
+          }
+        },
+        "16438301550edf1fc8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*discount or partner code can be added on next page, if applicable.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16438301550edf1fc8-0",
+        "16438301550edf1fc8-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -139,6 +166,7 @@
   },
   "order": [
     "cart-items",
+    "1643830155978d13b2",
     "cart-footer",
     "1642716099b47c42b3",
     "1642718437de516b90"

@@ -31,7 +31,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
         "height": "adapt",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "layout": "image_first"
       }
     },
@@ -270,7 +270,7 @@
         "1641342529ee45038b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>“Fresh” doesn’t mean “frozen.” Happy Howl’s revolutionary Steam Pressure preparation process means our food stays fresh in your pantry for two years - with zero preservatives!<\/p>"
+            "text": "<p><strong>“Fresh” doesn’t mean “frozen.” Happy Howl’s revolutionary Steam Pressure Pasteurization preparation process means our food stays fresh in your pantry for two years - with zero preservatives!<\/strong><\/p>"
           }
         },
         "1641342529ee45038b-2": {

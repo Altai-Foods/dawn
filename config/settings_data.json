@@ -21,8 +21,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "FREE SHIPPING + 50% OFF FOR ALL FIRST-TIME CUSTOMERS",
-              "color_scheme": "accent-2",
+              "text": "NEW DAWGS GET 50% OFF WITH CODE \"TRYHOWL50\" AT CHECKOUT",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }

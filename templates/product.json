@@ -37,11 +37,10 @@
         },
         "ba495c40-c1f5-4da8-99b0-f80559c39437": {
           "type": "popup",
-          "disabled": true,
           "settings": {
-            "text": "Meal Plan Sizes",
+            "text": "MEAL PLAN SIZES",
             "form_picker": "none",
-            "page": ""
+            "page": "feeding-guidelines"
           }
         },
         "variant_picker": {
@@ -55,23 +54,16 @@
           "settings": {
           }
         },
-        "b0c7632a-9f9a-4bdc-9f83-a85bb86a7fbc": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "FREE SHIPPING for All Orders in the Continental US!",
-            "text_style": "body"
-          }
-        },
         "5165184d-f0be-4928-a331-ef32da3e3c39": {
           "type": "text",
           "settings": {
-            "text": "Get 50% off your first order with code “TRYHOWL50\"",
+            "text": "Get 50% off your first order by entering code “TRYHOWL50\" at checkout.",
             "text_style": "subtitle"
           }
         },
         "2096f799-b8b8-47f7-89a1-caa91d122d06": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "WITH DISCOUNT: $45 (18-count), $40 (Subscribe & Save). $25 (6-count), $22.50 (Subscribe & Save). Applied at checkout.",
             "text_style": "subtitle"
@@ -112,7 +104,6 @@
         "ba495c40-c1f5-4da8-99b0-f80559c39437",
         "variant_picker",
         "quantity_selector",
-        "b0c7632a-9f9a-4bdc-9f83-a85bb86a7fbc",
         "5165184d-f0be-4928-a331-ef32da3e3c39",
         "2096f799-b8b8-47f7-89a1-caa91d122d06",
         "buy_buttons",
@@ -148,18 +139,10 @@
             "heading": "Nutritional Information",
             "heading_size": "h1"
           }
-        },
-        "1638132326628610c3-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": ""
-          }
         }
       },
       "block_order": [
-        "1638132326628610c3-0",
-        "1638132326628610c3-1"
+        "1638132326628610c3-0"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -174,27 +157,10 @@
           "settings": {
             "heading": "Tasty Turkey Feast"
           }
-        },
-        "16427215106b544fa1-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "16427215106b544fa1-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "16427215106b544fa1-0",
-        "16427215106b544fa1-1",
-        "16427215106b544fa1-2"
+        "16427215106b544fa1-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_79.png",
@@ -272,26 +238,10 @@
           "settings": {
             "heading": "Grandma's Beef Stew"
           }
-        },
-        "16427207992cd0ff6c-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "16427207992cd0ff6c-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "But",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "16427207992cd0ff6c-0",
-        "16427207992cd0ff6c-1",
-        "16427207992cd0ff6c-2"
+        "16427207992cd0ff6c-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Beef_1.jpg",
@@ -369,26 +319,10 @@
           "settings": {
             "heading": "Lamb Delight"
           }
-        },
-        "16427212533b9cf7c4-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "16427212533b9cf7c4-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "16427212533b9cf7c4-0",
-        "16427212533b9cf7c4-1",
-        "16427212533b9cf7c4-2"
+        "16427212533b9cf7c4-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
@@ -577,28 +511,10 @@
             "heading": "We Provide All the Tools You Need in Every Meal Kit!",
             "heading_size": "h1"
           }
-        },
-        "16427193195be691d2-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": ""
-          }
-        },
-        "16427193195be691d2-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
-        "16427193195be691d2-0",
-        "16427193195be691d2-1",
-        "16427193195be691d2-2"
+        "16427193195be691d2-0"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -667,6 +583,27 @@
         "button_link": "",
         "swipe_on_mobile": true
       }
+    },
+    "16432491457a894804": {
+      "type": "collage",
+      "blocks": {
+        "88595f37-2d1b-41f1-b94e-67d4e21a28b4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "88595f37-2d1b-41f1-b94e-67d4e21a28b4"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -682,6 +619,7 @@
     "16426153965c7c9088",
     "1631733066fe40f40f",
     "1642719319c0b1497e",
-    "16427192685d4834cb"
+    "16427192685d4834cb",
+    "16432491457a894804"
   ]
 }

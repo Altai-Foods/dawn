@@ -99,7 +99,7 @@
         "16426208035791cc7e-2": {
           "type": "column",
           "settings": {
-            "title": "Longterm Health Improvements",
+            "title": "Long-Term Health Improvements",
             "text": "<p>- Skin & fur conditions<\/p><p>- Sarcoma & tumor prevention<\/p><p>- Diabetic treatment<\/p>"
           }
         }
@@ -137,6 +137,32 @@
       "settings": {
         "color_scheme": "accent-1",
         "full_width": true
+      }
+    },
+    "1643591846727854f9": {
+      "type": "multicolumn",
+      "blocks": {
+        "16435918460b357a1e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HH_Weight_C_1080.jpg",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16435918460b357a1e-0"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "16426208618e7535fb": {
@@ -285,6 +311,7 @@
     "1640280927ec9d7fdf",
     "164262080351fef33e",
     "1642624349280db6be",
+    "1643591846727854f9",
     "16426208618e7535fb",
     "1634751717114493c3",
     "multi_column"
