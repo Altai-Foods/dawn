@@ -162,10 +162,10 @@
               </quantity-input>
             </div>
           {%- when 'popup' -%}
-              <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
-                <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
+              <modal-opener class="product-popup-modal__opener product-popup-modal__opener--full-width no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
+                <button id="ProductPopup-{{ block.id }}" class="button button--secondary button--full-width link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
               </modal-opener>
-              <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
+              <a href="{{ block.settings.page.url }}" class="button button--secondary link no-js">{{ block.settings.text }}</a>
           {%- when 'share' -%}
             <share-button class="share-button" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
