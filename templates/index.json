@@ -253,9 +253,44 @@
         "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "accent-1",
+        "color_scheme": "accent-2",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "1644351933f9f8ad07": {
+      "type": "image-with-text",
+      "blocks": {
+        "16443519337e77849b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our mission of supporting rescues across America by providing vulnerable dogs with:"
+          }
+        },
+        "16443519337e77849b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p><strong>- healthier meals <\/strong><\/p><p><strong>- necessary supplies<\/strong><\/p><p><strong>- medical treatment assistance <\/strong><\/p><p><strong>- and ultimately, their furever homes<\/strong><\/p><p><br\/><em>just 1 in 10 dogs born will find a forever home. <\/em><\/p><p><em>together, we can make the difference.<\/em><\/p>"
+          }
+        },
+        "16443519337e77849b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "NOMINATE A RESCUE",
+            "button_link": "shopify:\/\/pages\/impact"
+          }
+        }
+      },
+      "block_order": [
+        "16443519337e77849b-0",
+        "16443519337e77849b-1",
+        "16443519337e77849b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/taf.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     },
     "16413425295f662b3e": {
@@ -289,13 +324,14 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Happy_Howl_Pantry_Stable_Fresh_Dog_Food_No_Freezing_or_Thawing.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-1",
+        "height": "large",
+        "color_scheme": "inverse",
         "layout": "image_first"
       }
     },
     "1634754847826ccdcf": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1634754847826ccdcf-0": {
           "type": "column",
@@ -309,7 +345,7 @@
           "type": "column",
           "settings": {
             "title": "Join our mission of supporting rescues across America by providing vulnerable dogs with:",
-            "text": "<p><\/p><p><\/p><p><\/p><p><strong>- healthier meals <\/strong><\/p><p><strong>- necessary supplies<\/strong><\/p><p><strong>- medical treatment assistance <\/strong><\/p><p><strong>- and ultimately, their furever homes<\/strong><\/p><p><br\/><em>just 1 in 10 dogs born will find a forever home. <\/em><\/p><p><em>together, we can make the difference.<\/em><\/p>"
+            "text": "<p><\/p><p><strong>- healthier meals <\/strong><\/p><p><strong>- necessary supplies<\/strong><\/p><p><strong>- medical treatment assistance <\/strong><\/p><p><strong>- and ultimately, their furever homes<\/strong><\/p><p><br\/><em>just 1 in 10 dogs born will find a forever home. <\/em><\/p><p><em>together, we can make the difference.<\/em><\/p>"
           }
         },
         "1634754847826ccdcf-2": {
@@ -349,20 +385,20 @@
     "1634751717114493c3": {
       "type": "multicolumn",
       "blocks": {
-        "1634751717114493c3-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
-            "title": "LAMB DELIGHT",
-            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
-          }
-        },
         "1634751717114493c3-0": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
             "title": "TASTY TURKEY FEAST",
             "text": "<p>WEIGHT LOSS & HEALTHY HEARTS<\/p><p>- overweight<\/p><p>- seniors<\/p><p>- less active<\/p><p>- heart disease<\/p><p>- chicken or beef allergy<\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - - -<\/p><p>high-quality lean turkey mixed with the best thanksgiving day foods<\/p>"
+          }
+        },
+        "1634751717114493c3-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
+            "title": "LAMB DELIGHT",
+            "text": "<p>ALL-AROUND HEALTH<\/p><p>- hypoallergenic<\/p><p>- pancreatitis <\/p><p>- environmental allergies<\/p><p>- food sensitivities & allergies<\/p><p>- gastrointestinal illnesses<\/p><p>- diarrhea & vomiting<\/p><p>- skin & fur conditions<\/p><p><\/p><p>- picky eaters<\/p><p>- - - - - - - - - - - - - <\/p><p>grass-fed lamb cooked to perfection & mixed with rice, veggies & berries<\/p><p><\/p>"
           }
         },
         "1634751717114493c3-2": {
@@ -375,8 +411,8 @@
         }
       },
       "block_order": [
-        "1634751717114493c3-1",
         "1634751717114493c3-0",
+        "1634751717114493c3-1",
         "1634751717114493c3-2"
       ],
       "settings": {
@@ -413,7 +449,7 @@
         "163277117268e48227-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_38.png",
+            "image": "shopify:\/\/shop_images\/Untitled_design_83.png",
             "title": "",
             "text": ""
           }
@@ -448,7 +484,7 @@
         "image_width": "full",
         "image_ratio": "square",
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "OUR STORY",
         "button_link": "shopify:\/\/blogs\/happy-blog",
         "swipe_on_mobile": true
@@ -600,6 +636,7 @@
     "1634847173b250c475",
     "16292521517f255f17",
     "1640281644a3d05fc7",
+    "1644351933f9f8ad07",
     "16413425295f662b3e",
     "1634754847826ccdcf",
     "1634751717114493c3",

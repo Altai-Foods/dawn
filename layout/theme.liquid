@@ -183,5 +183,11 @@
     <!-- End ReCharge code -->
    {% include 'smile-initializer' %}
 
-</body>
+{% if content_for_header contains 'bulk-discount-production.herokuapp.com' %}
+          {% render 'sbdn-now' %}
+          {% render 'sbdn-shop' %}
+          {% render 'sbdn-products' %}
+          {% render 'sbdn-badge' %}
+          {% render 'sbdn-sale-clock' %}
+          {% endif %} </body>
 </html>

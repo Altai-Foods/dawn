@@ -1,0 +1,357 @@
+<!-- This will be updated automatically after saving the sale_clock -->
+
+<script type="text/javascript">
+  function countdownStyle001(timestamp) {
+    var endDate = new Date(timestamp);
+    const difference = +endDate - +new Date();
+
+    var timeLeft = setInterval(function() {
+      const difference = +endDate - +new Date();
+
+      if (difference > 0) {
+        document.getElementById("sbdn-clock__days").innerText = Math.floor(difference / (1000 * 60 * 60 * 24));
+        document.getElementById("sbdn-clock__hours").innerText = Math.floor((difference / (1000 * 60 * 60)) % 24);
+        document.getElementById("sbdn-clock__minutes").innerText = Math.floor((difference / 1000 / 60) % 60);
+        document.getElementById("sbdn-clock__seconds").innerText = Math.floor((difference / 1000) % 60);
+      } else {
+        clearInterval(timeLeft);
+      }
+    }, 0);
+  }
+
+  function countdownStyle002(timestamp) {
+    var endDate = new Date(timestamp);
+    const difference = +endDate - +new Date();
+
+    var timeLeft = setInterval(function() {
+      const difference = +endDate - +new Date();
+
+      const previousTimer = {
+        days: document.getElementById("sbdn-clock__days--lower-text") && document.getElementById("sbdn-clock__days--lower-text").innerText,
+        hours: document.getElementById("sbdn-clock__hours--lower-text") && document.getElementById("sbdn-clock__hours--lower-text").innerText,
+        minutes: document.getElementById("sbdn-clock__minutes--lower-text") && document.getElementById("sbdn-clock__minutes--lower-text").innerText,
+        seconds: document.getElementById("sbdn-clock__seconds--lower-text") && document.getElementById("sbdn-clock__seconds--lower-text").innerText,
+      };
+
+      const timer = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      };
+
+      if (difference > 0) {
+        //
+        // FLIP DAYS
+        //
+        if (timer.days !== parseInt(previousTimer.days)) {
+          let currentDay = timer.days;
+          let previousDay = currentDay + 1;
+
+          if (currentDay < 10) {
+            currentDay = '0' + currentDay;
+          }
+          if (previousDay < 10) {
+            previousDay = '0' + previousDay;
+          }
+
+          document.getElementById("sbdn-clock__days--upper-text").innerText = currentDay;
+          document.getElementById("sbdn-clock__days--lower-text").innerText = currentDay;
+          document.getElementById("sbdn-flip__days--upper-text").innerText = currentDay;
+          document.getElementById("sbdn-flip__days--lower-text").innerText = currentDay;
+
+          if (document.getElementById("sbdn-flip__days--upper").classList.contains('unfold')) {
+            document.getElementById("sbdn-flip__days--upper").classList.add('fold');
+            document.getElementById("sbdn-flip__days--upper").classList.remove('unfold');
+
+            document.getElementById("sbdn-flip__days--lower").classList.add('unfold');
+            document.getElementById("sbdn-flip__days--lower").classList.remove('fold');
+          } else {
+            document.getElementById("sbdn-flip__days--upper").classList.remove('fold');
+            document.getElementById("sbdn-flip__days--upper").classList.add('unfold');
+
+            document.getElementById("sbdn-flip__days--lower").classList.remove('unfold');
+            document.getElementById("sbdn-flip__days--lower").classList.add('fold');
+          }
+        }
+        //
+        // FLIP HOURS
+        //
+        if (timer.hours !== parseInt(previousTimer.hours)) {
+          let currentHour = timer.hours;
+          let previousHour = currentHour + 1;
+
+          if (currentHour < 10) {
+            currentHour = '0' + currentHour;
+          }
+          if (previousHour < 10) {
+            previousHour = '0' + previousHour;
+          }
+
+          document.getElementById("sbdn-clock__hours--upper-text").innerText = currentHour;
+          document.getElementById("sbdn-clock__hours--lower-text").innerText = currentHour;
+          document.getElementById("sbdn-flip__hours--upper-text").innerText = currentHour;
+          document.getElementById("sbdn-flip__hours--lower-text").innerText = currentHour;
+
+          if (document.getElementById("sbdn-flip__hours--upper").classList.contains('unfold')) {
+            document.getElementById("sbdn-flip__hours--upper").classList.add('fold');
+            document.getElementById("sbdn-flip__hours--upper").classList.remove('unfold');
+
+            document.getElementById("sbdn-flip__hours--lower").classList.add('unfold');
+            document.getElementById("sbdn-flip__hours--lower").classList.remove('fold');
+          } else {
+            document.getElementById("sbdn-flip__hours--upper").classList.remove('fold');
+            document.getElementById("sbdn-flip__hours--upper").classList.add('unfold');
+
+            document.getElementById("sbdn-flip__hours--lower").classList.remove('unfold');
+            document.getElementById("sbdn-flip__hours--lower").classList.add('fold');
+          }
+        }
+        //
+        // FLIP MINUTES
+        //
+        if (timer.minutes !== parseInt(previousTimer.minutes)) {
+          let currentMinute = timer.minutes;
+          let previousMinute = currentMinute + 1;
+
+          if (currentMinute < 10) {
+            currentMinute = '0' + currentMinute;
+          }
+          if (previousMinute < 10) {
+            previousMinute = '0' + previousMinute;
+          }
+
+          document.getElementById("sbdn-clock__minutes--upper-text").innerText = currentMinute;
+          document.getElementById("sbdn-clock__minutes--lower-text").innerText = currentMinute;
+          document.getElementById("sbdn-flip__minutes--upper-text").innerText = currentMinute;
+          document.getElementById("sbdn-flip__minutes--lower-text").innerText = currentMinute;
+
+          if (document.getElementById("sbdn-flip__minutes--upper").classList.contains('unfold')) {
+            document.getElementById("sbdn-flip__minutes--upper").classList.add('fold');
+            document.getElementById("sbdn-flip__minutes--upper").classList.remove('unfold');
+
+            document.getElementById("sbdn-flip__minutes--lower").classList.add('unfold');
+            document.getElementById("sbdn-flip__minutes--lower").classList.remove('fold');
+          } else {
+            document.getElementById("sbdn-flip__minutes--upper").classList.remove('fold');
+            document.getElementById("sbdn-flip__minutes--upper").classList.add('unfold');
+
+            document.getElementById("sbdn-flip__minutes--lower").classList.remove('unfold');
+            document.getElementById("sbdn-flip__minutes--lower").classList.add('fold');
+          }
+        }
+        //
+        // FLIP SECONDS
+        //
+        if (timer.seconds !== parseInt(previousTimer.seconds)) {
+          let currentSeconds = timer.seconds;
+          let previousSeconds = currentSeconds + 1;
+
+          if (currentSeconds < 10) {
+            currentSeconds = '0' + currentSeconds;
+          }
+          if (previousSeconds < 10) {
+            previousSeconds = '0' + previousSeconds;
+          }
+
+          document.getElementById("sbdn-clock__seconds--upper-text").innerText = currentSeconds;
+          document.getElementById("sbdn-clock__seconds--lower-text").innerText = currentSeconds;
+          document.getElementById("sbdn-flip__seconds--upper-text").innerText = currentSeconds;
+          document.getElementById("sbdn-flip__seconds--lower-text").innerText = currentSeconds;
+
+          if (document.getElementById("sbdn-flip__seconds--upper").classList.contains('unfold')) {
+            document.getElementById("sbdn-flip__seconds--upper").classList.add('fold');
+            document.getElementById("sbdn-flip__seconds--upper").classList.remove('unfold');
+
+            document.getElementById("sbdn-flip__seconds--lower").classList.add('unfold');
+            document.getElementById("sbdn-flip__seconds--lower").classList.remove('fold');
+          } else {
+            document.getElementById("sbdn-flip__seconds--upper").classList.remove('fold');
+            document.getElementById("sbdn-flip__seconds--upper").classList.add('unfold');
+
+            document.getElementById("sbdn-flip__seconds--lower").classList.remove('unfold');
+            document.getElementById("sbdn-flip__seconds--lower").classList.add('fold');
+          }
+        }
+
+      } else {
+        clearInterval(timeLeft);
+      }
+    }, 1000);
+  }
+
+
+  function countdownStyle003(timestamp) {
+    var endDate = new Date(timestamp);
+    const difference = +endDate - +new Date();
+
+    var timeLeft = setInterval(function() {
+      const difference = +endDate - +new Date();
+
+      if (difference > 0) {
+        document.getElementById("sbdn-clock__days").innerText = Math.floor(difference / (1000 * 60 * 60 * 24));
+        document.getElementById("sbdn-clock__hours").innerText = Math.floor((difference / (1000 * 60 * 60)) % 24);
+        document.getElementById("sbdn-clock__minutes").innerText = Math.floor((difference / 1000 / 60) % 60);
+        document.getElementById("sbdn-clock__seconds").innerText = Math.floor((difference / 1000) % 60);
+      } else {
+        clearInterval(timeLeft);
+      }
+    }, 0);
+  }
+
+  if (typeof window.sbdn === 'undefined') {
+    window.sbdn = {};
+  }
+
+  window.sbdn.sale_clock_helpers = {}
+  window.sbdn.sale_clock_helpers["style_1"] = countdownStyle001;
+  window.sbdn.sale_clock_helpers["style_2"] = countdownStyle002;
+  window.sbdn.sale_clock_helpers["style_3"] = countdownStyle003;
+</script>
+
+<script type="text/javascript">
+  if (typeof window.sbdn === 'undefined') {
+    window.sbdn = {};
+  }
+
+  window.sbdn.datastore["sale_clock"] = {"enabled":false,"clock_type":"countdown-clock","background_color":"#BDBDBD","label_text_color":"#161A31","timer_text_color":"#BF0711","style_identifier":"ClockStyle001","sale_clock_placement_selector":"form.product-form, form.product-single__form","display_text":null,"days_label_text":null,"hours_label_text":null,"minutes_label_text":null,"seconds_label_text":null}
+
+  if (typeof window.sbdn.datastore.sale_clock !== 'undefined') {
+    const sale_clock = window.sbdn.datastore.sale_clock
+    const identifier = sale_clock.style_identifier;
+    const displayText = sale_clock.display_text || 'Sale ends in';
+    const daysLabelText = sale_clock.days_label_text || 'Days';
+    const hoursLabelText = sale_clock.hours_label_text || 'Hours';
+    const minutesLabelText = sale_clock.minutes_label_text || 'Minutes';
+    const secondsLabelText = sale_clock.seconds_label_text || 'Seconds';
+    let content = "";
+
+    switch(identifier) {
+      case 'ClockStyle001':
+        content = '<div id="sbdn-clock__preview--001" >\
+                    <h3>'+ displayText +'</h3>\
+                    <div class="clock-background">\
+                      <ul>\
+                        <li class="clock-label-text">\
+                          <span id="sbdn-clock__days" class="clock-timer-text"></span>' + daysLabelText + '\
+                        </li>\
+                        <li class="clock-label-text">\
+                          <span id="sbdn-clock__hours" class="clock-timer-text"></span>' + hoursLabelText + '\
+                        </li>\
+                        <li class="clock-label-text">\
+                          <span id="sbdn-clock__minutes" class="clock-timer-text"></span>' + minutesLabelText + '\
+                        </li>\
+                        <li class="clock-label-text">\
+                          <span id="sbdn-clock__seconds" class="clock-timer-text"></span>' + secondsLabelText + '\
+                        </li>\
+                      </ul>\
+                    <div>\
+                  </div>';
+        break;
+      case 'ClockStyle002':
+        content = '<div id="sbdn-clock__preview--002">\
+                    <h3>'+ displayText +'</h3>\
+                    <div class="clock-background">\
+                      <div class="sbdn-flip-clock">\
+                        <div class="sbdn-flip-unit">\
+                          <span class="sbdn-clock__label clock-label-text">' + daysLabelText + '</span>\
+                          <div id="sbdn-clock__days" class="sbdn-timer-container">\
+                            <div id="sbdn-clock__days--upper" class="upper-card">\
+                              <span id="sbdn-clock__days--upper-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-clock__days--lower" class="lower-card">\
+                              <span id="sbdn-clock__days--lower-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-flip__days--upper">\
+                              <span id="sbdn-flip__days--upper-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-flip__days--lower">\
+                              <span id="sbdn-flip__days--lower-text" class="clock-timer-text"></span>\
+                            </div>\
+                          </div>\
+                        </div>\
+                        <div class="sbdn-flip-unit">\
+                          <span class="sbdn-clock__label clock-label-text">' + hoursLabelText + '</span>\
+                          <div id="sbdn-clock__hours" class="sbdn-timer-container">\
+                            <div id="sbdn-clock__hours--upper" class="upper-card">\
+                              <span id="sbdn-clock__hours--upper-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-clock__hours--lower" class="lower-card">\
+                              <span id="sbdn-clock__hours--lower-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-flip__hours--upper">\
+                              <span id="sbdn-flip__hours--upper-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-flip__hours--lower">\
+                              <span id="sbdn-flip__hours--lower-text" class="clock-timer-text"></span>\
+                            </div>\
+                          </div>\
+                        </div>\
+                        <div class="sbdn-flip-unit">\
+                          <span class="sbdn-clock__label clock-label-text">' + minutesLabelText + '</span>\
+                          <div id="sbdn-clock__minutes" class="sbdn-timer-container">\
+                            <div id="sbdn-clock__minutes--upper" class="upper-card">\
+                              <span id="sbdn-clock__minutes--upper-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-clock__minutes--lower" class="lower-card">\
+                              <span id="sbdn-clock__minutes--lower-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-flip__minutes--upper">\
+                              <span id="sbdn-flip__minutes--upper-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-flip__minutes--lower">\
+                              <span id="sbdn-flip__minutes--lower-text" class="clock-timer-text"></span>\
+                            </div>\
+                          </div>\
+                        </div>\
+                        <div class="sbdn-flip-unit">\
+                          <span class="sbdn-clock__label clock-label-text">' + secondsLabelText + '</span>\
+                          <div id="sbdn-clock__seconds" class="sbdn-timer-container">\
+                            <div id="sbdn-clock__seconds--upper" class="upper-card">\
+                              <span id="sbdn-clock__seconds--upper-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-clock__seconds--lower" class="lower-card">\
+                              <span id="sbdn-clock__seconds--lower-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-flip__seconds--upper">\
+                              <span id="sbdn-flip__seconds--upper-text" class="clock-timer-text"></span>\
+                            </div>\
+                            <div id="sbdn-flip__seconds--lower">\
+                              <span id="sbdn-flip__seconds--lower-text" class="clock-timer-text"></span>\
+                            </div>\
+                          </div>\
+                        </div>\
+                      </div>\
+                    </div>\
+                  </div>';
+        break;
+      case 'ClockStyle003':
+        content = '<div id="sbdn-clock__preview--003">\
+                    <h3>'+ displayText +'</h3>\
+                    <div class="clock-background">\
+                      <div class="timer">\
+                        <p id="sbdn-clock__days" class="clock-timer-text"></p>\
+                        <p class="sbdn-clock__label clock-label-text">' + daysLabelText + '</p>\
+                      </div>\
+                      <div class="timer">\
+                        <p id="sbdn-clock__hours" class="clock-timer-text"></p>\
+                        <p class="sbdn-clock__label clock-label-text">' + hoursLabelText + '</p>\
+                      </div>\
+                      <div class="timer">\
+                        <p id="sbdn-clock__minutes" class="clock-timer-text"></p>\
+                        <p class="sbdn-clock__label clock-label-text">' + minutesLabelText + '</p>\
+                      </div>\
+                      <div class="timer">\
+                        <p id="sbdn-clock__seconds" class="clock-timer-text"></p>\
+                        <p class="sbdn-clock__label clock-label-text">' + secondsLabelText + '</p>\
+                      </div>\
+                    </div>\
+                  </div>';
+        break;
+      case 'deadline-clock':
+        content = '<div id="sbdn-clock__preview--deadline-clock"><h2 class="sbdn-clock__header"></h2><p class="sbdn-clock__date">December 12, 2021, 8:07:01 PM</p></div>';
+        break;
+    }
+    window.sbdn.datastore.sale_clock["html_content"] = content;
+  }
+</script>

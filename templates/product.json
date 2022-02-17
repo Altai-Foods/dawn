@@ -57,22 +57,21 @@
         "5165184d-f0be-4928-a331-ef32da3e3c39": {
           "type": "text",
           "settings": {
-            "text": "Get 50% off your first order by entering code “TRYHOWL50\" at checkout.",
-            "text_style": "subtitle"
-          }
-        },
-        "2096f799-b8b8-47f7-89a1-caa91d122d06": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "WITH DISCOUNT: $45 (18-count), $40 (Subscribe & Save). $25 (6-count), $22.50 (Subscribe & Save). Applied at checkout.",
-            "text_style": "subtitle"
+            "text": "Get Up To 55% OFF Your First Order + Free Shipping For Life**",
+            "text_style": "body"
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false
+          }
+        },
+        "ba2a3254-008e-4af0-b4f3-7871a4d49d7f": {
+          "type": "text",
+          "settings": {
+            "text": "Cancel \"Subscribe & Save\" Anytime",
+            "text_style": "body"
           }
         },
         "share": {
@@ -90,7 +89,14 @@
         "7b9deaed-6eda-4ebc-9c8b-774a5cd40fdb": {
           "type": "text",
           "settings": {
-            "text": "*$1.00 price includes 50% off first-time offer and 10% off with Subscribe & Save for a meal for an average sized, 20 lb dog.",
+            "text": "*$1.00 price includes 50% off first-time offer and 10% off with Subscribe & Save for a FULL meal for an average sized, 20 lb dog.",
+            "text_style": "uppercase"
+          }
+        },
+        "2096f799-b8b8-47f7-89a1-caa91d122d06": {
+          "type": "text",
+          "settings": {
+            "text": "**10% Subscribe & Save + Additional First-Time Discount. Recurring Orders Receive 10% OFF + Free Shipping in Continental US. Cancel Anytime.",
             "text_style": "uppercase"
           }
         }
@@ -105,11 +111,12 @@
         "variant_picker",
         "quantity_selector",
         "5165184d-f0be-4928-a331-ef32da3e3c39",
-        "2096f799-b8b8-47f7-89a1-caa91d122d06",
         "buy_buttons",
+        "ba2a3254-008e-4af0-b4f3-7871a4d49d7f",
         "share",
         "price",
-        "7b9deaed-6eda-4ebc-9c8b-774a5cd40fdb"
+        "7b9deaed-6eda-4ebc-9c8b-774a5cd40fdb",
+        "2096f799-b8b8-47f7-89a1-caa91d122d06"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -151,6 +158,7 @@
     },
     "16427215106f2d9e91": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16427215106b544fa1-0": {
           "type": "heading",
@@ -167,6 +175,50 @@
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
+      }
+    },
+    "1645058244adcf9202": {
+      "type": "multicolumn",
+      "blocks": {
+        "1645058244c9f5ff65-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pic.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1645058244c9f5ff65-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_TastyTurkeyFeast_FrontRendering_Small_d5a802b9-9225-4670-be45-be16f735845b.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1645058244c9f5ff65-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_15_x_35_cm_15_x_25_cm_15_x_20_cm_1.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645058244c9f5ff65-1",
+        "1645058244c9f5ff65-0",
+        "1645058244c9f5ff65-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
       }
     },
     "1638131806450c6369": {
@@ -226,12 +278,57 @@
         "8cdcf4d4-6cc5-40c1-b0dd-1ccfa67259b8"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Tasty Turkey Feast",
         "heading_size": "medium"
+      }
+    },
+    "1645059710dcb129ab": {
+      "type": "multicolumn",
+      "blocks": {
+        "16450597108648e0f0-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Grandma_s_Beef_stew_ingredients_and_bowl-min.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16450597108648e0f0-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_GrandmasBeefStew_FrontRendering_Small_1.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "16450597108648e0f0-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_15_x_35_cm_15_x_25_cm_15_x_20_cm_2.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "16450597108648e0f0-0",
+        "16450597108648e0f0-2",
+        "16450597108648e0f0-1"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
       }
     },
     "164272079916d85591": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16427207992cd0ff6c-0": {
           "type": "heading",
@@ -307,12 +404,57 @@
         "1538f985-bc1e-4b04-a7ca-85d8c62ae22e"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Grandma's Beef Stew",
         "heading_size": "medium"
+      }
+    },
+    "1645059894c3c1f3c9": {
+      "type": "multicolumn",
+      "blocks": {
+        "164505989404ecab5e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Clean_Raw_Ingredients_Fresh_Human_Grade_Premium_Healthy_Dog_Food_Happy_Howl_Lamb_Delight.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "164505989404ecab5e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_1203_TheHappyHowl_LambDelight_FrontRendering_Small_1.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "164505989404ecab5e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_15_x_35_cm_15_x_25_cm_15_x_20_cm_3.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "164505989404ecab5e-2",
+        "164505989404ecab5e-1",
+        "164505989404ecab5e-0"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
       }
     },
     "164272125311de8347": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16427212533b9cf7c4-0": {
           "type": "heading",
@@ -388,7 +530,7 @@
         "9d714520-cde1-4b40-84df-5ee7f0889ac5"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Lamb Delight",
         "heading_size": "medium"
       }
     },
@@ -590,7 +732,7 @@
         "88595f37-2d1b-41f1-b94e-67d4e21a28b4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in.png",
+            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_3.png",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -611,9 +753,12 @@
     "product-recommendations",
     "1638132326faf7da89",
     "16427215106f2d9e91",
+    "1645058244adcf9202",
     "1638131806450c6369",
+    "1645059710dcb129ab",
     "164272079916d85591",
     "1642614752aa4f5103",
+    "1645059894c3c1f3c9",
     "164272125311de8347",
     "164261449779401bf2",
     "16426153965c7c9088",

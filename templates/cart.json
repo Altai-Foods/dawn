@@ -1,36 +1,46 @@
 {
   "sections": {
-    "cart-items": {
-      "type": "main-cart-items",
-      "settings": {
-        "show_vendor": true
-      }
-    },
-    "1643830155978d13b2": {
+    "16450300847ba460a7": {
       "type": "rich-text",
       "blocks": {
-        "16438301550edf1fc8-0": {
+        "164503008436b91c9b-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "*discount or partner code can be added on next page, if applicable.",
+            "heading": "FREE SHIPPING FOR ALL ORDERS WITHIN CONTINENTAL US!",
             "heading_size": "h2"
           }
         },
-        "16438301550edf1fc8-1": {
+        "164503008436b91c9b-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>*discount or partner code can be added on next page, if applicable.<\/p>"
+            "text": "<p><strong>FREE SHIPPING<\/strong> on ALL ORDERS WITHIN CONTINENTAL US!<\/p>"
+          }
+        },
+        "164503008436b91c9b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "16438301550edf1fc8-0",
-        "16438301550edf1fc8-1"
+        "164503008436b91c9b-0",
+        "164503008436b91c9b-1",
+        "164503008436b91c9b-2"
       ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "show_vendor": true
       }
     },
     "cart-footer": {
@@ -38,7 +48,6 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "disabled": true,
           "settings": {
           }
         },
@@ -165,8 +174,8 @@
     }
   },
   "order": [
+    "16450300847ba460a7",
     "cart-items",
-    "1643830155978d13b2",
     "cart-footer",
     "1642716099b47c42b3",
     "1642718437de516b90"

@@ -21,9 +21,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "NEW DAWGS GET 50% OFF WITH CODE \"TRYHOWL50\" AT CHECKOUT",
+              "text": "50% OFF FIRST BOX + FREE SHIPPING ALWAYS",
               "color_scheme": "accent-1",
-              "link": ""
+              "link": "shopify:\/\/products\/meal-plans"
             }
           }
         },

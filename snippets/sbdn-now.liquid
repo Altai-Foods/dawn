@@ -1,0 +1,364 @@
+{% comment %} Helper for SBDN {% endcomment %}
+
+<script type="text/javascript">
+  if (typeof window.sbdn === 'undefined') {
+    window.sbdn = {};
+  }
+
+  {% if template contains 'product' %}
+    {% unless product.id == blank %}
+      window.sbdn.product = {
+        id: {{product.id}},
+        price: {{product.price}},
+        variants: {{product.variants | json}},
+        collection_ids: [{% for collection in product.collections %}
+        {{ collection.id }}
+          {% if forloop.last != true %}
+        ,
+          {% endif %}
+        {% endfor %}]
+      };
+    {% endunless %}
+  {% endif %}
+</script>
+<script src="https://bulk-discount-production.herokuapp.com/widget/javascript?shop=altai-dog-food.myshopify.com"></script><style>
+#sbdn-container {
+  color: red;
+}
+/* SALE CLOCK STYLES */
+#sbdn-clock__preview--001 {
+  width: 100%;
+}
+#sbdn-clock__preview--001 .clock-background {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffd54f;
+}
+#sbdn-clock__preview--001 h3 {
+  margin-top: 1vw;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: left;
+}
+#sbdn-clock__preview--001 ul {
+  padding: 0;
+}
+#sbdn-clock__preview--001 li {
+  display: inline-block;
+  font-size: calc(0.6rem + 0.5vw);
+  list-style-type: none;
+  padding: 0.5vw;
+  text-transform: uppercase;
+  color: #333;
+}
+#sbdn-clock__preview--001 li span {
+  display: block;
+  font-size: calc(1.7rem + 0.5vw);
+  padding: 0;
+  color: #333;
+  line-height: 2rem;
+}
+#sbdn-clock__preview--002 {
+  width: 100%;
+  margin-top: 8px;
+}
+#sbdn-clock__preview--002 .clock-background {
+  width: 100%;
+  height: 150px;
+  background-color: #ffd54f;
+  text-transform: uppercase;
+  text-align: center;
+}
+#sbdn-clock__preview--002 h3 {
+  margin-top: 1vw;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: left;
+}
+#sbdn-clock__preview--002 .sbdn-flip-clock {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  height: 100%;
+}
+#sbdn-clock__preview--002 .sbdn-flip-unit {
+  width: 25%;
+  margin: 0 auto;
+  color: #000000;
+}
+#sbdn-clock__preview--002 .sbdn-timer-container {
+  width: 95%;
+  height: 90%;
+  perspective-origin: 50% 50%;
+  perspective: 300px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px -10px #808080;
+  border-radius: 8px;
+}
+#sbdn-clock__preview--002 .upper-card,
+#sbdn-clock__preview--002 .lower-card {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  border: 1px solid #f5f5f5;
+}
+#sbdn-clock__preview--002 .upper-card span,
+#sbdn-clock__preview--002 .lower-card span {
+  font-size: 4em;
+  font-weight: 700;
+  color: #ea4c4c;
+}
+#sbdn-clock__preview--002 .upper-card {
+  align-items: flex-end;
+  border-bottom: 0.5px solid #f5f5f5;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#sbdn-clock__preview--002 .upper-card span {
+  transform: translateY(50%);
+}
+#sbdn-clock__preview--002 .lower-card {
+  align-items: flex-start;
+  border-top: 0.5px solid #f5f5f5;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+#sbdn-clock__preview--002 .lower-card span {
+  transform: translateY(-50%);
+}
+#sbdn-clock__preview--002 [id^="sbdn-flip__"] {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+#sbdn-clock__preview--002 [id^="sbdn-flip__"] span {
+  font-size: 4em;
+  font-weight: 700;
+  color: #ea4c4c;
+  height: 175%;
+}
+#sbdn-clock__preview--002 [id^="sbdn-flip__"].unfold {
+  top: 50%;
+  align-items: flex-start;
+  transform-origin: 50% 0%;
+  transform: rotateX(180deg);
+  background-color: #fff;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 1px solid #f5f5f5;
+  border-top: 0.5px solid #f5f5f5;
+}
+#sbdn-clock__preview--002 [id^="sbdn-flip__"].unfold span {
+  transform: translateY(-50%);
+}
+#sbdn-clock__preview--002 [id^="sbdn-flip__"].fold {
+  top: 0%;
+  align-items: flex-end;
+  transform-origin: 50% 100%;
+  transform: rotateX(0deg);
+  background-color: #fff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: 0.5px solid #f5f5f5;
+  border-bottom: 0.5px solid #f5f5f5;
+}
+#sbdn-clock__preview--002 [id^="sbdn-flip__"].fold span {
+  transform: translateY(50%);
+}
+@keyframes fold {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
+@keyframes unfold {
+  0% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+.fold {
+  animation: fold 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation-fill-mode: forwards;
+  transform-style: preserve-3d;
+  animation-iteration-count: 1;
+}
+.unfold {
+  animation: unfold 1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transform-style: preserve-3d;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+/* STYLE 3 */
+#sbdn-clock__preview--003 {
+  width: 100%;
+  margin: 1vw auto;
+}
+#sbdn-clock__preview--003 .clock-background {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2vw 1vw;
+  text-align: center;
+  background-color: #fff;
+}
+#sbdn-clock__preview--003 h3 {
+  margin-top: 1vw;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: left;
+}
+#sbdn-clock__preview--003 .timer {
+  display: inline-block;
+  width: 20%;
+  background: #fff;
+  margin: 0 0.8vw 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
+  -moz-box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
+  box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
+}
+
+#sbdn-clock__preview--003 .timer:last-child {
+  margin: 0px;
+}
+
+#sbdn-clock__preview--003 .clock-timer-text {
+  width: 100%;
+  background: #fff;
+  margin: 0;
+  font-size: calc(1rem + 2vw);
+  line-height: calc(3rem + 3vw);
+  color: #333;
+}
+#sbdn-clock__preview--003 .clock-label-text {
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  background: #ff5722;
+  color: #333;
+}
+
+/* MEDIA QUERIES */
+
+/* MOBILE / TABLE VIEW */
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  #sbdn-clock__preview--002 {
+    height: auto;
+  }
+  #sbdn-clock__preview--002 .sbdn-flip-clock {
+    height: 90%;
+  }
+  #sbdn-clock__preview--002 .upper-card span,
+  #sbdn-clock__preview--002 .lower-card span {
+    font-size: 3em;
+  }
+  #sbdn-clock__preview--002 [id^="sbdn-flip__"] span {
+    font-size: 3em;
+    height: 155%;
+  }
+
+  #sbdn-clock__preview--003 {
+    padding: 4vw 0;
+  }
+
+  #sbdn-clock__preview--003 .timer {
+    Width: 18%;
+  }
+
+  #sbdn-clock__preview--003 .clock-label-text {
+    padding: 0.3rem 0;
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  #sbdn-clock__preview--002 {
+    height: auto;
+  }
+  #sbdn-clock__preview--002 .sbdn-flip-clock {
+    height: 90%;
+  }
+  #sbdn-clock__preview--002 .upper-card span,
+  #sbdn-clock__preview--002 .lower-card span {
+    font-size: 3em;
+  }
+  #sbdn-clock__preview--002 [id^="sbdn-flip__"] span {
+    font-size: 3em;
+  }
+
+  #sbdn-clock__preview--003 {
+    padding: 3vw 0;
+  }
+
+  #sbdn-clock__preview--003 .timer {
+    Width: 18%;
+  }
+
+  #sbdn-clock__preview--003 .clock-label-text {
+    padding: 0.3rem 0;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #sbdn-clock__preview--002 {
+    height: auto;
+  }
+  #sbdn-clock__preview--002 .sbdn-flip-clock {
+    height: 90%;
+  }
+  #sbdn-clock__preview--002 .upper-card span,
+  #sbdn-clock__preview--002 .lower-card span {
+    font-size: 3em;
+  }
+  #sbdn-clock__preview--002 [id^="sbdn-flip__"] span {
+    font-size: 3em;
+  }
+
+  #sbdn-clock__preview--003 {
+    padding: 2vw 0;
+  }
+
+  #sbdn-clock__preview--003 .timer {
+    Width: 18%;
+  }
+
+  #sbdn-clock__preview--003 .clock-label-text {
+    padding: 0.5rem 0;
+    font-size: 0.7rem;
+  }
+}
+
+/* LAPTOP VIEW */
+@media screen and (min-width: 1024px) and (max-width: 1039px) {
+  #sbdn-clock__preview--002 .sbdn-timer-container {
+    height: 130px;
+  }
+  #sbdn-clock__preview--002 .upper-card span,
+  #sbdn-clock__preview--002 .lower-card span {
+    font-size: 4em;
+  }
+  #sbdn-clock__preview--002 [id^="sbdn-flip__"] span {
+    font-size: 4em;
+  }
+}
+
+</style>

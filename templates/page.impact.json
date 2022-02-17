@@ -14,23 +14,32 @@
         "1629840873714f362b-0": {
           "type": "heading",
           "settings": {
-            "heading": "Our meals make us a dog food company. Our hearts make us so much more.",
-            "heading_size": "h1"
+            "heading": "Full Bellies & Fuller Hearts",
+            "heading_size": "h0"
           }
         },
         "1629840873714f362b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>At Happy Howl, We’re dedicated to changing dogs' lives – one bowl at a time, one rescue pup at a time. We’re the first dog food company founded with a mission to change the lives of all dogs alike through good, healthy food that actually gives back.<\/p>"
+            "text": "<p><strong>We’re dedicated to changing dogs' lives – one bowl at a time & one rescue pup at a time. Together, we can make the world a better place for the dogs we love.<\/strong><\/p>"
+          }
+        },
+        "b3f604ca-67a0-48b1-a61e-265f5d90bd1b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Nominate",
+            "button_link": "shopify:\/\/pages\/partners",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "1629840873714f362b-0",
-        "1629840873714f362b-1"
+        "1629840873714f362b-1",
+        "b3f604ca-67a0-48b1-a61e-265f5d90bd1b"
       ],
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "full_width": false
       }
     },
@@ -40,7 +49,7 @@
         "1629840876b285caa8-0": {
           "type": "heading",
           "settings": {
-            "heading": "Introducing: Wild Hearts"
+            "heading": "Wild Hearts Pet Mobility: Chicago, IL"
           }
         },
         "1629840876b285caa8-1": {
@@ -52,7 +61,7 @@
         "1629840876b285caa8-2": {
           "type": "button",
           "settings": {
-            "button_label": "Learn More & Donate",
+            "button_label": "Wild Hearts",
             "button_link": "https:\/\/gowildhearts.org"
           }
         }
@@ -65,7 +74,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2021-04-01_195422.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "layout": "image_first"
       }
     },
@@ -75,25 +84,278 @@
         "1629841053c892599c-0": {
           "type": "heading",
           "settings": {
-            "heading": "By Helping Your Dog Get Healthy, We’re Helping Rescue Dogs In Need. Period."
+            "heading": "Deity Animal Rescue & Foundation: Beverly Hills, CA"
           }
         },
         "1629841053c892599c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Because we’re able to deliver healthy, human-grade cuisine straight to your dog’s doorstep, we’re able to save on all the other costs involved with selling through pet stores and supermarkets. But instead of keeping that money to make higher profit margins, we use it to fuel our purpose: dogs over profit.<\/p>"
+            "text": "<p>Female owned and operated non-profit animal rescue based in Los Angeles, California. Deity's mission is to educate and empower people of all ages as to how they can make a difference in the lives of animals in their homes + communities. <\/p>"
+          }
+        },
+        "9bfa4637-4e1a-4cd8-b580-0efc644e6db7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Deity Rescue",
+            "button_link": "https:\/\/www.deitydogsandgoods.com\/"
           }
         }
       },
       "block_order": [
         "1629841053c892599c-0",
-        "1629841053c892599c-1"
+        "1629841053c892599c-1",
+        "9bfa4637-4e1a-4cd8-b580-0efc644e6db7"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2021-04-01_195510.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_design_82.png",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "layout": "text_first"
+      }
+    },
+    "16443493824c136fab": {
+      "type": "image-with-text",
+      "blocks": {
+        "1644349381f4f2d6ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Big Guy, Littles World Sanctuary: Boonsboro, MD"
+          }
+        },
+        "1644349381f4f2d6ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bobby Humphrey's started BGLW to provide sanctuary for  neglected, abandoned and abused chihuahuas. It has since grown into more. BGLW is dedicated to bringing a unique experience for those in need across the country where they can live out their days without fear of being euthanized or kenneled. <\/p>"
+          }
+        },
+        "1644349381f4f2d6ad-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BGLW",
+            "button_link": "https:\/\/big-guy-littles-world-sanctuary.myshopify.com\/pages\/donate"
+          }
+        }
+      },
+      "block_order": [
+        "1644349381f4f2d6ad-0",
+        "1644349381f4f2d6ad-1",
+        "1644349381f4f2d6ad-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3329155_big-guy-littles-world-sanctuary-jam-press-5_1600944364.jpg",
+        "height": "adapt",
+        "color_scheme": "inverse",
+        "layout": "image_first"
+      }
+    },
+    "16443490970c71db3b": {
+      "type": "image-with-text",
+      "blocks": {
+        "164434909722bb0c14-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "True & Faithful Pet Rescue Mission: Venice, FL"
+          }
+        },
+        "164434909722bb0c14-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In an animal's eyes, love is unconditional. Too often their love is taken advantage of, leaving hundreds of animals abused, neglected and discarded. True & Faithful Pet Rescue Mission, Inc. is here for those animals to rescue, heal & educate. Because every animal deserves to be loved.<\/p>"
+          }
+        },
+        "164434909722bb0c14-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "True & Faithful",
+            "button_link": "https:\/\/www.trueandfaithfulpetrescuemission.org\/about-us"
+          }
+        }
+      },
+      "block_order": [
+        "164434909722bb0c14-0",
+        "164434909722bb0c14-1",
+        "164434909722bb0c14-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/taf.jpg",
+        "height": "large",
+        "color_scheme": "accent-1",
+        "layout": "text_first"
+      }
+    },
+    "164434862055acedf2": {
+      "type": "image-with-text",
+      "blocks": {
+        "1644348620ece076c2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gray Face Acres Senior Dog Rescue:  Catharpin, VA"
+          }
+        },
+        "1644348620ece076c2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gray Face Acres Senior Dog Rescue is an all volunteer 501c3 organization that is dedicated to rescuing senior dogs from shelters and situations of abuse and neglect. Only 1 in 10 dogs spends their entire life with a single family. <\/p>"
+          }
+        },
+        "1644348620ece076c2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Gray Face Acres",
+            "button_link": "https:\/\/www.grayfaceacres.org\/"
+          }
+        }
+      },
+      "block_order": [
+        "1644348620ece076c2-0",
+        "1644348620ece076c2-1",
+        "1644348620ece076c2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gallery-home-3.jpg",
+        "height": "adapt",
+        "color_scheme": "inverse",
+        "layout": "image_first"
+      }
+    },
+    "1644349784f146bc93": {
+      "type": "image-with-text",
+      "blocks": {
+        "164434978463d38f3c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Brick City Rescue: NJ"
+          }
+        },
+        "164434978463d38f3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Brick City Rescue Inc (BCR) is dedicated to finding loving, stable homes for all adoptable homeless dogs in NJ with a main focus on Bully Breeds. We encourage compassionate and responsible behavior and supply training, food, shelter and medical care to all of our animals. We serve as a community resource, disseminating valuable information to the public by promoting responsible pet ownership and providing education regarding breed discrimination.<\/p>"
+          }
+        },
+        "164434978463d38f3c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Brick City",
+            "button_link": "https:\/\/www.brickcityrescue.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "164434978463d38f3c-0",
+        "164434978463d38f3c-1",
+        "164434978463d38f3c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/download.jpg",
+        "height": "large",
+        "color_scheme": "accent-2",
+        "layout": "text_first"
+      }
+    },
+    "1644350285ef5a3f0d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1644350285140e8999-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Moms And Mutts: Colorado Rescue For Pregnant And Nursing Dogs"
+          }
+        },
+        "1644350285140e8999-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MAMCO rescue mission is to provide shelter, veterinary care, and permanent placement for pregnant and nursing dogs, cats, and abandoned litters who have been surrendered or abandoned in Colorado and surrounding states. MAMCO places a high value the relationships the they establish with fosters, adopters, volunteers, and the communities they serve. \"In order to fully love animals, we must also love people.\"<\/p>"
+          }
+        },
+        "1644350285140e8999-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "MAMCO",
+            "button_link": "https:\/\/mamcorescue.org\/"
+          }
+        }
+      },
+      "block_order": [
+        "1644350285140e8999-0",
+        "1644350285140e8999-1",
+        "1644350285140e8999-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WhelpingDachshundFadingPuppyFirstDayMotherPups.jpg",
+        "height": "large",
+        "color_scheme": "accent-1",
+        "layout": "image_first"
+      }
+    },
+    "1644350612bddafc44": {
+      "type": "image-with-text",
+      "blocks": {
+        "1644350612de3334f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Second Chance Pet Adoptions: Raleigh, NC"
+          }
+        },
+        "1644350612de3334f1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Second Chance Pet Adoptions is a non-profit animal rescue organization that has rescued stray or abandoned cats and dogs in the Triangle Area of North Carolina since 1987. Second Chance Pet Adoptions is the oldest no-kill rescue organization in Wake County. Their mission is to champion homeless animals who are healthy or treatable in the quest to find their forever homes.<\/p>"
+          }
+        },
+        "1644350612de3334f1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Second Chance NC",
+            "button_link": "https:\/\/www.secondchancenc.org\/"
+          }
+        }
+      },
+      "block_order": [
+        "1644350612de3334f1-0",
+        "1644350612de3334f1-1",
+        "1644350612de3334f1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/f3593f9b-1596-4c82-b721-5427f0f336f9-56603164_10157214550724808_3646734711012720640_o.jpg",
+        "height": "adapt",
+        "color_scheme": "inverse",
+        "layout": "text_first"
+      }
+    },
+    "164435135900876e60": {
+      "type": "image-with-text",
+      "blocks": {
+        "16443513591b03703e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Apollo's Arc Animal Rescue: Thousand Oaks, CA"
+          }
+        },
+        "16443513591b03703e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Apollo's Arc Animal Rescue and Care was created in 2018 in honor of our pup Apollo, a warm and loving Pitbull Mastiff cross who came into our lives with a blue-eyed bang (those soulful eyes turned golden soon after). He sadly and suddenly passed from this world during knee surgery at the tender age of 2 and 1\/2 years. Apollo had the right ideas in this life though and he taught us much: He welcomed any and all animals into our home, our arms, and our paws, with pleasure and gusto.  In his name, we do the right thing for any animal that we can - we rescue, return, rehabilitate, and release or re-home those that need our help.\"<\/p>"
+          }
+        },
+        "16443513591b03703e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apollo's Arc",
+            "button_link": "https:\/\/apollosarc.org\/"
+          }
+        }
+      },
+      "block_order": [
+        "16443513591b03703e-0",
+        "16443513591b03703e-1",
+        "16443513591b03703e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/download_3.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-2",
+        "layout": "image_first"
       }
     },
     "16298424301ebc6b54": {
@@ -137,6 +399,13 @@
     "1629840873714f362b",
     "1629840876b285caa8",
     "1629841053c892599c",
+    "16443493824c136fab",
+    "16443490970c71db3b",
+    "164434862055acedf2",
+    "1644349784f146bc93",
+    "1644350285ef5a3f0d",
+    "1644350612bddafc44",
+    "164435135900876e60",
     "16298424301ebc6b54"
   ]
 }
