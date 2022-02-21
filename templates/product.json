@@ -38,9 +38,17 @@
         "ba495c40-c1f5-4da8-99b0-f80559c39437": {
           "type": "popup",
           "settings": {
-            "text": "MEAL PLAN SIZES",
+            "text": "FEEDING GUIDELINES",
             "form_picker": "none",
             "page": "feeding-guidelines"
+          }
+        },
+        "b7824ae0-b245-4ad8-ba86-baf3412de9f8": {
+          "type": "popup",
+          "settings": {
+            "text": "PRICE COMPARISON",
+            "form_picker": "none",
+            "page": "price-comparison"
           }
         },
         "variant_picker": {
@@ -108,6 +116,7 @@
         "description",
         "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
         "ba495c40-c1f5-4da8-99b0-f80559c39437",
+        "b7824ae0-b245-4ad8-ba86-baf3412de9f8",
         "variant_picker",
         "quantity_selector",
         "5165184d-f0be-4928-a331-ef32da3e3c39",
@@ -143,7 +152,7 @@
         "1638132326628610c3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Nutritional Information",
+            "heading": "NUTRITIONAL INFORMATION",
             "heading_size": "h1"
           }
         }
@@ -553,6 +562,59 @@
         "full_width": true
       }
     },
+    "1645122271c01ebaa6": {
+      "type": "multicolumn",
+      "blocks": {
+        "1645122271d5a1c61b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_1_x_1_in_6.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1645122271d5a1c61b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zero.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1645122271d5a1c61b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_1_x_1_in_9.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "2905ef8f-094f-49c2-a58d-903699e3c13b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_1_x_1_in_8.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645122271d5a1c61b-2",
+        "1645122271d5a1c61b-0",
+        "1645122271d5a1c61b-1",
+        "2905ef8f-094f-49c2-a58d-903699e3c13b"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
     "1631733066fe40f40f": {
       "type": "collapsible-tabs",
       "blocks": {
@@ -650,13 +712,21 @@
         "16427193195be691d2-0": {
           "type": "heading",
           "settings": {
-            "heading": "We Provide All the Tools You Need in Every Meal Kit!",
-            "heading_size": "h1"
+            "heading": "FREE TOOLS INCLUDED IN EVERY ORDER!",
+            "heading_size": "h2"
+          }
+        },
+        "160d165a-04da-40c4-9f2c-d8970f4aab4c": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "16427193195be691d2-0"
+        "16427193195be691d2-0",
+        "160d165a-04da-40c4-9f2c-d8970f4aab4c"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -680,7 +750,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/HappyHowl_Shipper_Rendering_ClosedBox.png",
             "title": "TRANSITION GUIDE",
-            "text": "<p>Scan the QR code on the top of your shipment box with your phones camera to unlock our easy-to-follow transition guide to easily understand the best way to transition your dog to Happy Howl from their previous diet.<\/p><p><strong>CURRENT PRICE: FREE<\/strong><\/p>"
+            "text": "<p>Scan the QR code on the top of your shipment box with your phones camera to unlock our one-week transition guide to learn the best way to transition your dog to Happy Howl.<\/p>"
           }
         },
         "1642719268d9e83452-1": {
@@ -688,23 +758,23 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_68.png",
             "title": "STAINLESS STEEL SCOOPER",
-            "text": "<p>Custom-sized silverware to perfectly fit our containers & to easily scoop out the desired portion for every meal.<\/p><p><strong>CURRENT PRICE: FREE<\/strong><\/p><p><em>COMPARE AT PRICE: $9.99<\/em><\/p>"
+            "text": "<p>Custom-sized silverware to perfectly fit our containers & easily scoop out the desired portion for every meal. Because your pup is a <em>Distinguished Canine<\/em>. <\/p><p><\/p>"
           }
         },
         "1642719268d9e83452-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_70.png",
-            "title": "(3) RESEALABLE STORAGE BAGS",
-            "text": "<p>Recyclable & Resealable. Once one of your shelf-stable individual meals are opened but not finished, easily use one of our gusseted storage bags to store your opened carton in an airtight storage bag to preserve the food for up to 6 additional days in your refrigerator.<\/p><p><strong>CURRENT PRICE: FREE<\/strong><\/p><p><em>COMPARE AT PRICE: $8.97<\/em><\/p>"
+            "title": "RESEALABLE STORAGE BAGS",
+            "text": "<p>Recyclable & Resealable. Once one of your shelf-stable individual meals are opened but not finished, simply place the unfinished carton into the bag and place it in your refrigerator for up to 6 days. <\/p><p><\/p>"
           }
         },
         "057c90dc-026f-4c7c-a33f-1959b9ae1e86": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/feeding_schedule_calendar.jpg",
-            "title": "MONTHLY FEEDING SCHEDULE",
-            "text": "<p>Utilize our postcard-sized monthly schedule to keep track of \"if\" your pup has been fed their meal. Perfect for homes with multiple people who feed the dogs. Easily attach it to the fridge as a reminder!<\/p><p><strong>CURRENT PRICE: FREE<\/strong><\/p><p><em>COMPARE AT PRICE: $4.99<\/em><\/p>"
+            "title": "MONTHLY FEEDING TRACKER",
+            "text": "<p>Utilize our postcard-sized monthly schedule to keep track of \"if\" your pup has been fed their meal. Perfect for homes with multiple people who feed the dogs. Easily attach it to the fridge as a reminder!<\/p><p><\/p>"
           }
         }
       },
@@ -726,25 +796,108 @@
         "swipe_on_mobile": true
       }
     },
+    "164514724967be15c3": {
+      "type": "rich-text",
+      "blocks": {
+        "16451472490e4c957b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Feeding Guidelines + Cost Per Day",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "16451472490e4c957b-0"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true
+      }
+    },
     "16432491457a894804": {
       "type": "collage",
       "blocks": {
         "88595f37-2d1b-41f1-b94e-67d4e21a28b4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_3.png",
+            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_4.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "41f61f98-f72f-4fed-8e2c-58806408133a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_5.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "b4e72123-2dd6-4277-ab48-dbe92c5ab2fb": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_6.png",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "88595f37-2d1b-41f1-b94e-67d4e21a28b4"
+        "88595f37-2d1b-41f1-b94e-67d4e21a28b4",
+        "41f61f98-f72f-4fed-8e2c-58806408133a",
+        "b4e72123-2dd6-4277-ab48-dbe92c5ab2fb"
       ],
       "settings": {
         "heading": "",
         "desktop_layout": "left",
-        "mobile_layout": "collage"
+        "mobile_layout": "column"
+      }
+    },
+    "1645392204bcce5628": {
+      "type": "multicolumn",
+      "blocks": {
+        "1645392204bda0611e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_5.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1645392204bda0611e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_6.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1645392204bda0611e-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1645392204bda0611e-1",
+        "1645392204bda0611e-0",
+        "1645392204bda0611e-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     }
   },
@@ -762,9 +915,12 @@
     "164272125311de8347",
     "164261449779401bf2",
     "16426153965c7c9088",
+    "1645122271c01ebaa6",
     "1631733066fe40f40f",
     "1642719319c0b1497e",
     "16427192685d4834cb",
-    "16432491457a894804"
+    "164514724967be15c3",
+    "16432491457a894804",
+    "1645392204bcce5628"
   ]
 }

@@ -73,7 +73,7 @@
         "image_width": "half",
         "image_ratio": "circle",
         "column_alignment": "center",
-        "background_style": "none",
+        "background_style": "primary",
         "button_label": "READ ALL REVIEWS",
         "button_link": "https:\/\/www.trustpilot.com\/review\/thehappyhowl.com?utm_medium=trustbox&utm_source=MicroReviewCount",
         "swipe_on_mobile": true
@@ -289,6 +289,42 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/taf.jpg",
         "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "text_first"
+      }
+    },
+    "1645134563979b5e70": {
+      "type": "image-with-text",
+      "blocks": {
+        "164513456349845ea4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story: Rocky & Colin"
+          }
+        },
+        "164513456349845ea4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"\/blogs\/happy-blog\/a-new-breed-of-dog-food\" target=\"_blank\" title=\"Meet Our Happy Pack: Colin Buckley\"><strong>How far would you go to help your best friend?<\/strong><\/a> This is the question Colin had to answer after he realized no one was able to help him figure out why Rocky threw up every day for the first five years of his life. Like all good things, the healthiest dog food was born from love, desperation, and purpose. <\/p>"
+          }
+        },
+        "164513456349845ea4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164513456349845ea4-0",
+        "164513456349845ea4-1",
+        "164513456349845ea4-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/founder.png",
+        "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
@@ -299,13 +335,13 @@
         "1641342529ee45038b-0": {
           "type": "heading",
           "settings": {
-            "heading": "Dog Food Filling Up Your Freezer?"
+            "heading": "Stop Filling Up Your Freezer With Dog Food!"
           }
         },
         "1641342529ee45038b-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>“Fresh” doesn’t mean “frozen.” Happy Howl’s revolutionary Steam Pressure Pasteurization preparation process means our food stays fresh in your pantry for two years - with zero preservatives!<\/strong><\/p>"
+            "text": "<p><strong>“Fresh” doesn’t mean “frozen.” Happy Howl’s revolutionary Steam Pressure Pasteurization cooking process means our food stays fresh in your pantry for a minimum of two years - with zero preservatives!<\/strong><\/p>"
           }
         },
         "1641342529ee45038b-2": {
@@ -323,10 +359,10 @@
         "1641342529ee45038b-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Happy_Howl_Pantry_Stable_Fresh_Dog_Food_No_Freezing_or_Thawing.jpg",
-        "height": "large",
+        "image": "shopify:\/\/shop_images\/Untitled_design_100.png",
+        "height": "adapt",
         "color_scheme": "inverse",
-        "layout": "image_first"
+        "layout": "text_first"
       }
     },
     "1634754847826ccdcf": {
@@ -428,6 +464,7 @@
     },
     "163277117268e48227": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "96bc7b4c-4f75-49b4-8b2f-60b858db4382": {
           "type": "column",
@@ -627,6 +664,50 @@
       "settings": {
         "page": ""
       }
+    },
+    "1645134567cb711647": {
+      "type": "image-banner",
+      "blocks": {
+        "164513456744e37761-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Freshly Cooked, Shelf-Stable, & Preservative Free",
+            "heading_size": "medium"
+          }
+        },
+        "164513456744e37761-1": {
+          "type": "text",
+          "settings": {
+            "text": "Find out how we are re-defining \"dog years\""
+          }
+        },
+        "164513456744e37761-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "REDEEM 50% OFF",
+            "button_link_1": "shopify:\/\/products\/meal-plans",
+            "button_style_secondary_1": false,
+            "button_label_2": "VIEW RECIPES",
+            "button_link_2": "shopify:\/\/products\/meal-plans",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164513456744e37761-0",
+        "164513456744e37761-1",
+        "164513456744e37761-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Flat_Lay_-_with_White_Potato.png",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "accent-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -637,6 +718,7 @@
     "16292521517f255f17",
     "1640281644a3d05fc7",
     "1644351933f9f8ad07",
+    "1645134563979b5e70",
     "16413425295f662b3e",
     "1634754847826ccdcf",
     "1634751717114493c3",
@@ -645,6 +727,7 @@
     "16402809522c255109",
     "163598933640de245e",
     "16402815249aa31fd7",
-    "16402816330cfd4db1"
+    "16402816330cfd4db1",
+    "1645134567cb711647"
   ]
 }
