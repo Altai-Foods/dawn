@@ -38,12 +38,20 @@ class PortionCalculatorForm extends HTMLElement {
     form.querySelector('#daily-unit-recommendation').innerText = roundedUnitsPerDayByQuarter;
     form.querySelector('#daily-cup-recommendation').innerText = roundedCupsPerDayByQuarter;
 
-    // Table
+    // Options
+    const recommendationOption6 = form.querySelector('#carton-6-option');
+    recommendationOption6.classList.add('hidden');
     form.querySelector('#carton-6-recommended-days').innerText = Math.floor(smallCasePortionInfo.recommendedDays);
     form.querySelector('#carton-6-quantity').innerText = smallCasePortionInfo.quantity;
+    // Only show option when pet weight is above 28 lbs.
+    if (petWeight < 28) {
+      recommendationOption6.classList.remove('hidden');
+    }
+
+    const recommendationOption18 = form.querySelector('#carton-18-option');
     form.querySelector('#carton-18-recommended-days').innerText = Math.floor(standardCasePortionInfo.recommendedDays);
     form.querySelector('#carton-18-quantity').innerText = standardCasePortionInfo.quantity;
-    form.querySelector('#recommendation-table').removeAttribute('class');
+    recommendationOption18.classList.remove('hidden');
 
     // Recommendations
     form.querySelector('#recommendations').classList.remove('hidden');
