@@ -651,20 +651,6 @@
         "show_text_below": true
       }
     },
-    "16402815249aa31fd7": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": ""
-      }
-    },
-    "16402816330cfd4db1": {
-      "type": "page",
-      "disabled": true,
-      "settings": {
-        "page": ""
-      }
-    },
     "1645134567cb711647": {
       "type": "image-banner",
       "blocks": {
@@ -726,8 +712,6 @@
     "16325116292cb9b56f",
     "16402809522c255109",
     "163598933640de245e",
-    "16402815249aa31fd7",
-    "16402816330cfd4db1",
     "1645134567cb711647"
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_content": true
+      }
+    },
+    "1645488565c03850c6": {
+      "type": "image-with-text",
+      "blocks": {
+        "1645488565bd68de80-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE ALL-NATURAL DOG"
+          }
+        },
+        "1645488565bd68de80-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An Introduction to Canine Nutrition and Tips to Increase your Dogs Longevity + Happiness. <\/p>"
+          }
+        },
+        "1645488565bd68de80-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "DOWNLOAD PDF",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/7453\/6301\/files\/THE_ALL-NATURAL_DOG_by_Happy_Howl.pdf?v=1645488484"
+          }
+        }
+      },
+      "block_order": [
+        "1645488565bd68de80-0",
+        "1645488565bd68de80-1",
+        "1645488565bd68de80-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-21T181528.891.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1645488565c03850c6"
+  ]
+}

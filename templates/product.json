@@ -27,16 +27,9 @@
           "settings": {
           }
         },
-        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce": {
-          "type": "popup",
-          "settings": {
-            "text": "FEEDING CALCULATOR",
-            "form_picker": "portion_calculator",
-            "page": ""
-          }
-        },
         "ba495c40-c1f5-4da8-99b0-f80559c39437": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "FEEDING GUIDELINES",
             "form_picker": "none",
@@ -45,6 +38,7 @@
         },
         "b7824ae0-b245-4ad8-ba86-baf3412de9f8": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "text": "PRICE COMPARISON",
             "form_picker": "none",
@@ -94,17 +88,25 @@
           "settings": {
           }
         },
-        "7b9deaed-6eda-4ebc-9c8b-774a5cd40fdb": {
-          "type": "text",
-          "settings": {
-            "text": "*$1.00 price includes 50% off first-time offer and 10% off with Subscribe & Save for a FULL meal for an average sized, 20 lb dog.",
-            "text_style": "uppercase"
-          }
-        },
         "2096f799-b8b8-47f7-89a1-caa91d122d06": {
           "type": "text",
           "settings": {
-            "text": "**10% Subscribe & Save + Additional First-Time Discount. Recurring Orders Receive 10% OFF + Free Shipping in Continental US. Cancel Anytime.",
+            "text": "<br>Every dog has different caloric needs. Use our convenient Feeding Calculator to learn the perfect portion for your dog:",
+            "text_style": "body"
+          }
+        },
+        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce": {
+          "type": "popup",
+          "settings": {
+            "text": "FEEDING CALCULATOR",
+            "form_picker": "portion_calculator",
+            "page": ""
+          }
+        },
+        "7b9deaed-6eda-4ebc-9c8b-774a5cd40fdb": {
+          "type": "text",
+          "settings": {
+            "text": "*$1.00 price includes 50% off first-time offer and 10% off with Subscribe & Save for a FULL meal for an average sized, 20 lb dog.     <br><br> **10% Subscribe & Save + Additional First-Time Discount. Recurring Orders Receive 10% OFF + Free Shipping in Continental US. Cancel Anytime.",
             "text_style": "uppercase"
           }
         }
@@ -114,7 +116,6 @@
         "title",
         "subtitle",
         "description",
-        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
         "ba495c40-c1f5-4da8-99b0-f80559c39437",
         "b7824ae0-b245-4ad8-ba86-baf3412de9f8",
         "variant_picker",
@@ -124,8 +125,9 @@
         "ba2a3254-008e-4af0-b4f3-7871a4d49d7f",
         "share",
         "price",
-        "7b9deaed-6eda-4ebc-9c8b-774a5cd40fdb",
-        "2096f799-b8b8-47f7-89a1-caa91d122d06"
+        "2096f799-b8b8-47f7-89a1-caa91d122d06",
+        "aac9c6e6-db8d-4b20-acb3-3012e4ef42ce",
+        "7b9deaed-6eda-4ebc-9c8b-774a5cd40fdb"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -163,27 +165,6 @@
       "settings": {
         "color_scheme": "accent-1",
         "full_width": true
-      }
-    },
-    "16427215106f2d9e91": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "16427215106b544fa1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tasty Turkey Feast"
-          }
-        }
-      },
-      "block_order": [
-        "16427215106b544fa1-0"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_79.png",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
       }
     },
     "1645058244adcf9202": {
@@ -805,99 +786,144 @@
             "heading": "Feeding Guidelines + Cost Per Day",
             "heading_size": "h1"
           }
+        },
+        "50543968-e2a4-4595-ae07-61866ece7bb0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": ""
+          }
         }
       },
       "block_order": [
-        "16451472490e4c957b-0"
+        "16451472490e4c957b-0",
+        "50543968-e2a4-4595-ae07-61866ece7bb0"
       ],
       "settings": {
         "color_scheme": "accent-1",
         "full_width": true
       }
     },
-    "16432491457a894804": {
-      "type": "collage",
+    "1646854989f21ee376": {
+      "type": "rich-text",
       "blocks": {
-        "88595f37-2d1b-41f1-b94e-67d4e21a28b4": {
-          "type": "image",
+        "16468549897be453bc-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_4.png",
-            "image_padding": false,
-            "color_scheme": "background-1"
+            "heading": "How much Happy Howl would you like to feed your dog?",
+            "heading_size": "h2"
           }
         },
-        "41f61f98-f72f-4fed-8e2c-58806408133a": {
-          "type": "image",
+        "16468549897be453bc-1": {
+          "type": "text",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_5.png",
-            "image_padding": false,
-            "color_scheme": "background-1"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "b4e72123-2dd6-4277-ab48-dbe92c5ab2fb": {
-          "type": "image",
+        "16468549897be453bc-2": {
+          "type": "button",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_6.png",
-            "image_padding": false,
-            "color_scheme": "background-1"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "88595f37-2d1b-41f1-b94e-67d4e21a28b4",
-        "41f61f98-f72f-4fed-8e2c-58806408133a",
-        "b4e72123-2dd6-4277-ab48-dbe92c5ab2fb"
+        "16468549897be453bc-0",
+        "16468549897be453bc-1",
+        "16468549897be453bc-2"
       ],
       "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "column"
+        "color_scheme": "background-1",
+        "full_width": true
       }
     },
     "1645392204bcce5628": {
       "type": "multicolumn",
       "blocks": {
-        "1645392204bda0611e-1": {
+        "1645392204bda0611e-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_5.png",
-            "title": "",
-            "text": ""
+            "image": "shopify:\/\/shop_images\/Untitled_design_92.png",
+            "title": "100%",
+            "text": "<p>Get the complete benefit of Happy Howl's nutrient dense life-changing food<\/p>"
           }
         },
         "1645392204bda0611e-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Comparison_Table_List_Infographic_Gantt_Chart_Graph_54.183_x_54.183_cm_48_x_18_in_48_x_36_in_6.png",
-            "title": "",
-            "text": ""
+            "image": "shopify:\/\/shop_images\/Untitled_design_93.png",
+            "title": "50%",
+            "text": "<p>Split with your your homemade food or kibble to give your dog the nutrients they need<\/p>"
           }
         },
-        "1645392204bda0611e-2": {
+        "1645392204bda0611e-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-21T182806.495.png",
+            "title": "25%",
+            "text": "<p>Top-off your dogs current food to give them an extra boost and key nutrients to supplement their diets<\/p>"
           }
         }
       },
       "block_order": [
-        "1645392204bda0611e-1",
+        "1645392204bda0611e-2",
         "1645392204bda0611e-0",
-        "1645392204bda0611e-2"
+        "1645392204bda0611e-1"
       ],
       "settings": {
         "title": "",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
+      }
+    },
+    "1646853967b880c541": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "e884adbd-36cb-4063-9c2b-79aade775756": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "100% Meal Plan Guide",
+            "content": "",
+            "page": "cost-per-day-100",
+            "icon": "ruler"
+          }
+        },
+        "bab5039e-b6c1-42aa-b4c2-c0fe0cce81d2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "50% Meal Plan Guide",
+            "content": "",
+            "page": "cost-per-day-50",
+            "icon": "ruler"
+          }
+        },
+        "32642c66-0768-46f0-ba6b-5f143057a5cc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "25% Meal Plan Guide",
+            "content": "",
+            "page": "cost-per-day-25",
+            "icon": "ruler"
+          }
+        }
+      },
+      "block_order": [
+        "e884adbd-36cb-4063-9c2b-79aade775756",
+        "bab5039e-b6c1-42aa-b4c2-c0fe0cce81d2",
+        "32642c66-0768-46f0-ba6b-5f143057a5cc"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "large"
       }
     }
   },
@@ -905,7 +931,6 @@
     "main",
     "product-recommendations",
     "1638132326faf7da89",
-    "16427215106f2d9e91",
     "1645058244adcf9202",
     "1638131806450c6369",
     "1645059710dcb129ab",
@@ -920,7 +945,8 @@
     "1642719319c0b1497e",
     "16427192685d4834cb",
     "164514724967be15c3",
-    "16432491457a894804",
-    "1645392204bcce5628"
+    "1646854989f21ee376",
+    "1645392204bcce5628",
+    "1646853967b880c541"
   ]
 }

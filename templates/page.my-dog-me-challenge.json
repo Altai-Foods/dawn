@@ -1,0 +1,561 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "show_content": true
+      }
+    },
+    "16455840130a37617c": {
+      "type": "image-with-text",
+      "blocks": {
+        "164558401310109921-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "My Dog & Me Challenge"
+          }
+        },
+        "164558401310109921-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I<strong>t's time to get up off of the couch and get fit with your dog for a great cause!<\/strong><\/p>"
+          }
+        },
+        "164558401310109921-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "JOIN CHALLENGE",
+            "button_link": "shopify:\/\/pages\/my-dog-me-challenge"
+          }
+        }
+      },
+      "block_order": [
+        "164558401310109921-0",
+        "164558401310109921-1",
+        "164558401310109921-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/golden-retriever.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "image_first"
+      }
+    },
+    "164558484919af81ed": {
+      "type": "rich-text",
+      "blocks": {
+        "164558484966a849f1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Next Challenge Start: April 1st, 2022",
+            "heading_size": "h1"
+          }
+        },
+        "164558484966a849f1-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "164558484966a849f1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164558484966a849f1-0",
+        "164558484966a849f1-1",
+        "164558484966a849f1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1645584716504909a7": {
+      "type": "rich-text",
+      "blocks": {
+        "16455847164fca772c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How It Works:",
+            "heading_size": "h0"
+          }
+        },
+        "16455847164fca772c-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16455847164fca772c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16455847164fca772c-0",
+        "16455847164fca772c-1",
+        "16455847164fca772c-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "1645584791b2747431": {
+      "type": "multicolumn",
+      "blocks": {
+        "16455847912be776ab-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T231728.577.png",
+            "title": "Get Fit & Healthy With Your Dog",
+            "text": "<p>8 Weeks of Curated Content and Industry Proessionals to Tie Human Health with Canine Health so You and Your Dog can live longer together.<\/p>"
+          }
+        },
+        "16455847912be776ab-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T232027.333.png",
+            "title": "VIP Access to Facebook Group & Strava Club",
+            "text": "<p>Once you <a href=\"\/pages\/my-dog-me-challenge\" target=\"_blank\" title=\"My Dog & Me Challenge\">sign-up<\/a> for the challenge, you'll be able to join our Private Facebook & Strava Communities to Participate in Prizes & Webinars.<\/p>"
+          }
+        },
+        "16455847912be776ab-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T232229.067.png",
+            "title": "Win Prizes",
+            "text": "<p>Winners of the Challenge Receive a $250 Visa Gift Card, a FREE 3-Month Subscription to Happy Howl, & a $100 Donation in Their Name to Their Favorite Dog Rescue.<\/p>"
+          }
+        },
+        "62342211-b914-4840-aa06-c9ded1ee9b2e": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16455847912be776ab-0",
+        "16455847912be776ab-1",
+        "16455847912be776ab-2",
+        "62342211-b914-4840-aa06-c9ded1ee9b2e"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "JOIN CHALLENGE",
+        "button_link": "shopify:\/\/pages\/my-dog-me-challenge",
+        "swipe_on_mobile": false
+      }
+    },
+    "1645584296a594f53b": {
+      "type": "rich-text",
+      "blocks": {
+        "16455842964e1add44-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What You Will Gain:",
+            "heading_size": "h0"
+          }
+        },
+        "16455842964e1add44-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16455842964e1add44-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16455842964e1add44-0",
+        "16455842964e1add44-1",
+        "16455842964e1add44-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "164558435882f99192": {
+      "type": "multicolumn",
+      "blocks": {
+        "1645584358e7ed6139-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T230952.662.png",
+            "title": "More Years",
+            "text": "<p>Our challenge will provide participants with the information and knowledge that, when followed, will bring longevity to them and their dogs.<\/p>"
+          }
+        },
+        "1645584358e7ed6139-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T231338.337.png",
+            "title": "More Discipline",
+            "text": "<p>Learn the healthy eating & exercise habits, training techniques, common vet knowledge, and debunk age-old dog myths to cut through the nonsense. <\/p>"
+          }
+        },
+        "1645584358e7ed6139-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T231608.253.png",
+            "title": "More Purpose",
+            "text": "<p>Give you and your dog a life of purpose and meaning - your dog will wake each day with excitement alongside you. All while learning how you can easily help dogs in need.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1645584358e7ed6139-0",
+        "1645584358e7ed6139-1",
+        "1645584358e7ed6139-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "JOIN CHALLENGE",
+        "button_link": "shopify:\/\/pages\/my-dog-me-challenge",
+        "swipe_on_mobile": true
+      }
+    },
+    "1645584482f8aa9963": {
+      "type": "rich-text",
+      "blocks": {
+        "16455844824e28c476-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What You Will Learn:",
+            "heading_size": "h0"
+          }
+        },
+        "16455844824e28c476-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16455844824e28c476-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16455844824e28c476-0",
+        "16455844824e28c476-1",
+        "16455844824e28c476-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "1645584431682f5ea6": {
+      "type": "multicolumn",
+      "blocks": {
+        "1645584431b5cdc0f9-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dog-eating-carrot.jpeg",
+            "title": "Nutrition - The Crossover of Humans & Dogs",
+            "text": ""
+          }
+        },
+        "1645584431b5cdc0f9-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T225813.674.png",
+            "title": "Fitness - How to Get the Most Out of Walks",
+            "text": ""
+          }
+        },
+        "1645584431b5cdc0f9-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T230550.211.png",
+            "title": "Insider Information - What \"Big Kibble\" Keeps Secret",
+            "text": ""
+          }
+        },
+        "67a961e3-6031-40b9-9588-41c84ae5ecc5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T230805.946.png",
+            "title": "New Age Experts: The Cutting Edge of Pet Health",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1645584431b5cdc0f9-0",
+        "1645584431b5cdc0f9-1",
+        "1645584431b5cdc0f9-2",
+        "67a961e3-6031-40b9-9588-41c84ae5ecc5"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "JOIN CHALLENGE",
+        "button_link": "shopify:\/\/pages\/my-dog-me-challenge",
+        "swipe_on_mobile": true
+      }
+    },
+    "1645584633c92e1322": {
+      "type": "rich-text",
+      "blocks": {
+        "164558463389757109-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who You Will Help:",
+            "heading_size": "h0"
+          }
+        },
+        "164558463389757109-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "164558463389757109-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164558463389757109-0",
+        "164558463389757109-1",
+        "164558463389757109-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "1645584592fac5b247": {
+      "type": "multicolumn",
+      "blocks": {
+        "164558459208726b3f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T224815.625.png",
+            "title": "You",
+            "text": ""
+          }
+        },
+        "164558459208726b3f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T224806.124.png",
+            "title": "Your Best Friend",
+            "text": ""
+          }
+        },
+        "164558459208726b3f-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T224758.806.png",
+            "title": "Your Community",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "164558459208726b3f-0",
+        "164558459208726b3f-1",
+        "164558459208726b3f-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "JOIN CHALLENGE",
+        "button_link": "shopify:\/\/pages\/my-dog-me-challenge",
+        "swipe_on_mobile": true
+      }
+    },
+    "1645586681364b5354": {
+      "type": "rich-text",
+      "blocks": {
+        "164558668193c572be-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What You Can Win:",
+            "heading_size": "h0"
+          }
+        },
+        "164558668193c572be-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "164558668193c572be-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "164558668193c572be-0",
+        "164558668193c572be-1",
+        "164558668193c572be-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true
+      }
+    },
+    "1645586728ef9e13a3": {
+      "type": "multicolumn",
+      "blocks": {
+        "1645586727caecf98a-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T223517.320.png",
+            "title": "FIRST PRIZE:",
+            "text": "<p><strong>$300 Happy Howl Gift Card<\/strong><\/p>"
+          }
+        },
+        "1645586727caecf98a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T223525.228.png",
+            "title": "SECOND PRIZE:",
+            "text": "<p><strong>$200 Visa Gift Card<\/strong><\/p>"
+          }
+        },
+        "1645586727caecf98a-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-02-22T223532.509.png",
+            "title": "THIRD PRIZE:",
+            "text": "<p><strong>$100 Donation in Your Name to the Rescue of Your Choice<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1645586727caecf98a-0",
+        "1645586727caecf98a-1",
+        "1645586727caecf98a-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "1645584970cea73ad6": {
+      "type": "multicolumn",
+      "blocks": {
+        "1645584970b48b038e-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1645584970b48b038e-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1645584970b48b038e-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1645584970b48b038e-0",
+        "1645584970b48b038e-1",
+        "1645584970b48b038e-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "JOIN CHALLENGE",
+        "button_link": "shopify:\/\/pages\/my-dog-me-challenge",
+        "swipe_on_mobile": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16455840130a37617c",
+    "164558484919af81ed",
+    "1645584716504909a7",
+    "1645584791b2747431",
+    "1645584296a594f53b",
+    "164558435882f99192",
+    "1645584482f8aa9963",
+    "1645584431682f5ea6",
+    "1645584633c92e1322",
+    "1645584592fac5b247",
+    "1645586681364b5354",
+    "1645586728ef9e13a3",
+    "1645584970cea73ad6"
+  ]
+}
