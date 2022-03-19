@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -151,6 +152,7 @@
     },
     "1638132326faf7da89": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1638132326628610c3-0": {
           "type": "heading",
@@ -170,6 +172,7 @@
     },
     "1645058244adcf9202": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1645058244c9f5ff65-1": {
           "type": "column",
@@ -214,6 +217,7 @@
     },
     "1638131806450c6369": {
       "type": "collapsible-tabs",
+      "disabled": true,
       "blocks": {
         "b4a41f34-ea80-4030-a9f6-5ed877d7bbe5": {
           "type": "collapsible_tab",
@@ -275,6 +279,7 @@
     },
     "1645059710dcb129ab": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16450597108648e0f0-0": {
           "type": "column",
@@ -340,6 +345,7 @@
     },
     "1642614752aa4f5103": {
       "type": "collapsible-tabs",
+      "disabled": true,
       "blocks": {
         "dfdd90e6-583d-418f-a6be-e2649cfd8979": {
           "type": "collapsible_tab",
@@ -401,6 +407,7 @@
     },
     "1645059894c3c1f3c9": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "164505989404ecab5e-2": {
           "type": "column",
@@ -466,6 +473,7 @@
     },
     "164261449779401bf2": {
       "type": "collapsible-tabs",
+      "disabled": true,
       "blocks": {
         "9e9e743f-a78a-4182-ad27-f474d8b4f41e": {
           "type": "collapsible_tab",
@@ -527,6 +535,7 @@
     },
     "16426153965c7c9088": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16426153964707b7ce-0": {
           "type": "heading",
@@ -546,6 +555,7 @@
     },
     "1645122271c01ebaa6": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1645122271d5a1c61b-2": {
           "type": "column",
@@ -599,6 +609,7 @@
     },
     "1631733066fe40f40f": {
       "type": "collapsible-tabs",
+      "disabled": true,
       "blocks": {
         "fc5d1522-f224-4bd9-9516-99342a5e5e93": {
           "type": "collapsible_tab",
@@ -690,12 +701,13 @@
     },
     "1642719319c0b1497e": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16427193195be691d2-0": {
           "type": "heading",
           "settings": {
             "heading": "FREE TOOLS INCLUDED IN EVERY ORDER!",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "160d165a-04da-40c4-9f2c-d8970f4aab4c": {
@@ -717,6 +729,7 @@
     },
     "16427192685d4834cb": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "e15ef3a0-f146-47c8-a1f8-98e6c9e9ad6c": {
           "type": "column",
@@ -780,6 +793,7 @@
     },
     "164514724967be15c3": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16451472490e4c957b-0": {
           "type": "heading",
@@ -807,6 +821,7 @@
     },
     "1646854989f21ee376": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16468549897be453bc-0": {
           "type": "heading",
@@ -844,6 +859,7 @@
     },
     "1645392204bcce5628": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1645392204bda0611e-2": {
           "type": "column",
@@ -888,6 +904,7 @@
     },
     "1646853967b880c541": {
       "type": "collapsible-tabs",
+      "disabled": true,
       "blocks": {
         "e884adbd-36cb-4063-9c2b-79aade775756": {
           "type": "collapsible_tab",

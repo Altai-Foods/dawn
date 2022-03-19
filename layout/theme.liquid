@@ -132,7 +132,25 @@
     </script>
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  </head>
+  
+<!-- GSSTART Code for GSDISCOUNTPRICES head. Do not change -->
+{%- if product -%}
+ <script type="text/javascript">
+   window.gspricesSelectedVariantId = '{{ product.selected_or_first_available_variant.id }}';
+   window.gspricesProductURL = '{{ product.handle }}';
+ </script>
+ {%- endif -%}  
+  
+   <script type="text/javascript">
+   window.gspricesCurrentDate = '{{'now' | date: "%Y-%m-%dT%H:%M:%SZ" }}';
+   window.gspricesCurrentUTCts = {{'now' | date: "%s" }}000;
+   
+   </script><script type="text/javascript" src="https://gravity-software.com/discountedprices/js/shopify/gsdiscounts5107.js?v=eb0b4dd7f91ca7e36ca27dd5d2ebc71e"></script>
+<!-- Code for GSDISCOUNTPRICES head. Do not change GSEND -->
+
+                  {% include 'bss-product-labels-configs' %}
+                    </head>
+             
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -190,5 +208,106 @@
           {% render 'sbdn-products' %}
           {% render 'sbdn-badge' %}
           {% render 'sbdn-sale-clock' %}
-          {% endif %} </body>
+          {% endif %} <!-- GSSTART Code for GSDISCOUNTPRICES body. Do not change -->
+  <span class="gs-cart-total" carttotal="{{ cart.original_total_price }}" style="display:none !important;" />
+{% for item in cart.items %}
+  <span class="gs-cart-data" variant_id="{{ item.variant_id }}" final_price="{{ item.line_level_total_discount }}" original_price="{{ item.original_price }}" itempropery="{% for p in item.properties %}{{ p.first }}{% endfor %}" style="display:none !important;">
+{% endfor %}  
+{% for discount_application in cart.discount_applications %}
+    <span class="gs-discount-application" style="display:none !important;">{{ discount_application.title }}</span>
+{% endfor %}
+    
+    
+{%- if collection.products or search.results or product or template == 'index' or cart -%}
+
+
+<div id="gs-image-preload" style="display:none !important;">
+  <div id="gsmoneyformat1">{{ 78 | money }}</div>
+  <div id="gsmoneyformat2">{{ 45678 | money }}</div>
+  <div id="gsmoneyformat3">{{ 12345678 | money }}</div>
+  {%- assign product_variants = "" -%}
+  {%- assign productsFound = '' -%}
+  {%- assign paginationLoop = (8..100) -%}
+
+    {%- if collection.products -%}
+      {%- for i in paginationLoop -%}
+        {%- paginate collection.products by i -%}
+          {%- for product in collection.products -%}
+
+  			{%- if productsFound contains product.id -%}{%- else -%}
+                {%- assign productsFound = productsFound | append: product.id | append: " " -%}
+
+
+               <span class="gs-variant-data" style="display:none !important;"
+                     product-collections="{% for collection in product.collections %}{{ collection.id }};{% endfor %}"
+                     product-price="{{product.price_min}}" 
+                     data-product-id="{{product.id}}"
+                     data-product-handle="{{product.handle}}"
+                     firstavailablevariant="{{product.first_available_variant.id}}"
+                     ></span>
+
+  			{%- endif -%}
+          {%- endfor -%}
+        {%- endpaginate -%}
+      {%- endfor -%}
+
+    {%- elsif search.results -%}
+  
+    {%- assign paginationLoop = (8..50) -%}
+      {%- for i in paginationLoop -%}
+        {%- paginate search.results by i -%}
+          {%- for product in search.results -%}
+
+            {%- if product.object_type != 'product' -%}
+                {%- continue -%}
+            {%- endif -%}
+  			{%- if productsFound contains product.id -%}{%- else -%}
+                {%- assign productsFound = productsFound | append: product.id | append: " " -%}
+
+
+               <span class="gs-variant-data" style="display:none !important;"
+                     product-collections="{% for collection in product.collections %}{{ collection.id }};{% endfor %}"
+                     product-price="{{product.price_min}}" 
+                     data-product-id="{{product.id}}"
+                     data-product-handle="{{product.handle}}"
+                     firstavailablevariant="{{product.first_available_variant.id}}"
+                     ></span>
+
+  			{%- endif -%}
+          {%- endfor -%}
+        {%- endpaginate -%}
+      {%- endfor -%}
+
+    {%- elsif template == 'index' -%}
+  
+        {%- paginate collections['all'].products by 50 -%}
+          {%- for product in collections['all'].products -%}
+  			{%- if productsFound contains product.id -%}{%- else -%}
+                {%- assign productsFound = productsFound | append: product.id | append: " " -%}
+
+
+               <span class="gs-variant-data" style="display:none !important;"
+                     product-collections="{% for collection in product.collections %}{{ collection.id }};{% endfor %}"
+                     product-price="{{product.price_min}}" 
+                     data-product-id="{{product.id}}"
+                     data-product-handle="{{product.handle}}"
+                     firstavailablevariant="{{product.first_available_variant.id}}"
+                     ></span>
+
+  			{%- endif -%}
+          {%- endfor -%}
+        {%- endpaginate -%}
+    {%- endif -%}
+  
+    {%- if product -%}
+
+		<span id="gsPriceProductVariants" product-collections="{% for collection in product.collections %}{{ collection.id }};{% endfor %}" style="display:none !important;">
+  		{%- for variant in product.variants -%}
+                <span variantId="{{ variant.id }}" data-product-id="{{product.id}}" product-price="{{ variant.price }}" isAvailable="{{ variant.available }}" product-collections="{% for collection in product.collections %}{{ collection.id }};{% endfor %}" />
+        {%- endfor -%}	
+        </span>
+    {%- endif -%}
+</div>
+ {%- endif -%}
+<!-- Code for GSDISCOUNTPRICES body. Do not change GSEND -->{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% endif %}</body>
 </html>

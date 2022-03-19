@@ -11,7 +11,7 @@
     "social_instagram_link": "",
     "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/thehappyhowl\/about",
     "favicon": "shopify:\/\/shop_images\/HappyHowlLogo_Favicon_368c.jpg",
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/HappyHowlLogo_Final_Pos_75e334e6-1488-4562-98fd-a6ffef323224.png",
     "checkout_accent_color": "#76bc21",
     "checkout_button_color": "#76bc21",
