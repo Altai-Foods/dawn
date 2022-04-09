@@ -7,8 +7,7 @@
       "login_form_password_placeholder": "Votre mot de passe",
       "login_form_error": "Mot de passe incorrect !",
       "login_form_submit": "Saisir",
-      "modal": "Mot de passe modal",
-      "admin_link_html": "La boutique vous appartient-elle ? <a href=\"\/admin\" class=\"link underlined-link\">Se connecter ici<\/a>",
+      "admin_link_html": "La boutique vous appartient-elle ? <a href=\"/admin\" class=\"link underlined-link\">Se connecter ici</a>",
       "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}"
     },
     "social": {
@@ -49,6 +48,11 @@
       "share_url": "Lien",
       "success_message": "Lien copié dans le presse-papiers",
       "close": "Fermer le partage"
+    },
+    "slider": {
+      "of": "de",
+      "next_slide": "Faire glisser vers la droite",
+      "previous_slide": "Faire glisser vers la gauche"
     }
   },
   "newsletter": {
@@ -67,13 +71,11 @@
       "new_window": "S'ouvre dans une nouvelle fenêtre.",
       "external": "Ouvre un site web externe."
     },
-    "next_slide": "Faire glisser vers la droite",
-    "previous_slide": "Faire glisser vers la gauche",
     "loading": "Chargement en cours...",
-    "of": "sur",
     "skip_to_product_info": "Passer aux informations produits",
     "total_reviews": "total des critiques",
-    "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles"
+    "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
+    "collapsible_content_title": "Contenu réductible"
   },
   "blogs": {
     "article": {
@@ -135,14 +137,20 @@
         "refresh": "Actualiser"
       },
       "media": {
-        "open_featured_media": "Ouvrir les supports multimédia en vedette dans la vue de la galerie",
-        "open_media": "Ouvrir {{ index }} des supports multimédia dans la vue de la galerie",
+        "open_media": "Ouvrir le média {{ index }} dans une fenêtre modale",
         "play_model": "Lire la visionneuse 3D",
-        "play_video": "Lire la vidéo"
+        "play_video": "Lire la vidéo",
+        "gallery_viewer": "Visionneuse de la galerie",
+        "load_image": "Charger l'image {{ index }} dans la galerie",
+        "load_model": "Charger le modèle 3D {{ index }} dans la galerie",
+        "load_video": "Lire la vidéo {{ index }} dans la galerie",
+        "image_available": "L'image {{ index }} est maintenant disponible dans la galerie"
       },
       "view_full_details": "Afficher tous les détails",
       "include_taxes": "Taxes incluses.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition<\/a> calculés à l'étape de paiement."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition</a> calculés à l'étape de paiement.",
+      "choose_options": "Choisir des options",
+      "choose_product_options": "Choisir des options pour {{ product_name }}"
     },
     "modal": {
       "label": "Galerie de supports multimédias"
@@ -150,7 +158,7 @@
     "facets": {
       "apply": "Appliquer",
       "clear": "Effacer",
-      "clear_all": "Tout effacer",
+      "clear_all": "Tout supprimer",
       "from": "De",
       "filter_and_sort": "Filtrer et trier",
       "filter_by_label": "Filtre :",
@@ -172,7 +180,10 @@
       "sort_button": "Trier",
       "sort_by_label": "Trier par :",
       "to": "À",
-      "clear_filter": "Effacer le filtre"
+      "clear_filter": "Supprimer le filtre",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} filtres sélectionnés)",
+      "show_more": "Afficher plus",
+      "show_less": "Afficher moins"
     }
   },
   "templates": {
@@ -206,7 +217,8 @@
         "comment": "Commentaire",
         "send": "Envoyer",
         "post_success": "Merci de nous avoir contactés. Nous vous répondrons dès que possible.",
-        "error_heading": "Veuillez ajuster les éléments suivants :"
+        "error_heading": "Veuillez ajuster les éléments suivants :",
+        "title": "Formulaire de contact"
       }
     }
   },
@@ -229,8 +241,8 @@
       "checkout": "Procéder au paiement",
       "empty": "Votre panier est vide",
       "cart_error": "Une erreur est survenue lors de l’actualisation de votre panier. Veuillez réessayer.",
-      "cart_quantity_error_html": "Vous ne pouvez ajouter que [quantité] de cet article à votre panier.",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d'expédition<\/a> calculés lors du paiement",
+      "cart_quantity_error_html": "Vous ne pouvez pas ajouter plus de {{ quantity }} de ce produit à votre panier.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d'expédition</a> calculés lors du paiement",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés lors du paiement",
       "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais d'expédition<\/a> calculés à l'étape de paiement.",
       "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés lors du paiement",
@@ -257,7 +269,8 @@
     },
     "featured_collection": {
       "view_all": "Tout afficher",
-      "view_all_label": "Afficher tous les produits de la collection {{ collection_name }}"
+      "view_all_label": "Afficher tous les produits de la collection {{ collection_name }}",
+      "slider": "Carrousel"
     },
     "collection_list": {
       "view_all": "Tout afficher"
@@ -265,10 +278,22 @@
     "collection_template": {
       "title": "Collection",
       "empty": "Aucun produit trouvé",
-      "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout effacer<\/a>"
+      "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout supprimer</a>"
     },
     "video": {
       "load_video": "Charger la vidéo : {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Charger la diapositive",
+      "previous_slideshow": "Diapositive précédente",
+      "next_slideshow": "Diapositive suivante",
+      "pause_slideshow": "Interrompre le diaporama",
+      "play_slideshow": "Lire le diaporama",
+      "carousel": "Carrousel",
+      "slide": "Diapositive"
+    },
+    "page": {
+      "title": "Titre de la page"
     }
   },
   "localization": {
@@ -382,7 +407,8 @@
       "tracking_url": "Lien de suivi",
       "tracking_company": "Transporteur",
       "tracking_number": "Numéro de suivi",
-      "subtotal": "Sous-total"
+      "subtotal": "Sous-total",
+      "total_duties": "Frais de douane"
     }
   },
   "gift_cards": {

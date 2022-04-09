@@ -40,7 +40,9 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
-        "show_vendor": true
+        "show_vendor": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cart-footer": {

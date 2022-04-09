@@ -4,7 +4,9 @@
       "type": "main-page",
       "settings": {
         "show_title": false,
-        "show_content": true
+        "show_content": true,
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },

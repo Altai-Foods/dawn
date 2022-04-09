@@ -4,52 +4,71 @@ if (!customElements.get('product-form')) {
       super();
 
       this.form = this.querySelector('form');
+      this.form.querySelector('[name=id]').disabled = false;
       this.form.addEventListener('submit', this.onSubmitHandler.bind(this));
       this.cartNotification = document.querySelector('cart-notification');
+      this.submitButton = this.querySelector('[type="submit"]');
     }
 
     onSubmitHandler(evt) {
       evt.preventDefault();
-      const submitButton = this.querySelector('[type="submit"]');
-      if (submitButton.classList.contains('loading')) return; 
+      if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
       this.handleErrorMessage();
       this.cartNotification.setActiveElement(document.activeElement);
 
-      submitButton.setAttribute('aria-disabled', true);
-      submitButton.classList.add('loading');
+      this.submitButton.setAttribute('aria-disabled', true);
+      this.submitButton.classList.add('loading');
       this.querySelector('.loading-overlay__spinner').classList.remove('hidden');
 
       const config = fetchConfig('javascript');
       config.headers['X-Requested-With'] = 'XMLHttpRequest';
-      config.body = JSON.stringify({
-        ...JSON.parse(serializeForm(this.form)),
-        sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
-        sections_url: window.location.pathname
-      });
+      delete config.headers['Content-Type'];
+
+      const formData = new FormData(this.form);
+      formData.append('sections', this.cartNotification.getSectionsToRender().map((section) => section.id));
+      formData.append('sections_url', window.location.pathname);
+      config.body = formData;
 
       fetch(`${routes.cart_add_url}`, config)
         .then((response) => response.json())
         .then((response) => {
           if (response.status) {
             this.handleErrorMessage(response.description);
+
+            const soldOutMessage = this.submitButton.querySelector('.sold-out-message');
+            if (!soldOutMessage) return;
+            this.submitButton.setAttribute('aria-disabled', true);
+            this.submitButton.querySelector('span').classList.add('hidden');
+            soldOutMessage.classList.remove('hidden');
+            this.error = true;
             return;
           }
 
-          this.cartNotification.renderContents(response);
+          this.error = false;
+          const quickAddModal = this.closest('quick-add-modal');
+          if (quickAddModal) {
+            document.body.addEventListener('modalClosed', () => {
+              setTimeout(() => { this.cartNotification.renderContents(response) });
+            }, { once: true });
+            quickAddModal.hide(true);
+          } else {
+            this.cartNotification.renderContents(response);
+          }
         })
         .catch((e) => {
           console.error(e);
         })
         .finally(() => {
-          submitButton.classList.remove('loading');
-          submitButton.removeAttribute('aria-disabled');
+          this.submitButton.classList.remove('loading');
+          if (!this.error) this.submitButton.removeAttribute('aria-disabled');
           this.querySelector('.loading-overlay__spinner').classList.add('hidden');
         });
     }
 
     handleErrorMessage(errorMessage = false) {
       this.errorMessageWrapper = this.errorMessageWrapper || this.querySelector('.product-form__error-message-wrapper');
+      if (!this.errorMessageWrapper) return;
       this.errorMessage = this.errorMessage || this.errorMessageWrapper.querySelector('.product-form__error-message');
 
       this.errorMessageWrapper.toggleAttribute('hidden', !errorMessage);

@@ -7,8 +7,7 @@
       "login_form_password_placeholder": "Salasanasi",
       "login_form_error": "Väärä salasana!",
       "login_form_submit": "Lähetä",
-      "modal": "Salasanaikkuna",
-      "admin_link_html": "Oletko kaupan omistaja? <a href=\"\/admin\" class=\"link underlined-link\">Kirjaudu sisään tästä<\/a>",
+      "admin_link_html": "Oletko kaupan omistaja? <a href=\"/admin\" class=\"link underlined-link\">Kirjaudu sisään tästä</a>",
       "powered_by_shopify_html": "Tämän kaupan alustana on {{ shopify }}"
     },
     "social": {
@@ -49,6 +48,11 @@
       "share_url": "Linkki",
       "success_message": "Linkki kopioitu leikepöydälle",
       "close": "Sulje jako"
+    },
+    "slider": {
+      "of": "/",
+      "next_slide": "Liu'uta oikealle",
+      "previous_slide": "Liu'uta vasemmalle"
     }
   },
   "newsletter": {
@@ -67,13 +71,11 @@
       "new_window": "Avaa uuden ikkunan.",
       "external": "Avaa ulkoisen verkkosivuston."
     },
-    "next_slide": "Liu'uta oikealle",
-    "previous_slide": "Liu'uta vasemmalle",
     "loading": "Ladataan...",
     "skip_to_product_info": "Siirry tuotetietoihin",
-    "of": "\/",
     "total_reviews": "arvosteluja yhteensä",
-    "star_reviews_info": "{{ rating_value }}\/{{ rating_max }} tähteä"
+    "star_reviews_info": "{{ rating_value }}/{{ rating_max }} tähteä",
+    "collapsible_content_title": "Pienenettävä sisältö"
   },
   "blogs": {
     "article": {
@@ -135,14 +137,20 @@
         "refresh": "Päivitä"
       },
       "media": {
-        "open_featured_media": "Avaa mainostettu aineisto gallerianäkymässä",
-        "open_media": "Avaa aineisto {{ index }} gallerianäkymässä",
+        "open_media": "Avaa aineisto {{ index }} modaalisessa ikkunassa",
         "play_model": "Toista 3D Viewer",
-        "play_video": "Toista video"
+        "play_video": "Toista video",
+        "gallery_viewer": "Gallerian katseluohjelma",
+        "load_image": "Lataa kuva {{ index }} gallerianäkymään",
+        "load_model": "Lataa 3D-malli {{ index }} gallerianäkymään",
+        "load_video": "Toista video {{ index }} gallerianäkymässä",
+        "image_available": "Kuva {{ index }} on nyt saatavilla gallerianäkymässä"
       },
       "view_full_details": "Näytä kaikki tiedot",
       "include_taxes": "Sisältää veron.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut<\/a> lasketaan kassalla."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut</a> lasketaan kassalla.",
+      "choose_options": "Valitse vaihtoehdot",
+      "choose_product_options": "Valitse vaihtoehtoja tuotteelle {{ product_name }}"
     },
     "modal": {
       "label": "Mediagalleria"
@@ -150,7 +158,7 @@
     "facets": {
       "apply": "Käytä",
       "clear": "Tyhjennä",
-      "clear_all": "Tyhjennä kaikki",
+      "clear_all": "Poista kaikki",
       "from": "Alkaen",
       "filter_and_sort": "Suodatus ja lajittelu",
       "filter_by_label": "Suodatin:",
@@ -172,7 +180,10 @@
       "sort_button": "Lajittele",
       "sort_by_label": "Lajittelu:",
       "to": "Asti",
-      "clear_filter": "Tyhjennä suodatin"
+      "clear_filter": "Poista suodatin",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} suodatinta valittu)",
+      "show_more": "Näytä enemmän",
+      "show_less": "Näytä vähemmän"
     }
   },
   "templates": {
@@ -206,7 +217,8 @@
         "comment": "Kommentti",
         "send": "Lähetä",
         "post_success": "Kiitos, että otit yhteyttä. Palaamme asiaan mahdollisimman pian.",
-        "error_heading": "Mukauta seuraavat:"
+        "error_heading": "Mukauta seuraavat:",
+        "title": "Yhteydenottolomake"
       }
     }
   },
@@ -229,8 +241,8 @@
       "checkout": "Maksu kassalle",
       "empty": "Ostoskorisi on tyhjä",
       "cart_error": "Ostoskorisi päivityksessä tapahtui virhe. Yritä uudelleen.",
-      "cart_quantity_error_html": "Voit lisätä ostoskoriisi vain [määrä] kappaletta tätä tuotetta.",
-      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">toimituskulut<\/a> lasketaan kassalla",
+      "cart_quantity_error_html": "Voit lisätä ostoskoriisi vain {{ quantity }} kappaletta tätä tuotetta.",
+      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">toimituskulut</a> lasketaan kassalla",
       "taxes_included_but_shipping_at_checkout": "Sisältää veron, toimituskulut lasketaan kassalla",
       "taxes_included_and_shipping_policy_html": "Sisältää veron. <a href=\"{{ link }}\">Toimituskulut<\/a> lasketaan kassalla.",
       "taxes_and_shipping_at_checkout": "Verot ja toimituskulut lasketaan kassalla",
@@ -252,12 +264,13 @@
     },
     "featured_blog": {
       "view_all": "Näytä kaikki",
-      "onboarding_title": "Blogijulkaisu",
-      "onboarding_content": "Anna asiakkaillesi yhteenveto blogijulkaisustasi"
+      "onboarding_title": "Blogipostaus",
+      "onboarding_content": "Anna asiakkaillesi yhteenveto blogipostauksestasi"
     },
     "featured_collection": {
       "view_all": "Näytä kaikki",
-      "view_all_label": "Näytä kaikki tuotteet kokoelmassa {{ collection_name }}"
+      "view_all_label": "Näytä kaikki tuotteet kokoelmassa {{ collection_name }}",
+      "slider": "Liukusäädin"
     },
     "collection_list": {
       "view_all": "Näytä kaikki"
@@ -265,10 +278,22 @@
     "collection_template": {
       "title": "Kokoelma",
       "empty": "Tuotteita ei löytynyt",
-      "use_fewer_filters_html": "Käytä vähemmän suodattimia tai <a class=\"{{ class }}\" href=\"{{ link }}\">tyhjennä kaikki<\/a>"
+      "use_fewer_filters_html": "Käytä vähemmän suodattimia tai <a class=\"{{ class }}\" href=\"{{ link }}\">poista kaikki</a>"
     },
     "video": {
       "load_video": "Lataa video: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Lataa dia",
+      "previous_slideshow": "Edellinen dia",
+      "next_slideshow": "Seuraava dia",
+      "pause_slideshow": "Keskeytä diaesitys",
+      "play_slideshow": "Toista diaesitys",
+      "carousel": "Karuselli",
+      "slide": "Dia"
+    },
+    "page": {
+      "title": "Sivun otsikko"
     }
   },
   "localization": {
@@ -382,7 +407,8 @@
       "tracking_url": "Seurantalinkki",
       "tracking_company": "Kuljetusliike",
       "tracking_number": "Seurantanumero",
-      "subtotal": "Välisumma"
+      "subtotal": "Välisumma",
+      "total_duties": "Tullit"
     }
   },
   "gift_cards": {
