@@ -7,6 +7,7 @@
     "type_header_font": "quicksand_n7",
     "type_body_font": "quicksand_n5",
     "accent_icons": "accent-1",
+    "page_width": "1600",
     "social_facebook_link": "https:\/\/www.facebook.com\/thehappyhowl",
     "social_instagram_link": "",
     "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/thehappyhowl\/about",
@@ -22,7 +23,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "50% OFF FIRST BOX + FREE SHIPPING ALWAYS",
+              "text": "30% OFF FIRST BOX + FREE SHIPPING ALWAYS",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/products\/meal-plans"
             }

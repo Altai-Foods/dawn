@@ -57,7 +57,7 @@
         "5165184d-f0be-4928-a331-ef32da3e3c39": {
           "type": "text",
           "settings": {
-            "text": "Get Up To 35% OFF Your First Order + Free Shipping For Life",
+            "text": "Get Up To 55% OFF Your First Order + Free Shipping For Life**",
             "text_style": "body"
           }
         },
@@ -137,19 +137,6 @@
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
-      }
-    },
-    "1648821743bc787037": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/HHSWEATCOIN_LANDING_PAGE_810_x_810_px_600_x_600_px_600_x_800_px_Instagram_Story_1080_x_740_px_1080_x_370_px_3.png",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "1645058244adcf9202": {
@@ -494,9 +481,8 @@
     "164862021749852ccd": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/HHSWEATCOIN_LANDING_PAGE_810_x_810_px_600_x_600_px_600_x_800_px_Instagram_Story_1080_x_740_px_1080_x_370_px_540_x_370_px_2.png",
-        "image_2": "shopify:\/\/shop_images\/HHSWEATCOIN_LANDING_PAGE_810_x_810_px_600_x_600_px_600_x_800_px_Instagram_Story_1080_x_740_px_1080_x_370_px_540_x_370_px_3.png",
-        "adapt_height_first_image": false,
+        "image": "shopify:\/\/shop_images\/Primary_Product_Page_740_x_740_px_740_x_440_px.png",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
@@ -646,7 +632,7 @@
         "b799d7b4-aa9c-4df4-9b3c-d0570c0e0ae7"
       ],
       "settings": {
-        "heading": "We Go Above & Beyond For Your Dog",
+        "heading": "",
         "heading_size": "medium"
       }
     },
@@ -825,12 +811,16 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "pf-97946321": {
+      "type": "pf-97946321",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "1648821743bc787037",
     "1645058244adcf9202",
     "1638131806450c6369",
     "1642614752aa4f5103",
@@ -844,6 +834,7 @@
     "1645392204bcce5628",
     "1646853967b880c541",
     "16486193433a01b1f9",
-    "164861943176ba0da9"
+    "164861943176ba0da9",
+    "pf-97946321"
   ]
 }

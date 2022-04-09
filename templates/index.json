@@ -6,7 +6,7 @@
         "16325108529508dbe8-0": {
           "type": "heading",
           "settings": {
-            "heading": "The #1 Food For Dogs With Digestive Problems"
+            "heading": "Dogs Deserve Better Health"
           }
         },
         "16325108529508dbe8-1": {
@@ -18,8 +18,8 @@
         "16325108529508dbe8-2": {
           "type": "button",
           "settings": {
-            "button_label": "50% OFF YOUR 1st BOX",
-            "button_link": "shopify:\/\/products\/meal-plans"
+            "button_label": "30% OFF YOUR 1st BOX",
+            "button_link": "shopify:\/\/products\/happy-howl-all-natural-meals"
           }
         }
       },
@@ -29,7 +29,7 @@
         "16325108529508dbe8-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bowl___Raw_Ingredients_-_Lamb.png",
+        "image": "shopify:\/\/shop_images\/Product_Images_for_Web_1600_x_1080_px.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -609,88 +609,27 @@
     },
     "163598933640de245e": {
       "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "163598933640de245e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "healthier food for happier howls",
-            "heading_size": "medium"
-          }
-        },
-        "163598933640de245e-1": {
-          "type": "text",
-          "settings": {
-            "text": "better food brings more life"
-          }
-        },
-        "163598933640de245e-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP",
-            "button_link_1": "shopify:\/\/products\/meal-plans",
-            "button_style_secondary_1": false,
-            "button_label_2": "LEARN",
-            "button_link_2": "shopify:\/\/pages\/impact",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163598933640de245e-0",
-        "163598933640de245e-1",
-        "163598933640de245e-2"
-      ],
       "settings": {
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1645134567cb711647": {
-      "type": "image-banner",
-      "blocks": {
-        "164513456744e37761-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Freshly Cooked, Shelf-Stable, & Preservative Free",
-            "heading_size": "medium"
-          }
-        },
-        "164513456744e37761-1": {
-          "type": "text",
-          "settings": {
-            "text": "Find out how we are re-defining \"dog years\""
-          }
-        },
-        "164513456744e37761-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "REDEEM 50% OFF",
-            "button_link_1": "shopify:\/\/products\/meal-plans",
-            "button_style_secondary_1": false,
-            "button_label_2": "VIEW RECIPES",
-            "button_link_2": "shopify:\/\/products\/meal-plans",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "164513456744e37761-0",
-        "164513456744e37761-1",
-        "164513456744e37761-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Flat_Lay_-_with_White_Potato.png",
-        "adapt_height_first_image": false,
+        "image": "shopify:\/\/shop_images\/HHSWEATCOIN_LANDING_PAGE_810_x_810_px_600_x_600_px_740_x_740_px_740_x_720_px.png",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
         "color_scheme": "accent-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1648620521d20a8dd4": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HHSWEATCOIN_LANDING_PAGE_810_x_810_px_600_x_600_px.png",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -712,6 +651,6 @@
     "16325116292cb9b56f",
     "16402809522c255109",
     "163598933640de245e",
-    "1645134567cb711647"
+    "1648620521d20a8dd4"
   ]
 }

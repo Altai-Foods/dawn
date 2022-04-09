@@ -60,6 +60,12 @@
           "settings": {
           }
         },
+        "6997d3b3-78f3-4cb2-8025-5025918668a5": {
+          "type": "shopify:\/\/apps\/recurring-billing-by-recharge\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -103,6 +109,7 @@
         "ba495c40-c1f5-4da8-99b0-f80559c39437",
         "variant_picker",
         "quantity_selector",
+        "6997d3b3-78f3-4cb2-8025-5025918668a5",
         "buy_buttons",
         "98d6d88a-87d5-4065-9481-5f8c6e15ebdd",
         "c5e0d89d-126f-43e8-9259-5775b110060c",
